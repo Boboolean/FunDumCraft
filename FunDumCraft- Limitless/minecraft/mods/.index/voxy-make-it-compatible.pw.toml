@@ -1,0 +1,29 @@
+filename = 'make-it-compatible-voxy-1.1.1.jar'
+name = 'Voxy - Make it compatible'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Make it Compatible: Voxy 1.1.1 (NeoForge 1.21.1)'
+
+[download]
+hash = '58ff0329a63f4e5b54dbb7a391d5b476a510557b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9035512
+project-id = 1606807
+
+[[x-prismlauncher-dependencies]]
+addonId = '1312371'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '257818'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1121215'
+type = 'OPTIONAL'

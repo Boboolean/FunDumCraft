@@ -1,0 +1,10 @@
+{
+  "operatorPermissionLevel": 2,
+  "defaultBlockDistance": 20,
+  "defaultEntityDistance": 20,
+  "defaultLocateResults": 8,
+  "searchPageSize": 30,
+  "listPageSize": 50,
+  "loadedEntityPageSize": 25,
+  "maxDumpArchives": 0
+}

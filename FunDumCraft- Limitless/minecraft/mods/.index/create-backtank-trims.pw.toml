@@ -1,0 +1,21 @@
+filename = 'createbacktanktrims-1.2.0.jar'
+name = 'Create: Backtank Trims & Dyes'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.1'
+
+[download]
+hash = '0ebd33f984c34879b505bc51e72c98ecf2b28b8da5bbc697fc557493a50c9e1be0aa12d891b6a294f9a0599cea305a94ff8a547b35c0a51360330d2f8d2db909'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yxqh0Zmh/versions/nMOCJpau/createbacktanktrims-1.2.0.jar'
+
+[update.modrinth]
+mod-id = 'yxqh0Zmh'
+version = 'nMOCJpau'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

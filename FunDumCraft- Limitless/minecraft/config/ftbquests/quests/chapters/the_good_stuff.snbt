@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_good_stuff"
+	group: "5251A70A9F1233C5"
+	id: "4567E723EDAF3A13"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "69B169B1A6FBA06C"
+		tasks: [{
+			id: "12420E36C01183B9"
+			item: { count: 1, id: "createbb:blue_meth" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

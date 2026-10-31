@@ -1,0 +1,21 @@
+filename = 'ancient_remnants-1.5.2+1.21.1-neoforge.jar'
+name = 'Ancient Remnants: Monoliths'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ancient Remnants 1.5.2'
+
+[download]
+hash = 'febbd4abcd8dc099f105802f6edb5bbaef0e79d6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9084406
+project-id = 1668579
+
+[[x-prismlauncher-dependencies]]
+addonId = '1123977'
+type = 'REQUIRED'

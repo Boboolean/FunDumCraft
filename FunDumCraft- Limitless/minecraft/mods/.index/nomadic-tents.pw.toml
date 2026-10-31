@@ -1,0 +1,18 @@
+filename = 'nomadictents-21.1.0.jar'
+name = 'Nomadic Tents'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Nomadic Tents 21.1.0'
+
+[download]
+hash = '49d4ad2de88a9e86143a948ba9744e9ea34d3d8e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7401669
+project-id = 238794

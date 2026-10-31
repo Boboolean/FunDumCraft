@@ -1,0 +1,18 @@
+filename = 'celestisynth-1.21.1-1.3.9.jar'
+name = 'Celestisynth [Official 1.21.1 Port]'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'celestisynth-1.21.1-1.3.9.jar'
+
+[download]
+hash = 'f34c317e9394314446813f9c9d46f16e9c0ba745'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8867800
+project-id = 1672331

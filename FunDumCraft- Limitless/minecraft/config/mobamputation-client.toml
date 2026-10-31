@@ -1,0 +1,15 @@
+[client]
+	#Render blood particles on dismemberment.
+	blood = true
+	#Amount of particles per blood burst.
+	# Default: 20
+	# Range: 1 ~ 1000
+	bloodCount = 20
+	#Spawn occasional extra blood spurts from the wound while the mob is still alive.
+	bloodSplurt = true
+	#Keeps blood particles spawning indefinitely. May reduce FPS.
+	infiniteBloodParticles = false
+	#Use green blood for non-player mobs.
+	greenBlood = false
+	#Render detached limbs for other players when the server allows it.
+	showPlayerGibs = true

@@ -1,0 +1,21 @@
+filename = 'villagespawnpoint-1.21.1-4.8.jar'
+name = 'Village Spawn Point'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-4.8-fabric+forge+neo'
+
+[download]
+hash = '75c0f7215dbae48f5ea9ccaa11ed8db7cd4fcf3c1d68b15e3014b0cefb4b8bc1a555b2759d0cd8cfd9ab669165c275d42018fd8440bfa83ae2d6c2ea5c00b8ef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KplTt9Ku/versions/K9oDcoaf/villagespawnpoint-1.21.1-4.8.jar'
+
+[update.modrinth]
+mod-id = 'KplTt9Ku'
+version = 'K9oDcoaf'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'e0M1UDsY'
+type = 'REQUIRED'

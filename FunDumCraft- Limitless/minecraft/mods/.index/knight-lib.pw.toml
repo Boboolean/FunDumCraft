@@ -1,0 +1,18 @@
+filename = 'knightlib-neoforge-1.21.1-2.0.5.jar'
+name = 'Knight Lib'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NEOFORGE] Knight Lib 2.0.5-1.21.1'
+
+[download]
+hash = '8afd733e7fc49db40686f411e0e2a41ac7619256'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9190296
+project-id = 1105855

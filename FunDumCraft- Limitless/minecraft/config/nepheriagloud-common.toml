@@ -1,0 +1,67 @@
+#雲の表示距離 (チャンク数)。最小: 3, 最大: 512。256 より先は簡単な形 (遠景) で描く
+# Default: 12
+# Range: 3 ~ 512
+cloudRenderDistance = 12
+#船 (Sable) を描く距離 (チャンク数)。最小: 16, 最大: 512。
+#Sable の sub_level_tracking_range (320 ブロック) の代わりに、この距離までの船をサーバーから受け取る。
+#サーバーで船が読み込まれている範囲 (演算距離) より先の船は見えない。船の霧もこの距離に合わせる
+# Default: 20
+# Range: 16 ~ 512
+shipRenderDistance = 20
+#NepheriaGloud の立体雲を描画するかどうか。
+#false にするとバニラ (または Sodium) の雲に戻る。
+#バニラの雲設定 (renderClouds) とは独立しており、そちらが OFF でもこの雲は描画される。
+enableCustomClouds = true
+#1.21.6 以降の大気フォグに寄せた霧を有効にするかどうか。
+#遠景が空の色に溶け、雨や雪のときに濃くなる。
+enableAtmosphericFog = true
+#大気フォグの効き。0.0 でバニラと同じ、1.0 が標準。
+#1.0 を超えるとさらに濃くなる。
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+atmosphericFogStrength = 1.0
+#シェーダーパックが有効なとき、雲の描画をそちらに任せるかどうか。
+#任せる場合、この MOD はキューブを描く代わりに雲の形を密度テクスチャ
+#(nepheriagloud:cloud_density) として公開する。
+#これを読むよう改造したパック (tools/fork_photon.py で作る Photon など) が前提。
+#対応していないパックを使う場合は false にすること。false ならシェーダー使用中も
+#これまで通りキューブで描画する。
+enableShaderClouds = true
+#Proモード（シェーダーベースの高画質・立体雲）を有効にするかどうか。
+#現在このモードは開発を中断しており、有効にすると積雲が描画されなくなる。
+#通常は false のままにすること。
+enableProMode = false
+#雲の中に入ったときの画面エフェクト (白い霧と水滴) を出すかどうか。
+#false にすると雲の中でも視界がそのままになる。
+enableCloudScreenEffect = true
+#風ベクトルに掛けるグローバル倍率。0.0 で風を無効化。
+# Default: 1.0
+# Range: 0.0 ~ 10.0
+windMultiplier = 1.0
+#砲弾に適用する風の影響度倍率。BigCannonsProjectileMixin の getWindInfluenceFactor() と乗算される。
+# Default: 1.0
+# Range: 0.0 ~ 5.0
+projectileWindFactor = 1.0
+#気象データをクライアントに同期する間隔 (ticks)。デフォルト: 100 (5秒)
+# Default: 100
+# Range: 20 ~ 600
+weatherSyncInterval = 100
+#積乱雲 (STORM) の発生率。雲海バイオーム内の各セルごとに判定される。
+# Default: 0.04
+# Range: 0.0 ~ 1.0
+stormSpawnChance = 0.04
+#巻雲 (CIRRUS) の発生率。高高度の帯状セルごとに判定される。非常に低い値が前提。
+# Default: 0.005
+# Range: 0.0 ~ 1.0
+cirrusSpawnChance = 0.005
+#積雲バイオームで雲を間引く確率。大きいほど雲がまばらになる。
+# Default: 0.4
+# Range: 0.0 ~ 1.0
+cumulusGapChance = 0.4
+#初期生成する気圧中心の数。多いほど気象が複雑になる。
+# Default: 5
+# Range: 1 ~ 20
+pressureCenterCount = 5
+#専用サーバーで新しく作るワールドに新しい気象 (動く気圧系・風・流れる雲) を使うか。
+#一人用はワールド作成画面で選ぶ。作成後は変えられず、既存のワールドは従来のまま。
+newWorldWeatherV2 = false

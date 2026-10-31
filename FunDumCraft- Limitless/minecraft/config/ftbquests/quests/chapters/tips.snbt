@@ -1,0 +1,433 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips"
+	group: ""
+	id: "4A4488A4A1CA9CF8"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:cartography_table"
+			}
+			id: "40733FBA8ACF22F5"
+			tasks: [{
+				id: "5E34AD349A1D61CF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:cooked_beef"
+			}
+			id: "7ED34CBF9D928359"
+			tasks: [{
+				id: "7C3F0EF3BDCDF11D"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "71FEC495857A7810"
+			tasks: [{
+				id: "6BF6E87B343222A2"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "quark:smithing_template_rune"
+			}
+			id: "20B4FBBFB931B1FD"
+			tasks: [
+				{
+					id: "28F2F2BC8150AE3B"
+					type: "checkmark"
+				}
+				{
+					id: "6557119BDA528F7F"
+					item: { count: 1, id: "quark:smithing_template_rune" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "1181736E2A30EC25"
+			tasks: [{
+				id: "289264B3F2ECE48C"
+				item: { count: 1, id: "easel_does_it:easel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:stonecutter"
+			}
+			id: "79C81F5CDECB2092"
+			tasks: [{
+				id: "66A6818895BC384A"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "00F573BE48EF9202"
+			tasks: [
+				{
+					id: "39C0F51A69979039"
+					item: { count: 1, id: "vista:viewfinder" }
+					type: "item"
+				}
+				{
+					id: "6A79DB8C270E0A0A"
+					item: { count: 1, id: "vista:television" }
+					type: "item"
+				}
+				{
+					id: "6AC530F667C0DFDF"
+					item: { count: 1, id: "vista:hollow_cassette" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "4B6B72882374D264"
+			tasks: [{
+				id: "4EF72618FFCF2E97"
+				item: { count: 1, id: "dummmmmmy:target_dummy" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "snowyspirit:sled_spruce"
+			}
+			id: "69529BC41AEB80B8"
+			tasks: [{
+				id: "3A6570E238FBD11E"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "3E559A5E63CAE404"
+			tasks: [{
+				id: "620F049BE4922281"
+				item: { count: 1, id: "redomesticate:collar_tag" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "04C43E50E3F519B9"
+			tasks: [{
+				id: "2139F7EE4D888ACF"
+				item: { count: 1, id: "redomesticate:pet_bed_red" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "06B71F36CA4CE96C"
+			tasks: [{
+				id: "781124ED0005AE38"
+				item: { count: 1, id: "redomesticate:wayward_lantern" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "handcrafted:mangrove_fancy_bed"
+			}
+			id: "2FED79DD35F200FD"
+			tasks: [{
+				id: "6AE446B2B727C66D"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "create:sand_paper"
+			}
+			id: "17E0C6648BCF8143"
+			tasks: [{
+				id: "0825ACF6FF8366EF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "26B7586AE024434B"
+			tasks: [{
+				id: "27EA7C91384E4662"
+				item: { count: 1, id: "minecraft:spyglass" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "70DB5D5524670EDD"
+			tasks: [{
+				id: "6EBF1DEAA2C8C662"
+				item: { count: 1, id: "usefulslime:slime_boots" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "57590CCFAAD96F68"
+			tasks: [{
+				id: "62527E2981C04ECA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "0CB112948C4B274E"
+			tasks: [{
+				id: "4658E047B416FA4C"
+				item: { count: 1, id: "signal_flares:flare_gun" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
+			id: "0EA98B9D4FAFD3CE"
+			tasks: [{
+				id: "5C130BE29C147978"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "517620B414C7F421"
+			tasks: [{
+				id: "57C2117BDB5505DF"
+				item: { count: 1, id: "satchels:satchel" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "30DC0E1949467EA0"
+			tasks: [{
+				id: "2C5C8A7DCBC05403"
+				item: { count: 1, id: "playertrackingcompass:player_tracking_compass" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "20889E3A27E48666"
+			tasks: [{
+				id: "455E13EC5F543D6A"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "04278819E39B1609"
+			tasks: [{
+				id: "6467EF2040B50A67"
+				item: { count: 1, id: "minecraft:totem_of_undying" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "73EC7F15A82D7EF9"
+			tasks: [{
+				id: "21484A0500A1B928"
+				item: { count: 1, id: "nomadictents:golden_mallet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "25F676B568E4563F"
+			tasks: [{
+				id: "0654801E4DACBD62"
+				item: { count: 1, id: "spelunkery:magnetic_compass" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "7457589DC75FE014"
+			tasks: [{
+				id: "622BCB02E23A0E0E"
+				item: { count: 1, id: "map_atlases:atlas" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "058F9C380CACC494"
+			tasks: [{
+				id: "69EBF73D3F8FD74C"
+				item: { count: 1, id: "aeroclaims:claim_block" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "7149FBC071B3B548"
+			tasks: [
+				{
+					id: "4957FF9252704846"
+					item: { count: 1, id: "mapcompass:navigator_table" }
+					type: "item"
+				}
+				{
+					id: "5A065E3AB9977088"
+					item: { count: 1, id: "simulated:navigation_table" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "114273955922B915"
+			tasks: [{
+				id: "20F289BE27FF854C"
+				item: { count: 1, id: "simulated:rope_coupling" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "67E4FEDB54DDFEFA"
+			tasks: [
+				{
+					icon: {
+						id: "molten_vents:dormant_molten_scorchia"
+					}
+					id: "77F48F7A4C750543"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:dormant_molten_scorchia"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "molten_vents:dormant_molten_crimsite"
+					}
+					id: "18FF60558EE15729"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:dormant_molten_crimsite"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "molten_vents:dormant_molten_scoria"
+					}
+					id: "2696A39F18E8F067"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:dormant_molten_scoria"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "molten_vents:dormant_molten_veridium"
+					}
+					id: "0E3F52F514EFA6EC"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:dormant_molten_veridium"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "molten_vents:dormant_molten_ochrum"
+					}
+					id: "2B46C52EF5C65C82"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:dormant_molten_ochrum"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "molten_vents:dormant_molten_asurine"
+					}
+					id: "5C5E56CFF1C61115"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:dormant_molten_asurine"
+					type: "observation"
+				}
+			]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "12FA4F9D1737FA92"
+			tasks: [{
+				id: "017077196A4B2A63"
+				item: { count: 1, id: "eccentrictome:tome" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+	]
+}

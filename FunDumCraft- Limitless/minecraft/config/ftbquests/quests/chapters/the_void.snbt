@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_void"
+	group: "6E3026F3F44F341D"
+	id: "5A81893B2E030029"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "2097ABD3F7EA90DD"
+		tasks: [{
+			dimension: "voidscape:void"
+			id: "47E6571F42CE9F09"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

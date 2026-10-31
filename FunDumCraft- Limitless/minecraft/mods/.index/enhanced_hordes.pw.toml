@@ -1,0 +1,18 @@
+filename = 'eh2.0-neoforge1.21.1.jar'
+name = 'Enhanced Hordes'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '2.0'
+
+[download]
+hash = '5b0b259d8eafedbb13b30f6d3002091fbbe2967a36fa63a692e7cef9f18f6d51961c91bf30ed70019e27f0cc136f6a9507bd8dbf7de21129d330ddb6040ce727'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WzjqFyWg/versions/ObJh2tRg/eh2.0-neoforge1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'WzjqFyWg'
+version = 'ObJh2tRg'

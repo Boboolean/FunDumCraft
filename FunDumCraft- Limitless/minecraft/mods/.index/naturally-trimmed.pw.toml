@@ -1,0 +1,21 @@
+filename = 'naturally_trimmed-3.6.1+1.21.1-neoforge.jar'
+name = 'Naturally Trimmed'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.6.1'
+
+[download]
+hash = '4f7bfb7c9b9570cfc23d5353b255ceda00415f4af977710e579c63f8efd1e5fb51c74ed8fb6c705e889899055bd99f7b39ea3f86997b640bad451ab9baaf2211'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hHVaPgFK/versions/oAmnJqYm/naturally_trimmed-3.6.1%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'hHVaPgFK'
+version = 'oAmnJqYm'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'OPTIONAL'

@@ -1,0 +1,149 @@
+#Wind direction particle rendering.
+[particles]
+	#Whether to spawn wind direction particles at all.
+	enabled = true
+	#Minimum spawn distance from the player, in blocks.
+	# Default: 8.0
+	# Range: 0.0 ~ 128.0
+	minRadius = 8.0
+	#Maximum spawn distance from the player, in blocks.
+	# Default: 20.0
+	# Range: 0.0 ~ 128.0
+	maxRadius = 20.0
+	#Random horizontal offset applied to each spawn position, in blocks.
+	# Default: 4.0
+	# Range: 0.0 ~ 32.0
+	lateralJitter = 4.0
+	#Random vertical offset applied to each spawn position around eye height, in blocks.
+	# Default: 3.0
+	# Range: 0.0 ~ 32.0
+	heightJitter = 3.0
+	#Particles spawned per client tick at strength 100 (scales linearly down to 0 at strength 0).
+	# Default: 0.5
+	# Range: 0.0 ~ 20.0
+	maxParticlesPerTick = 0.5
+	#Particle drift speed, in blocks/tick, at strength just above 0.
+	# Default: 0.05
+	# Range: 0.0 ~ 5.0
+	minSpeed = 0.05
+	#Particle drift speed, in blocks/tick, at strength 100.
+	# Default: 0.4
+	# Range: 0.0 ~ 5.0
+	maxSpeed = 0.4
+	#Random per-particle deviation from the wind's exact direction, in degrees.
+	# Default: 15.0
+	# Range: 0.0 ~ 180.0
+	directionJitterDegrees = 15.0
+	#Whether particles only spawn where they can see the sky (skips spawns inside/under terrain and buildings).
+	outdoorsOnly = true
+	#Minimum elevation-adjusted wind strength (0-100 scale) required for the WIND_GUST particle type to spawn, on top of the always-on WIND_STREAK particles.
+	# Default: 50.0
+	# Range: 0.0 ~ 100.0
+	gustParticleMinStrength = 50.0
+	#If enabled, wind particles only spawn near something the wind is actually acting on - a Sable contraption currently experiencing wind force, or a Create windmill the wind is currently turning - instead of ambiently around the player.
+	restrictToActiveContraptions = false
+	#Blocks from a wind-affected contraption or windmill within which wind particles are still allowed to spawn. Only used when restrictToActiveContraptions is enabled.
+	# Default: 32.0
+	# Range: 0.0 ~ 512.0
+	activeContraptionRadius = 32.0
+
+#Wind influence on vanilla ambient particles (campfire smoke, falling cherry leaves) - purely cosmetic, no gameplay effect.
+[ambientParticles]
+	#Target extra drift speed, in blocks/tick, eased into these particles at strength 100 (scales linearly down to 0 at strength 0). 0 disables the effect.
+	# Default: 0.2
+	# Range: 0.0 ~ 2.0
+	ambientWindParticleIntensity = 0.2
+
+#Looping wind ambience. Two layers: a lighter one that fades in first and stays up,
+#and a heavier one laid over it in strong wind, so the two blend rather than swap.
+#Both follow the wind where you are standing, so biome and altitude both count.
+[windSounds]
+	#Whether wind ambience plays at all.
+	windSoundsEnabled = true
+	#Overall volume of both layers, on top of Minecraft's own Ambient/Environment slider. 0 is silent, 1 is full.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	windSoundVolume = 0.05
+	#Elevation-adjusted wind strength at which the light layer becomes audible. Below this there is no wind sound at all.
+	# Default: 10.0
+	# Range: 0.0 ~ 300.0
+	windSoundLightStartStrength = 10.0
+	#Strength at which the light layer reaches full volume. It stays there for any stronger wind, so the heavy layer adds to it rather than replacing it.
+	# Default: 50.0
+	# Range: 0.0 ~ 300.0
+	windSoundLightFullStrength = 50.0
+	#Strength at which the heavy layer starts fading in over the light one.
+	# Default: 50.0
+	# Range: 0.0 ~ 300.0
+	windSoundHeavyStartStrength = 50.0
+	#Strength at which the heavy layer reaches full volume.
+	# Default: 100.0
+	# Range: 0.0 ~ 300.0
+	windSoundHeavyFullStrength = 100.0
+	#How quickly volume chases the wind, as a fraction of the remaining difference per tick. 0.02 takes a couple of seconds to settle; higher is snappier, lower is more gradual.
+	# Default: 0.02
+	# Range: 0.001 ~ 1.0
+	windSoundFadeRate = 0.02
+
+#Clouds drift with the wind at cloud height instead of vanilla's fixed slow drift west, so
+#they show what the upper wind is doing. Works with vanilla's cloud renderer and Sodium's.
+[clouds]
+	#Whether clouds follow the wind. Off, or on a server without AeroWeather, they drift as in vanilla.
+	cloudWindEnabled = true
+	#How fast clouds move, in blocks per second, when the wind at cloud height is at strength 100; slower in lighter wind, still in calm air. Vanilla's drift is 0.6.
+	# Default: 2.4
+	# Range: 0.0 ~ 50.0
+	cloudSpeedAtFullStrength = 2.4
+	#Roughly how many seconds the clouds take to settle onto a change in the wind. Higher is smoother and slower to respond; 0 follows every change at once.
+	# Default: 3.0
+	# Range: 0.0 ~ 30.0
+	cloudSmoothingSeconds = 3.0
+
+#How AeroWeather's wind drives other mods' effects. Each part only applies when that mod is installed.
+[compat]
+
+	#Wind influence on the Particle Rain mod's weather particles (rain, snow, sandstorm, mist).
+	#Ignored when that mod isn't installed.
+	[compat.particleRain]
+		#Whether AeroWeather's wind drives Particle Rain's particles. When off, Particle Rain uses its own built-in wind instead.
+		particleRainEnabled = true
+		#How far rain slants from vertical, in degrees, at the reference strength below. Not a maximum: stronger wind keeps steepening the slant, approaching (but never reaching) horizontal. Other particle types keep their own response relative to rain - snow is gentler, sandstorm dust blows nearly sideways.
+		# Default: 45.0
+		# Range: 0.0 ~ 89.0
+		particleRainAngleDegrees = 45.0
+		#The elevation-adjusted wind strength (0-100 scale, before elevation scaling can push it higher) at which rain slants by exactly the angle above.
+		# Default: 100.0
+		# Range: 1.0 ~ 300.0
+		particleRainReferenceStrength = 100.0
+		#Sandstorm dust never slants less than this many degrees from vertical, however calm the wind - blowing sand shouldn't fall straight down like rain. Because Particle Rain gives every type one shared wind, this floor tilts rain slightly too: about 4 degrees in dead calm at the default, which is far less than it sounds. 0 removes the floor.
+		# Default: 45.0
+		# Range: 0.0 ~ 89.0
+		particleRainSandMinAngleDegrees = 45.0
+
+	#Interactive Foliage integration. Ignored unless Interactive Foliage is installed.
+	#Our wind decides how far grass leans, and which way, in any weather - not only in rain.
+	[compat.interactiveFoliage]
+		#Whether AeroWeather's wind drives Interactive Foliage's grass lean. Off hands it back to Interactive Foliage's own rain-only wind.
+		interactiveFoliageEnabled = true
+		#Whether grass also leans the way our wind blows. Off keeps Interactive Foliage's fixed east wind and only follows our strength. While on, Interactive Foliage's wind shelter behind walls is turned off, since it only knows how to shelter from an east wind.
+		interactiveFoliageDirectionEnabled = true
+		#Wind strength at which Interactive Foliage's gentle idle sway reaches full. Below it the sway fades out, so grass stands still in dead calm air. As wind rises further, the lean takes over from the sway.
+		# Default: 20.0
+		# Range: 1.0 ~ 300.0
+		interactiveFoliageCalmSwayFullStrength = 20.0
+		#Wind strength at which grass leans fully. Below it the lean fades toward Interactive Foliage's calm idle sway.
+		# Default: 50.0
+		# Range: 1.0 ~ 300.0
+		interactiveFoliageFullLeanStrength = 50.0
+		#Wind strength at which grass reaches its storm lean, twice the full lean. Should be above the full-lean strength.
+		# Default: 100.0
+		# Range: 1.0 ~ 300.0
+		interactiveFoliageStormStrength = 100.0
+		#How quickly the lean and its direction follow the wind, as a fraction of the difference per tick. Higher shows gusts more sharply; lower is smoother.
+		# Default: 0.08
+		# Range: 0.001 ~ 1.0
+		interactiveFoliageEaseRate = 0.08
+		#The fastest grass may swing round to a new wind direction, in degrees per second. A full reversal takes at least 180 divided by this. Faster looks snappier but can flicker the gusts at high wind.
+		# Default: 90.0
+		# Range: 1.0 ~ 3600.0
+		interactiveFoliageMaxTurnRate = 90.0

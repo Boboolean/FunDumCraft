@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "6E3026F3F44F341D"
+	id: "7DD3D15935BAAF4C"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "232DE874DDE6B32E"
+		tasks: [{
+			dimension: "aether:the_aether"
+			id: "39E91DB6146C2004"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

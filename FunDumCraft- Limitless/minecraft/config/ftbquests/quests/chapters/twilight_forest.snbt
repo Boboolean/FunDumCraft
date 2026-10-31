@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "6E3026F3F44F341D"
+	id: "61CFB71B576331B4"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "029DF000F8D1E632"
+		tasks: [{
+			dimension: "twilightforest:twilight_forest"
+			id: "776993C4AF4F8C02"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.5d
+	}]
+}

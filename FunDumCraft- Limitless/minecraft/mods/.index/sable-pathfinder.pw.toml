@@ -1,0 +1,22 @@
+filename = 'sable_pathfinder-1.4.0.jar'
+name = 'Sable Pathfinder'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.4.0'
+
+[download]
+hash = '28a22af0f3c7963fd13ed572868293d7d22b4cfbdb2d42aa272356e8793330e2c0b9ee99e63efbd95b299587624ab655f96bff2dff576654463b7d497e76548c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AYL8Vuuk/versions/U5bZr5zH/sable_pathfinder-1.4.0.jar'
+
+[update.modrinth]
+mod-id = 'AYL8Vuuk'
+version = 'U5bZr5zH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'REQUIRED'
+version = '3FMsUjO4'

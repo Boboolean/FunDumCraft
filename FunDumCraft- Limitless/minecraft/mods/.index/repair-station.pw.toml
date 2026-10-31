@@ -1,0 +1,18 @@
+filename = 'repairstation-neoforge-1.3.0+1.21.1.jar'
+name = 'Repair Station'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fix-1.3.0+1.21.1'
+
+[download]
+hash = '03e8d437322747571282759187b8c949b376737781e32b7d5510d65862ef37289bca8c16bf6180a0324d08bd16ce3024c575374293f9c1987824d0ea170c0efc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nQDTdmTz/versions/9edXh6IL/repairstation-neoforge-1.3.0%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'nQDTdmTz'
+version = '9edXh6IL'

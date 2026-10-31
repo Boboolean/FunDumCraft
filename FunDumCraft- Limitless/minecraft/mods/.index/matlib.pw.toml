@@ -1,0 +1,18 @@
+filename = 'matlib-0.7.3+1.21-neoforge.jar'
+name = 'MatLib'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'neoforge-0.7.3+1.21'
+
+[download]
+hash = '96e319fe89c00b4d8e44bdc61a8c0e163246f5c5bae95640dc45fff02928e8d5626e01f4951dd40ffcf74938773ec90317679bb245f23ef1f0795a636c3091bc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gnefBeV1/versions/FFaiB8CS/matlib-0.7.3%2B1.21-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'gnefBeV1'
+version = 'FFaiB8CS'

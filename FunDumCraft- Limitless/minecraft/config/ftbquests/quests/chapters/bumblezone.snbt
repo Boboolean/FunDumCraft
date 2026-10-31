@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bumblezone"
+	group: "6E3026F3F44F341D"
+	id: "0F637F6EB6AB6A85"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "4DAB9EBD29E249D2"
+		tasks: [{
+			dimension: "the_bumblezone:the_bumblezone"
+			id: "7B7DD5E75C3F8D3D"
+			type: "dimension"
+		}]
+		x: 1.0d
+		y: 0.0d
+	}]
+}

@@ -1,0 +1,42 @@
+[limits]
+	#Maximum distance in blocks a clone may act from its anchor.
+	# Default: 24
+	# Range: 1 ~ 64
+	maxRadius = 24
+	#Base recording length cap in ticks (20 ticks = 1 second).
+	# Default: 1200
+	# Range: 20 ~ 12000
+	maxRecordingTicks = 1200
+	#Base cap on recorded actions per recording.
+	# Default: 256
+	# Range: 1 ~ 4096
+	maxActions = 256
+	#Cap on clicks recorded inside one container session.
+	#maxActions counts a whole session as one action, so without this a player
+	#clicking in one open chest could grow a single action without limit.
+	# Default: 256
+	# Range: 8 ~ 4096
+	maxContainerSteps = 256
+	#Cap on the encoded size of one recording, in bytes.
+	# Default: 262144
+	# Range: 4096 ~ 8388608
+	maxRecordingBytes = 262144
+	#Global per-level budget of clone actions executed per tick.
+	# Default: 128
+	# Range: 1 ~ 1024
+	maxActionsPerTick = 128
+	#How long one action may hold a clone before it gives up, in ticks.
+	#An attack told to finish a kill waits here; a target that cannot die would otherwise stall the routine forever.
+	# Default: 160
+	# Range: 20 ~ 1200
+	maxActionTicks = 160
+
+[gameplay]
+	#If false, clones never target players.
+	allowPvp = false
+	#How far Chrono Goggles reveal anchors, in blocks.
+	# Default: 24
+	# Range: 4 ~ 64
+	goggleRadius = 24
+	#Whether Chrono Goggles reveal anchors owned by other players.
+	gogglesShowOthers = true

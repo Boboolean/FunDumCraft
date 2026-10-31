@@ -1,0 +1,103 @@
+{
+	chapter.019CF18471E46CE4.title: "Portal Technologies"
+	chapter.08AEF1BE30EDD0C3.title: "Holy Hell"
+	chapter.0A393DA7015D74D9.title: "Astral Sorcery"
+	chapter.0CD75ED867E7DB06.title: "Alex's Caves"
+	chapter.0F637F6EB6AB6A85.title: "Bumblezone"
+	chapter.1D208E2A3C2E9C94.title: "Occultism"
+	chapter.2EFE51D6AC3BA252.title: "Nether"
+	chapter.362D55D0F14101D1.title: "Create"
+	chapter.4119EB51F68255FA.title: "Meeting the Moon"
+	chapter.4567E723EDAF3A13.title: "The Good Stuff"
+	chapter.4A4488A4A1CA9CF8.title: "Tips"
+	chapter.545005DDAF2685E8.title: "Refined Storage"
+	chapter.5A81893B2E030029.title: "The Void"
+	chapter.5CECEE4EFA7407B7.title: "Iron's Arms 'N Artifice"
+	chapter.5E9CCE37A8C80569.title: "Space"
+	chapter.61CFB71B576331B4.title: "Twilight Forest"
+	chapter.67581BB6E5D4C89C.title: "Celestisynth"
+	chapter.71B612B011496E0E.title: "Antarchy"
+	chapter.79A3FA3574BE733F.title: "The End"
+	chapter.7DD3D15935BAAF4C.title: "Aether"
+	chapter_group.11BD766D317A5576.title: "Baubles"
+	chapter_group.35ABF45B9DB16699.title: "Milestones and Adventures"
+	chapter_group.3826F1A869F5AD61.title: "Combat Tools"
+	chapter_group.5251A70A9F1233C5.title: "Technology"
+	chapter_group.5EBBAA748176DBFF.title: "Magic"
+	chapter_group.6E3026F3F44F341D.title: "Dimensions"
+	chapter_group.6F6E3B20DB1921AB.title: "Travel"
+	quest.00F573BE48EF9202.quest_desc: ["You can use these three blocks to set up a camera system on players. Probably useful for something!"]
+	quest.00F573BE48EF9202.title: "Bodycam Footage"
+	quest.04278819E39B1609.quest_desc: ["The Totem of Undying works from anywhere within your inventory!"]
+	quest.04278819E39B1609.title: "Inventory Totem"
+	quest.04712B7347767B11.title: "Vent Mining"
+	quest.04C43E50E3F519B9.quest_desc: ["If your pet rests on a bed, it will respawn there if it ever dies!"]
+	quest.04C43E50E3F519B9.title: "Undying Pets"
+	quest.058F9C380CACC494.quest_desc: ["Don't want people messing with your ship? Use a Claim Block!"]
+	quest.058F9C380CACC494.title: "No Touchy!"
+	quest.06B71F36CA4CE96C.quest_desc: ["If your pet is ever lost, they will come back to the nearest wayward lantern."]
+	quest.06B71F36CA4CE96C.title: "Recover Lost Pets"
+	quest.0CB112948C4B274E.quest_desc: ["Useful for making your presence known!"]
+	quest.0CB112948C4B274E.title: "Signal Flares"
+	quest.0EA98B9D4FAFD3CE.quest_desc: ["Title. Make sure there is space on the other side!"]
+	quest.0EA98B9D4FAFD3CE.title: "Ships Fly Through Portals"
+	quest.114273955922B915.quest_desc: ["Tie Creatures to contraptions! Useful for transporting mobs."]
+	quest.114273955922B915.title: "Make a Pinata"
+	quest.1181736E2A30EC25.quest_desc: ["An easel allows you to control your painting dimensions and looks! There are a lot of additional paintings now, too!"]
+	quest.1181736E2A30EC25.title: "Convenient Paintings"
+	quest.12FA4F9D1737FA92.quest_desc: ["This tome provides a convenient way for you to store all of your guide books in one place."]
+	quest.12FA4F9D1737FA92.title: "Book of Books"
+	quest.17E0C6648BCF8143.quest_desc: ["Sand special enderpearls to make them regular enderpearls. Useful for making eyes of ender!"]
+	quest.17E0C6648BCF8143.title: "Enderpearl Sanding"
+	quest.1F39DC5F64E98D2C.title: "Make a Portal Gun!"
+	quest.20889E3A27E48666.quest_desc: ["ANY arrow works with infinity, even tipped ones. Endless possibilities!"]
+	quest.20889E3A27E48666.title: "Infinity Arrows Fixed"
+	quest.20B4FBBFB931B1FD.quest_desc: ["You can apply decorate armor trims to almost anything! Also, the runic etching tablet allows you to change the enchantment color of gear."]
+	quest.20B4FBBFB931B1FD.title: "Personalize Gear"
+	quest.25F676B568E4563F.quest_desc: ["Find your exact location with the magnetic compass!"]
+	quest.25F676B568E4563F.title: "Location Precision"
+	quest.26B7586AE024434B.quest_desc: ["Enchant your spyglass to help with spotting enemies!"]
+	quest.26B7586AE024434B.title: "Spyglass Enchanting"
+	quest.2FED79DD35F200FD.quest_desc: ["Your quality of sleep is determined by how active you are, and what your sleep surroundings are like."]
+	quest.30DC0E1949467EA0.quest_desc: ["Use this to keep track of others!"]
+	quest.30DC0E1949467EA0.title: "Tracking Players"
+	quest.3E559A5E63CAE404.quest_desc: ["Collar tags can be enchanted to apply powerful affects to pets!"]
+	quest.3E559A5E63CAE404.title: "Empower Pets"
+	quest.40733FBA8ACF22F5.quest_desc: ["Cartographer villagers can find structures that would be hard to find otherwise. This works in any dimension!"]
+	quest.40733FBA8ACF22F5.title: "Finding Structures"
+	quest.429CF71813A990F0.quest_desc: ["My favorite Minecraft myth is that obsidian is used to light nether portals."]
+	quest.429CF71813A990F0.quest_subtitle: "A vivid, confident, and specific false memory..."
+	quest.429CF71813A990F0.title: "The Mandela Effect"
+	quest.4B6B72882374D264.quest_desc: ["Target dummies give lots of helpful info to help you optimize your builds! I promise they don't feel pain <3."]
+	quest.4B6B72882374D264.title: "Damage Test"
+	quest.4CF974962D8CF90C.quest_desc: ["Prime the frame and release it once more."]
+	quest.4CF974962D8CF90C.quest_subtitle: "The corruption has a source..."
+	quest.4CF974962D8CF90C.title: "Underneath the Mountains"
+	quest.517620B414C7F421.quest_desc: ["Adds an additional quick access hotbar. Handy!"]
+	quest.517620B414C7F421.title: "Hotbar Convenience"
+	quest.57590CCFAAD96F68.quest_desc: ["Fighting bosses with multiple people will multiply the rewards (and the difficulty)."]
+	quest.57590CCFAAD96F68.title: "Multiplayer Boss Rewards"
+	quest.67E4FEDB54DDFEFA.quest_desc: ["These vents can be cracked open with an explosion. Placing lava next to them will cause the vents to generate their corresponding material. Handy! You could probably automate this process..."]
+	quest.67E4FEDB54DDFEFA.title: "Vent Generator"
+	quest.69529BC41AEB80B8.quest_desc: ["Sleds make you move quickly on snow!"]
+	quest.69529BC41AEB80B8.title: "Speed Racer"
+	quest.69B169B1A6FBA06C.quest_desc: ["Villagers love this stuff, and so will you!"]
+	quest.70DB5D5524670EDD.quest_desc: ["They prevent fall damage!"]
+	quest.7149FBC071B3B548.quest_desc: ["Place a compass inside and assign the compass a specific coordinate. Pairs well the navigation table."]
+	quest.7149FBC071B3B548.title: "Navigation"
+	quest.71FEC495857A7810.quest_desc: ["Right click a crouching player to hop on their back!"]
+	quest.71FEC495857A7810.title: "Piggyback Riding"
+	quest.73EC7F15A82D7EF9.quest_desc: ["Great for exploring early on! Take your base on the go."]
+	quest.73EC7F15A82D7EF9.title: "Nomadic Tents"
+	quest.7457589DC75FE014.quest_desc: ["Makes Minecraft maps suck a lot less. Map rooms look really cool now btw."]
+	quest.7457589DC75FE014.title: "Need a Map?"
+	quest.79C81F5CDECB2092.quest_desc: ["Press ALT to choose between the different shapes of a block set. Say goodbye to inventory clutter while building!"]
+	quest.7C8AD7E179156734.quest_subtitle: "Now What?"
+	quest.7C8AD7E179156734.title: "You're Finally Here"
+	quest.7ED34CBF9D928359.quest_desc: ["Right click other players to feed them instantly! Works great during combat if you notice a teammate is in a pinch."]
+	quest.7ED34CBF9D928359.title: "Feeding Friends"
+	task.0A99C7A2411C5FD9.title: "Find the Basin"
+	task.26DC17DF15CB20E3.title: "Find the Ancient City"
+	task.66A6818895BC384A.title: "Convenient Building"
+	task.6AE446B2B727C66D.title: "Sleeping Quality"
+}

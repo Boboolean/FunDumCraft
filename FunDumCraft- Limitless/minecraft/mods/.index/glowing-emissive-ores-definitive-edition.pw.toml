@@ -1,0 +1,51 @@
+filename = 'GEODE-v1.0.4-RP1.116.0-mc1.18-26.3.jar'
+name = 'Glowing Emissive Ores Definitive Edition'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2',
+    '26.3'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.4-rp1.116.0'
+
+[download]
+hash = 'f447578cecb131b7f40c3ee89c845f60fccdff2552f86d98aa93ecc7491e56eb45796b0dfa4617d641c7c581bb61c7ad94ee7f0fed114d27dd4fb245690c644b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/U8Iw4AfP/versions/gzvR3PEy/GEODE-v1.0.4-RP1.116.0-mc1.18-26.3.jar'
+
+[update.modrinth]
+mod-id = 'U8Iw4AfP'
+version = 'gzvR3PEy'

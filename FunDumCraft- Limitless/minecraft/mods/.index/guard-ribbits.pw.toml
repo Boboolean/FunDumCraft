@@ -1,0 +1,33 @@
+filename = 'Guard Ribbits-1.21.1-neoforge-2.0.0.jar'
+name = 'Guard Ribbits'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Guard Ribbits [NeoForge] 2.0.0 for 1.21.1'
+
+[download]
+hash = '6d9cf3177e8d7a5b5dae38ec48646f20c7fdfec5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8768643
+project-id = 1148985
+
+[[x-prismlauncher-dependencies]]
+addonId = '622967'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1015100'
+type = 'REQUIRED'

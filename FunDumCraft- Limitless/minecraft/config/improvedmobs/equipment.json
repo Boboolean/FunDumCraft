@@ -1,0 +1,4437 @@
+{
+  "version": 2,
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "Value is the item. It also accepts item components. The default config has an example with a harming potion",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": [
+    {
+      "value": "minecraft:crossbow",
+      "weight": 343.0,
+      "quality": 3.077467679977417
+    },
+    {
+      "value": "minecraft:diamond_axe",
+      "weight": 788.0,
+      "quality": 2.331693410873413
+    },
+    {
+      "value": "minecraft:diamond_sword",
+      "weight": 878.0,
+      "quality": 2.249847650527954
+    },
+    {
+      "value": "minecraft:enchanted_book",
+      "weight": 200.0,
+      "quality": 3.6840314865112305
+    },
+    {
+      "value": "minecraft:fishing_rod",
+      "weight": 659.0,
+      "quality": 2.4752309322357178
+    },
+    {
+      "value": "minecraft:golden_axe",
+      "weight": 1543.0,
+      "quality": 1.864164113998413
+    },
+    {
+      "value": "minecraft:golden_sword",
+      "weight": 1910.0,
+      "quality": 1.7364193201065063
+    },
+    {
+      "value": "minecraft:iron_axe",
+      "weight": 1175.0,
+      "quality": 2.041327714920044
+    },
+    {
+      "value": "minecraft:iron_sword",
+      "weight": 1490.0,
+      "quality": 1.8862701654434204
+    },
+    {
+      "value": "minecraft:lava_bucket",
+      "weight": 247.0,
+      "quality": 3.432752847671509
+    },
+    {
+      "value": "minecraft:netherite_axe",
+      "weight": 648.0,
+      "quality": 2.4893949031829834
+    },
+    {
+      "value": "minecraft:netherite_sword",
+      "weight": 716.0,
+      "quality": 2.40751576423645
+    },
+    {
+      "value": "minecraft:stone_axe",
+      "weight": 1635.0,
+      "quality": 1.82866370677948
+    },
+    {
+      "value": "minecraft:stone_sword",
+      "weight": 2560.0,
+      "quality": 1.5748674869537354
+    },
+    {
+      "value": "minecraft:trident",
+      "weight": 648.0,
+      "quality": 2.4895942211151123
+    },
+    {
+      "value": "minecraft:wooden_axe",
+      "weight": 1746.0,
+      "quality": 1.788893699645996
+    },
+    {
+      "value": "minecraft:wooden_sword",
+      "weight": 2231.0,
+      "quality": 1.6487727165222168
+    },
+    {
+      "value": "aeroweather:breeze_maker",
+      "weight": 1974.0,
+      "quality": 1.7173575162887573
+    },
+    {
+      "value": "aether:candy_cane_sword",
+      "weight": 1910.0,
+      "quality": 1.7364193201065063
+    },
+    {
+      "value": "aether:flaming_sword",
+      "weight": 1266.0,
+      "quality": 1.9913749694824219
+    },
+    {
+      "value": "aether:gravitite_axe",
+      "weight": 788.0,
+      "quality": 2.331693410873413
+    },
+    {
+      "value": "aether:gravitite_sword",
+      "weight": 878.0,
+      "quality": 2.249847650527954
+    },
+    {
+      "value": "aether:hammer_of_kingbdogz",
+      "weight": 1490.0,
+      "quality": 1.8862701654434204
+    },
+    {
+      "value": "aether:holy_sword",
+      "weight": 1266.0,
+      "quality": 1.9913749694824219
+    },
+    {
+      "value": "aether:holystone_axe",
+      "weight": 1635.0,
+      "quality": 1.82866370677948
+    },
+    {
+      "value": "aether:holystone_sword",
+      "weight": 2560.0,
+      "quality": 1.5748674869537354
+    },
+    {
+      "value": "aether:lightning_sword",
+      "weight": 1266.0,
+      "quality": 1.9913749694824219
+    },
+    {
+      "value": "aether:pig_slayer",
+      "weight": 1753.0,
+      "quality": 1.7867313623428345
+    },
+    {
+      "value": "aether:skyroot_axe",
+      "weight": 1746.0,
+      "quality": 1.788893699645996
+    },
+    {
+      "value": "aether:skyroot_sword",
+      "weight": 2231.0,
+      "quality": 1.6487727165222168
+    },
+    {
+      "value": "aether:valkyrie_axe",
+      "weight": 788.0,
+      "quality": 2.331693410873413
+    },
+    {
+      "value": "aether:valkyrie_lance",
+      "weight": 878.0,
+      "quality": 2.249847650527954
+    },
+    {
+      "value": "aether:vampire_blade",
+      "weight": 798.0,
+      "quality": 2.3221957683563232
+    },
+    {
+      "value": "aether:zanite_axe",
+      "weight": 1175.0,
+      "quality": 2.041327714920044
+    },
+    {
+      "value": "aether:zanite_sword",
+      "weight": 1490.0,
+      "quality": 1.8862701654434204
+    },
+    {
+      "value": "alexscaves:desolate_dagger",
+      "weight": 985.0,
+      "quality": 2.1648483276367188
+    },
+    {
+      "value": "alexsmobs:skelewag_sword",
+      "weight": 1798.0,
+      "quality": 1.77165687084198
+    },
+    {
+      "value": "alexsmobs:tendon_whip",
+      "weight": 1798.0,
+      "quality": 1.77165687084198
+    },
+    {
+      "value": "aquamirae:dagger_of_greed",
+      "weight": 337.0,
+      "quality": 3.0937821865081787
+    },
+    {
+      "value": "aquamirae:dreadwake",
+      "weight": 565.0,
+      "quality": 2.6059463024139404
+    },
+    {
+      "value": "aquamirae:jawbreaker",
+      "weight": 419.0,
+      "quality": 2.877182960510254
+    },
+    {
+      "value": "aquamirae:remnant_saber",
+      "weight": 2084.0,
+      "quality": 1.6865345239639282
+    },
+    {
+      "value": "aquamirae:shatterblade",
+      "weight": 775.0,
+      "quality": 2.345153331756592
+    },
+    {
+      "value": "aquamirae:shatterspike",
+      "weight": 585.0,
+      "quality": 2.5754127502441406
+    },
+    {
+      "value": "aquamirae:tempest_trident",
+      "weight": 419.0,
+      "quality": 2.877182960510254
+    },
+    {
+      "value": "aquamirae:terrible_blade",
+      "weight": 1154.0,
+      "quality": 2.053542137145996
+    },
+    {
+      "value": "aquamirae:terrible_cleaver",
+      "weight": 1043.0,
+      "quality": 2.1238629817962646
+    },
+    {
+      "value": "aquamirae:terrible_fang",
+      "weight": 1102.0,
+      "quality": 2.0857739448547363
+    },
+    {
+      "value": "aquamirae:tidepiercer",
+      "weight": 419.0,
+      "quality": 2.877182960510254
+    },
+    {
+      "value": "arphex:abyssal_axe",
+      "weight": 338.0,
+      "quality": 3.090280532836914
+    },
+    {
+      "value": "arphex:mantis_machete",
+      "weight": 1016.0,
+      "quality": 2.142493963241577
+    },
+    {
+      "value": "arphex:vortex_devastator",
+      "weight": 658.0,
+      "quality": 2.4761078357696533
+    },
+    {
+      "value": "arphex:warp_staff",
+      "weight": 599.0,
+      "quality": 2.555497646331787
+    },
+    {
+      "value": "block_factorys_bosses:dagger",
+      "weight": 2527.0,
+      "quality": 1.581618070602417
+    },
+    {
+      "value": "block_factorys_bosses:knight_sword",
+      "weight": 626.0,
+      "quality": 2.517946720123291
+    },
+    {
+      "value": "block_factorys_bosses:kraken_trident",
+      "weight": 431.0,
+      "quality": 2.851750373840332
+    },
+    {
+      "value": "block_factorys_bosses:large_sword",
+      "weight": 1001.0,
+      "quality": 2.153322458267212
+    },
+    {
+      "value": "block_factorys_bosses:pirate_saber",
+      "weight": 898.0,
+      "quality": 2.232675075531006
+    },
+    {
+      "value": "block_factorys_bosses:warrior_sword",
+      "weight": 1809.0,
+      "quality": 1.7679163217544556
+    },
+    {
+      "value": "cataclysm:athame",
+      "weight": 2560.0,
+      "quality": 1.5748674869537354
+    },
+    {
+      "value": "cataclysm:black_steel_axe",
+      "weight": 787.0,
+      "quality": 2.333245277404785
+    },
+    {
+      "value": "cataclysm:black_steel_sword",
+      "weight": 916.0,
+      "quality": 2.217721462249756
+    },
+    {
+      "value": "cataclysm:khopesh",
+      "weight": 916.0,
+      "quality": 2.217721462249756
+    },
+    {
+      "value": "celestisynth:aquaflora",
+      "weight": 769.0,
+      "quality": 2.3508434295654297
+    },
+    {
+      "value": "celestisynth:breezebreaker",
+      "weight": 716.0,
+      "quality": 2.407748222351074
+    },
+    {
+      "value": "celestisynth:crescentia",
+      "weight": 634.0,
+      "quality": 2.5068185329437256
+    },
+    {
+      "value": "celestisynth:frostbound",
+      "weight": 604.0,
+      "quality": 2.547650098800659
+    },
+    {
+      "value": "celestisynth:keres",
+      "weight": 574.0,
+      "quality": 2.5917887687683105
+    },
+    {
+      "value": "celestisynth:poltergeist",
+      "weight": 574.0,
+      "quality": 2.5917887687683105
+    },
+    {
+      "value": "celestisynth:solaris",
+      "weight": 663.0,
+      "quality": 2.4696521759033203
+    },
+    {
+      "value": "companions:crystallized_blood_axe",
+      "weight": 648.0,
+      "quality": 2.4893949031829834
+    },
+    {
+      "value": "companions:crystallized_blood_sword",
+      "weight": 716.0,
+      "quality": 2.40751576423645
+    },
+    {
+      "value": "companions:netherite_dagger",
+      "weight": 973.0,
+      "quality": 2.1739349365234375
+    },
+    {
+      "value": "create:cardboard_sword",
+      "weight": 60000.0,
+      "quality": 0.5503212213516235
+    },
+    {
+      "value": "creaturefeature:heavy_axe",
+      "weight": 788.0,
+      "quality": 2.331693410873413
+    },
+    {
+      "value": "deep_aether:blade_of_luck",
+      "weight": 1406.0,
+      "quality": 1.9229332208633423
+    },
+    {
+      "value": "deep_aether:skyjade_axe",
+      "weight": 3431.0,
+      "quality": 1.4283671379089355
+    },
+    {
+      "value": "deep_aether:skyjade_sword",
+      "weight": 1408.0,
+      "quality": 1.922199010848999
+    },
+    {
+      "value": "deep_aether:storm_sword",
+      "weight": 1266.0,
+      "quality": 1.9913749694824219
+    },
+    {
+      "value": "deep_aether:stratus_axe",
+      "weight": 648.0,
+      "quality": 2.4893949031829834
+    },
+    {
+      "value": "deep_aether:stratus_sword",
+      "weight": 716.0,
+      "quality": 2.40751576423645
+    },
+    {
+      "value": "endermanoverhaul:corrupted_blade",
+      "weight": 1243.0,
+      "quality": 2.0037190914154053
+    },
+    {
+      "value": "fightsfrights:deadsteel_scimitar",
+      "weight": 700.0,
+      "quality": 2.4260807037353516
+    },
+    {
+      "value": "irons_spellbooks:amethyst_rapier",
+      "weight": 708.0,
+      "quality": 2.417062759399414
+    },
+    {
+      "value": "irons_spellbooks:autoloader_crossbow",
+      "weight": 343.0,
+      "quality": 3.077467679977417
+    },
+    {
+      "value": "irons_spellbooks:boreal_blade",
+      "weight": 450.0,
+      "quality": 2.8113856315612793
+    },
+    {
+      "value": "irons_spellbooks:claymore",
+      "weight": 868.0,
+      "quality": 2.258232593536377
+    },
+    {
+      "value": "irons_spellbooks:decrepit_scythe",
+      "weight": 852.0,
+      "quality": 2.2717318534851074
+    },
+    {
+      "value": "irons_spellbooks:hellrazor",
+      "weight": 540.0,
+      "quality": 2.644455909729004
+    },
+    {
+      "value": "irons_spellbooks:keeper_flamberge",
+      "weight": 122.0,
+      "quality": 4.339599609375
+    },
+    {
+      "value": "irons_spellbooks:legionnaire_flamberge",
+      "weight": 118.0,
+      "quality": 4.387639045715332
+    },
+    {
+      "value": "irons_spellbooks:magehunter",
+      "weight": 853.0,
+      "quality": 2.27158784866333
+    },
+    {
+      "value": "irons_spellbooks:misery",
+      "weight": 889.0,
+      "quality": 2.239863157272339
+    },
+    {
+      "value": "irons_spellbooks:spellbreaker",
+      "weight": 669.0,
+      "quality": 2.4622044563293457
+    },
+    {
+      "value": "irons_spellbooks:twilight_gale",
+      "weight": 540.0,
+      "quality": 2.644455909729004
+    },
+    {
+      "value": "kobolds:kobold_iron_axe",
+      "weight": 925.0,
+      "quality": 2.2104060649871826
+    },
+    {
+      "value": "kobolds:kobold_iron_sword",
+      "weight": 1077.0,
+      "quality": 2.1015162467956543
+    },
+    {
+      "value": "l2complements:eternium_axe",
+      "weight": 411.0,
+      "quality": 2.8967013359069824
+    },
+    {
+      "value": "l2complements:eternium_sword",
+      "weight": 449.0,
+      "quality": 2.8119752407073975
+    },
+    {
+      "value": "l2complements:poseidite_axe",
+      "weight": 715.0,
+      "quality": 2.4082376956939697
+    },
+    {
+      "value": "l2complements:poseidite_sword",
+      "weight": 840.0,
+      "quality": 2.2827847003936768
+    },
+    {
+      "value": "l2complements:sculkium_axe",
+      "weight": 547.0,
+      "quality": 2.633103847503662
+    },
+    {
+      "value": "l2complements:sculkium_sword",
+      "weight": 686.0,
+      "quality": 2.442648410797119
+    },
+    {
+      "value": "l2complements:shulkerate_axe",
+      "weight": 527.0,
+      "quality": 2.6670475006103516
+    },
+    {
+      "value": "l2complements:shulkerate_sword",
+      "weight": 591.0,
+      "quality": 2.5662341117858887
+    },
+    {
+      "value": "l2complements:totemic_gold_axe",
+      "weight": 722.0,
+      "quality": 2.4014718532562256
+    },
+    {
+      "value": "l2complements:totemic_gold_sword",
+      "weight": 849.0,
+      "quality": 2.2752509117126465
+    },
+    {
+      "value": "legendary_monsters:anchor_handle",
+      "weight": 1490.0,
+      "quality": 1.8862701654434204
+    },
+    {
+      "value": "legendary_monsters:axe_of_lightning",
+      "weight": 455.0,
+      "quality": 2.8009445667266846
+    },
+    {
+      "value": "legendary_monsters:chorus_blade",
+      "weight": 758.0,
+      "quality": 2.3628416061401367
+    },
+    {
+      "value": "legendary_monsters:dinosaur_bone_club",
+      "weight": 624.0,
+      "quality": 2.5203492641448975
+    },
+    {
+      "value": "legendary_monsters:enderitium_axe",
+      "weight": 627.0,
+      "quality": 2.5160958766937256
+    },
+    {
+      "value": "legendary_monsters:enderitium_sword",
+      "weight": 687.0,
+      "quality": 2.4411914348602295
+    },
+    {
+      "value": "legendary_monsters:fiery_jaw",
+      "weight": 918.0,
+      "quality": 2.216003656387329
+    },
+    {
+      "value": "legendary_monsters:golden_halbert",
+      "weight": 1674.0,
+      "quality": 1.8142820596694946
+    },
+    {
+      "value": "legendary_monsters:knights_sword",
+      "weight": 1490.0,
+      "quality": 1.8862701654434204
+    },
+    {
+      "value": "legendary_monsters:monstrous_anchor",
+      "weight": 571.0,
+      "quality": 2.5967061519622803
+    },
+    {
+      "value": "legendary_monsters:sharp_battle_axe",
+      "weight": 701.0,
+      "quality": 2.4249954223632812
+    },
+    {
+      "value": "legendary_monsters:shattered_greatsword",
+      "weight": 626.0,
+      "quality": 2.5184974670410156
+    },
+    {
+      "value": "legendary_monsters:somber_key",
+      "weight": 1172.0,
+      "quality": 2.042980432510376
+    },
+    {
+      "value": "legendary_monsters:soul_great_sword",
+      "weight": 497.0,
+      "quality": 2.718337059020996
+    },
+    {
+      "value": "legendary_monsters:the_great_frost",
+      "weight": 1046.0,
+      "quality": 2.1221704483032227
+    },
+    {
+      "value": "legendary_monsters:the_tesseract",
+      "weight": 479.0,
+      "quality": 2.753418445587158
+    },
+    {
+      "value": "legendary_monsters:void_sword",
+      "weight": 681.0,
+      "quality": 2.4476869106292725
+    },
+    {
+      "value": "majruszsdifficulty:enderium_axe",
+      "weight": 571.0,
+      "quality": 2.5964889526367188
+    },
+    {
+      "value": "majruszsdifficulty:enderium_sword",
+      "weight": 638.0,
+      "quality": 2.5020782947540283
+    },
+    {
+      "value": "majruszsdifficulty:wither_sword",
+      "weight": 1245.0,
+      "quality": 2.002479314804077
+    },
+    {
+      "value": "minecolonies:chiefsword",
+      "weight": 985.0,
+      "quality": 2.1648483276367188
+    },
+    {
+      "value": "minecolonies:iron_scimitar",
+      "weight": 1673.0,
+      "quality": 1.814595341682434
+    },
+    {
+      "value": "minecolonies:spear",
+      "weight": 800.0,
+      "quality": 2.31988263130188
+    },
+    {
+      "value": "mowziesmobs:wrought_axe",
+      "weight": 487.0,
+      "quality": 2.7366249561309814
+    },
+    {
+      "value": "netherman:azazel_scythe",
+      "weight": 298.0,
+      "quality": 3.2239573001861572
+    },
+    {
+      "value": "netherman:azazel_spear",
+      "weight": 445.0,
+      "quality": 2.8216068744659424
+    },
+    {
+      "value": "netherman:manipulator_stick",
+      "weight": 985.0,
+      "quality": 2.1648483276367188
+    },
+    {
+      "value": "olympusmythology:poseidon_trident",
+      "weight": 452.0,
+      "quality": 2.8068838119506836
+    },
+    {
+      "value": "olympusmythology:spear_of_ares",
+      "weight": 468.0,
+      "quality": 2.7733840942382812
+    },
+    {
+      "value": "pale_monarch:pale_axe",
+      "weight": 460.0,
+      "quality": 2.7898194789886475
+    },
+    {
+      "value": "panascraftrpgmod:the_king_of_the_abyss_axe",
+      "weight": 124.0,
+      "quality": 4.310993194580078
+    },
+    {
+      "value": "panascraftrpgmod:the_king_of_the_abyss_sword",
+      "weight": 140.0,
+      "quality": 4.1489691734313965
+    },
+    {
+      "value": "panascraftrpgmod:ultimate_lord_axe",
+      "weight": 172.0,
+      "quality": 3.8665363788604736
+    },
+    {
+      "value": "panascraftrpgmod:ultimate_lord_dagger",
+      "weight": 230.0,
+      "quality": 3.5117452144622803
+    },
+    {
+      "value": "panascraftrpgmod:ultimate_lord_great_sword",
+      "weight": 165.0,
+      "quality": 3.9201738834381104
+    },
+    {
+      "value": "panascraftrpgmod:ultimate_lord_scythe",
+      "weight": 159.0,
+      "quality": 3.9743258953094482
+    },
+    {
+      "value": "panascraftrpgmod:ultimate_lord_sword",
+      "weight": 187.0,
+      "quality": 3.761072874069214
+    },
+    {
+      "value": "panascraftrpgmod:void_sword",
+      "weight": 216.0,
+      "quality": 3.5876002311706543
+    },
+    {
+      "value": "simplyswords:arcanethyst",
+      "weight": 429.0,
+      "quality": 2.8561716079711914
+    },
+    {
+      "value": "simplyswords:awakened_lichblade",
+      "weight": 429.0,
+      "quality": 2.8561716079711914
+    },
+    {
+      "value": "simplyswords:bloodwake",
+      "weight": 545.0,
+      "quality": 2.6366324424743652
+    },
+    {
+      "value": "simplyswords:bramblethorn",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:brimstone_claymore",
+      "weight": 449.0,
+      "quality": 2.8122475147247314
+    },
+    {
+      "value": "simplyswords:caelestis",
+      "weight": 449.0,
+      "quality": 2.8122475147247314
+    },
+    {
+      "value": "simplyswords:chompolotl",
+      "weight": 561.0,
+      "quality": 2.6121315956115723
+    },
+    {
+      "value": "simplyswords:dawnquiver",
+      "weight": 449.0,
+      "quality": 2.8122475147247314
+    },
+    {
+      "value": "simplyswords:decaying_relic",
+      "weight": 490.0,
+      "quality": 2.7324135303497314
+    },
+    {
+      "value": "simplyswords:diamond_chakram",
+      "weight": 918.0,
+      "quality": 2.216003656387329
+    },
+    {
+      "value": "simplyswords:diamond_claymore",
+      "weight": 788.0,
+      "quality": 2.331693410873413
+    },
+    {
+      "value": "simplyswords:diamond_cutlass",
+      "weight": 878.0,
+      "quality": 2.249847650527954
+    },
+    {
+      "value": "simplyswords:diamond_glaive",
+      "weight": 878.0,
+      "quality": 2.249847650527954
+    },
+    {
+      "value": "simplyswords:diamond_greataxe",
+      "weight": 742.0,
+      "quality": 2.3787074089050293
+    },
+    {
+      "value": "simplyswords:diamond_greathammer",
+      "weight": 697.0,
+      "quality": 2.4291436672210693
+    },
+    {
+      "value": "simplyswords:diamond_halberd",
+      "weight": 742.0,
+      "quality": 2.3787074089050293
+    },
+    {
+      "value": "simplyswords:diamond_katana",
+      "weight": 878.0,
+      "quality": 2.249847650527954
+    },
+    {
+      "value": "simplyswords:diamond_longsword",
+      "weight": 878.0,
+      "quality": 2.249847650527954
+    },
+    {
+      "value": "simplyswords:diamond_rapier",
+      "weight": 918.0,
+      "quality": 2.216003656387329
+    },
+    {
+      "value": "simplyswords:diamond_sai",
+      "weight": 985.0,
+      "quality": 2.1648483276367188
+    },
+    {
+      "value": "simplyswords:diamond_scythe",
+      "weight": 834.0,
+      "quality": 2.288576126098633
+    },
+    {
+      "value": "simplyswords:diamond_spear",
+      "weight": 878.0,
+      "quality": 2.249847650527954
+    },
+    {
+      "value": "simplyswords:diamond_twinblade",
+      "weight": 878.0,
+      "quality": 2.249847650527954
+    },
+    {
+      "value": "simplyswords:diamond_warglaive",
+      "weight": 878.0,
+      "quality": 2.249847650527954
+    },
+    {
+      "value": "simplyswords:dormant_relic",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:dreadwhisper",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:emberblade",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:emberlash",
+      "weight": 561.0,
+      "quality": 2.6121315956115723
+    },
+    {
+      "value": "simplyswords:enigma",
+      "weight": 429.0,
+      "quality": 2.8561716079711914
+    },
+    {
+      "value": "simplyswords:flamewind",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:frostfall",
+      "weight": 470.0,
+      "quality": 2.7709085941314697
+    },
+    {
+      "value": "simplyswords:gloampiercer",
+      "weight": 490.0,
+      "quality": 2.7324135303497314
+    },
+    {
+      "value": "simplyswords:gold_chakram",
+      "weight": 1997.0,
+      "quality": 1.7105977535247803
+    },
+    {
+      "value": "simplyswords:gold_claymore",
+      "weight": 1674.0,
+      "quality": 1.8142820596694946
+    },
+    {
+      "value": "simplyswords:gold_cutlass",
+      "weight": 1910.0,
+      "quality": 1.7364193201065063
+    },
+    {
+      "value": "simplyswords:gold_glaive",
+      "weight": 1910.0,
+      "quality": 1.7364193201065063
+    },
+    {
+      "value": "simplyswords:gold_greataxe",
+      "weight": 1543.0,
+      "quality": 1.864164113998413
+    },
+    {
+      "value": "simplyswords:gold_greathammer",
+      "weight": 1413.0,
+      "quality": 1.9198710918426514
+    },
+    {
+      "value": "simplyswords:gold_halberd",
+      "weight": 1543.0,
+      "quality": 1.864164113998413
+    },
+    {
+      "value": "simplyswords:gold_katana",
+      "weight": 1910.0,
+      "quality": 1.7364193201065063
+    },
+    {
+      "value": "simplyswords:gold_longsword",
+      "weight": 1910.0,
+      "quality": 1.7364193201065063
+    },
+    {
+      "value": "simplyswords:gold_rapier",
+      "weight": 1997.0,
+      "quality": 1.7105977535247803
+    },
+    {
+      "value": "simplyswords:gold_sai",
+      "weight": 2074.0,
+      "quality": 1.6893646717071533
+    },
+    {
+      "value": "simplyswords:gold_scythe",
+      "weight": 1799.0,
+      "quality": 1.771328091621399
+    },
+    {
+      "value": "simplyswords:gold_spear",
+      "weight": 1910.0,
+      "quality": 1.7364193201065063
+    },
+    {
+      "value": "simplyswords:gold_twinblade",
+      "weight": 1910.0,
+      "quality": 1.7364193201065063
+    },
+    {
+      "value": "simplyswords:gold_warglaive",
+      "weight": 1910.0,
+      "quality": 1.7364193201065063
+    },
+    {
+      "value": "simplyswords:harbinger",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:hearthflame",
+      "weight": 408.0,
+      "quality": 2.9024314880371094
+    },
+    {
+      "value": "simplyswords:hiveheart",
+      "weight": 429.0,
+      "quality": 2.8561716079711914
+    },
+    {
+      "value": "simplyswords:icewhisper",
+      "weight": 429.0,
+      "quality": 2.8561716079711914
+    },
+    {
+      "value": "simplyswords:ionbound_stormscale",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:iron_chakram",
+      "weight": 1588.0,
+      "quality": 1.846638798713684
+    },
+    {
+      "value": "simplyswords:iron_claymore",
+      "weight": 1279.0,
+      "quality": 1.984540343284607
+    },
+    {
+      "value": "simplyswords:iron_cutlass",
+      "weight": 1490.0,
+      "quality": 1.8862701654434204
+    },
+    {
+      "value": "simplyswords:iron_glaive",
+      "weight": 1490.0,
+      "quality": 1.8862701654434204
+    },
+    {
+      "value": "simplyswords:iron_greataxe",
+      "weight": 1175.0,
+      "quality": 2.041327714920044
+    },
+    {
+      "value": "simplyswords:iron_greathammer",
+      "weight": 1076.0,
+      "quality": 2.102086305618286
+    },
+    {
+      "value": "simplyswords:iron_halberd",
+      "weight": 1175.0,
+      "quality": 2.041327714920044
+    },
+    {
+      "value": "simplyswords:iron_katana",
+      "weight": 1490.0,
+      "quality": 1.8862701654434204
+    },
+    {
+      "value": "simplyswords:iron_longsword",
+      "weight": 1490.0,
+      "quality": 1.8862701654434204
+    },
+    {
+      "value": "simplyswords:iron_rapier",
+      "weight": 1588.0,
+      "quality": 1.846638798713684
+    },
+    {
+      "value": "simplyswords:iron_sai",
+      "weight": 1740.0,
+      "quality": 1.7909950017929077
+    },
+    {
+      "value": "simplyswords:iron_scythe",
+      "weight": 1385.0,
+      "quality": 1.9325530529022217
+    },
+    {
+      "value": "simplyswords:iron_spear",
+      "weight": 1490.0,
+      "quality": 1.8862701654434204
+    },
+    {
+      "value": "simplyswords:iron_twinblade",
+      "weight": 1490.0,
+      "quality": 1.8862701654434204
+    },
+    {
+      "value": "simplyswords:iron_warglaive",
+      "weight": 1490.0,
+      "quality": 1.8862701654434204
+    },
+    {
+      "value": "simplyswords:livyatan",
+      "weight": 490.0,
+      "quality": 2.7324135303497314
+    },
+    {
+      "value": "simplyswords:magiblade",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:magiscythe",
+      "weight": 490.0,
+      "quality": 2.7324135303497314
+    },
+    {
+      "value": "simplyswords:magispear",
+      "weight": 490.0,
+      "quality": 2.7324135303497314
+    },
+    {
+      "value": "simplyswords:mjolnir",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:molten_edge",
+      "weight": 490.0,
+      "quality": 2.7324135303497314
+    },
+    {
+      "value": "simplyswords:netherite_chakram",
+      "weight": 748.0,
+      "quality": 2.3726046085357666
+    },
+    {
+      "value": "simplyswords:netherite_claymore",
+      "weight": 648.0,
+      "quality": 2.4893949031829834
+    },
+    {
+      "value": "simplyswords:netherite_cutlass",
+      "weight": 716.0,
+      "quality": 2.40751576423645
+    },
+    {
+      "value": "simplyswords:netherite_glaive",
+      "weight": 716.0,
+      "quality": 2.40751576423645
+    },
+    {
+      "value": "simplyswords:netherite_greataxe",
+      "weight": 613.0,
+      "quality": 2.535567283630371
+    },
+    {
+      "value": "simplyswords:netherite_greathammer",
+      "weight": 579.0,
+      "quality": 2.5847175121307373
+    },
+    {
+      "value": "simplyswords:netherite_halberd",
+      "weight": 613.0,
+      "quality": 2.535567283630371
+    },
+    {
+      "value": "simplyswords:netherite_katana",
+      "weight": 716.0,
+      "quality": 2.40751576423645
+    },
+    {
+      "value": "simplyswords:netherite_longsword",
+      "weight": 716.0,
+      "quality": 2.40751576423645
+    },
+    {
+      "value": "simplyswords:netherite_rapier",
+      "weight": 748.0,
+      "quality": 2.3726046085357666
+    },
+    {
+      "value": "simplyswords:netherite_sai",
+      "weight": 804.0,
+      "quality": 2.316798448562622
+    },
+    {
+      "value": "simplyswords:netherite_scythe",
+      "weight": 682.0,
+      "quality": 2.4465794563293457
+    },
+    {
+      "value": "simplyswords:netherite_spear",
+      "weight": 716.0,
+      "quality": 2.40751576423645
+    },
+    {
+      "value": "simplyswords:netherite_twinblade",
+      "weight": 716.0,
+      "quality": 2.40751576423645
+    },
+    {
+      "value": "simplyswords:netherite_warglaive",
+      "weight": 716.0,
+      "quality": 2.40751576423645
+    },
+    {
+      "value": "simplyswords:ribboncleaver",
+      "weight": 429.0,
+      "quality": 2.8561716079711914
+    },
+    {
+      "value": "simplyswords:riftmane",
+      "weight": 449.0,
+      "quality": 2.8122475147247314
+    },
+    {
+      "value": "simplyswords:righteous_relic",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:runic_chakram",
+      "weight": 640.0,
+      "quality": 2.499783754348755
+    },
+    {
+      "value": "simplyswords:runic_claymore",
+      "weight": 556.0,
+      "quality": 2.6191916465759277
+    },
+    {
+      "value": "simplyswords:runic_cutlass",
+      "weight": 613.0,
+      "quality": 2.536078453063965
+    },
+    {
+      "value": "simplyswords:runic_glaive",
+      "weight": 613.0,
+      "quality": 2.536078453063965
+    },
+    {
+      "value": "simplyswords:runic_greataxe",
+      "weight": 528.0,
+      "quality": 2.665334463119507
+    },
+    {
+      "value": "simplyswords:runic_greathammer",
+      "weight": 500.0,
+      "quality": 2.714104175567627
+    },
+    {
+      "value": "simplyswords:runic_halberd",
+      "weight": 528.0,
+      "quality": 2.665334463119507
+    },
+    {
+      "value": "simplyswords:runic_katana",
+      "weight": 613.0,
+      "quality": 2.536078453063965
+    },
+    {
+      "value": "simplyswords:runic_longsword",
+      "weight": 613.0,
+      "quality": 2.536078453063965
+    },
+    {
+      "value": "simplyswords:runic_rapier",
+      "weight": 640.0,
+      "quality": 2.499783754348755
+    },
+    {
+      "value": "simplyswords:runic_sai",
+      "weight": 688.0,
+      "quality": 2.4394190311431885
+    },
+    {
+      "value": "simplyswords:runic_scythe",
+      "weight": 585.0,
+      "quality": 2.5759952068328857
+    },
+    {
+      "value": "simplyswords:runic_spear",
+      "weight": 613.0,
+      "quality": 2.536078453063965
+    },
+    {
+      "value": "simplyswords:runic_twinblade",
+      "weight": 613.0,
+      "quality": 2.536078453063965
+    },
+    {
+      "value": "simplyswords:runic_warglaive",
+      "weight": 613.0,
+      "quality": 2.536078453063965
+    },
+    {
+      "value": "simplyswords:shadowsting",
+      "weight": 545.0,
+      "quality": 2.6366324424743652
+    },
+    {
+      "value": "simplyswords:slumbering_lichblade",
+      "weight": 429.0,
+      "quality": 2.8561716079711914
+    },
+    {
+      "value": "simplyswords:soulkeeper",
+      "weight": 408.0,
+      "quality": 2.9024314880371094
+    },
+    {
+      "value": "simplyswords:soulpyre",
+      "weight": 429.0,
+      "quality": 2.8561716079711914
+    },
+    {
+      "value": "simplyswords:soulrender",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:soulstalker",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:soulstealer",
+      "weight": 561.0,
+      "quality": 2.6121315956115723
+    },
+    {
+      "value": "simplyswords:stars_edge",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:stormbringer",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:storms_edge",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:stormscale",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:sunfire",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:sword_on_a_stick",
+      "weight": 1916.0,
+      "quality": 1.734526515007019
+    },
+    {
+      "value": "simplyswords:tainted_relic",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:tempest",
+      "weight": 561.0,
+      "quality": 2.6121315956115723
+    },
+    {
+      "value": "simplyswords:the_devourer",
+      "weight": 449.0,
+      "quality": 2.8122475147247314
+    },
+    {
+      "value": "simplyswords:thunderbrand",
+      "weight": 429.0,
+      "quality": 2.8561716079711914
+    },
+    {
+      "value": "simplyswords:toxic_longsword",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:twisted_blade",
+      "weight": 561.0,
+      "quality": 2.6121315956115723
+    },
+    {
+      "value": "simplyswords:waking_lichblade",
+      "weight": 429.0,
+      "quality": 2.8561716079711914
+    },
+    {
+      "value": "simplyswords:watcher_claymore",
+      "weight": 449.0,
+      "quality": 2.8122475147247314
+    },
+    {
+      "value": "simplyswords:watching_warglaive",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:waxweaver",
+      "weight": 449.0,
+      "quality": 2.8122475147247314
+    },
+    {
+      "value": "simplyswords:whisperwind",
+      "weight": 509.0,
+      "quality": 2.6970267295837402
+    },
+    {
+      "value": "simplyswords:wickpiercer",
+      "weight": 490.0,
+      "quality": 2.7324135303497314
+    },
+    {
+      "value": "simplyswords:wraithfang",
+      "weight": 545.0,
+      "quality": 2.6366324424743652
+    },
+    {
+      "value": "simplyswords:wraithmaw",
+      "weight": 545.0,
+      "quality": 2.6366324424743652
+    },
+    {
+      "value": "spore:infected_crossbow",
+      "weight": 345.0,
+      "quality": 3.0695416927337646
+    },
+    {
+      "value": "spore:reaver",
+      "weight": 1928.0,
+      "quality": 1.730932354927063
+    },
+    {
+      "value": "the_bumblezone:stinger_spear",
+      "weight": 810.0,
+      "quality": 2.310316562652588
+    },
+    {
+      "value": "twilightforest:diamond_minotaur_axe",
+      "weight": 646.0,
+      "quality": 2.4911322593688965
+    },
+    {
+      "value": "twilightforest:fiery_sword",
+      "weight": 956.0,
+      "quality": 2.1865386962890625
+    },
+    {
+      "value": "twilightforest:giant_sword",
+      "weight": 773.0,
+      "quality": 2.3473494052886963
+    },
+    {
+      "value": "twilightforest:glass_sword",
+      "weight": 132.0,
+      "quality": 4.2209858894348145
+    },
+    {
+      "value": "twilightforest:gold_minotaur_axe",
+      "weight": 1543.0,
+      "quality": 1.864164113998413
+    },
+    {
+      "value": "twilightforest:ice_sword",
+      "weight": 2542.0,
+      "quality": 1.5784183740615845
+    },
+    {
+      "value": "twilightforest:ironwood_axe",
+      "weight": 852.0,
+      "quality": 2.2721853256225586
+    },
+    {
+      "value": "twilightforest:ironwood_sword",
+      "weight": 1006.0,
+      "quality": 2.1498308181762695
+    },
+    {
+      "value": "twilightforest:knightmetal_axe",
+      "weight": 1033.0,
+      "quality": 2.1312005519866943
+    },
+    {
+      "value": "twilightforest:knightmetal_sword",
+      "weight": 1314.0,
+      "quality": 1.9668657779693604
+    },
+    {
+      "value": "twilightforest:stale_bread",
+      "weight": 2231.0,
+      "quality": 1.6487727165222168
+    },
+    {
+      "value": "twilightforest:steeleaf_axe",
+      "weight": 1322.0,
+      "quality": 1.9629961252212524
+    },
+    {
+      "value": "twilightforest:steeleaf_sword",
+      "weight": 1820.0,
+      "quality": 1.764436960220337
+    },
+    {
+      "value": "unusualfishmod:depth_scythe",
+      "weight": 878.0,
+      "quality": 2.249847650527954
+    },
+    {
+      "value": "unusualfishmod:ripsaw",
+      "weight": 997.0,
+      "quality": 2.155933141708374
+    },
+    {
+      "value": "voidscape:astral_axe",
+      "weight": 370.0,
+      "quality": 2.998368501663208
+    },
+    {
+      "value": "voidscape:astral_sword",
+      "weight": 407.0,
+      "quality": 2.9068727493286133
+    },
+    {
+      "value": "voidscape:astral_xbow",
+      "weight": 274.0,
+      "quality": 3.3158681392669678
+    },
+    {
+      "value": "voidscape:corrupt_axe",
+      "weight": 500.0,
+      "quality": 2.7140488624572754
+    },
+    {
+      "value": "voidscape:corrupt_sword",
+      "weight": 550.0,
+      "quality": 2.628047227859497
+    },
+    {
+      "value": "voidscape:corrupt_xbow",
+      "weight": 288.0,
+      "quality": 3.2594668865203857
+    },
+    {
+      "value": "voidscape:ichor_axe",
+      "weight": 406.0,
+      "quality": 2.908208131790161
+    },
+    {
+      "value": "voidscape:ichor_sword",
+      "weight": 446.0,
+      "quality": 2.818399429321289
+    },
+    {
+      "value": "voidscape:ichor_xbow",
+      "weight": 278.0,
+      "quality": 3.297985792160034
+    },
+    {
+      "value": "voidscape:titanite_axe",
+      "weight": 448.0,
+      "quality": 2.813836097717285
+    },
+    {
+      "value": "voidscape:titanite_sword",
+      "weight": 493.0,
+      "quality": 2.725862741470337
+    },
+    {
+      "value": "voidscape:titanite_xbow",
+      "weight": 283.0,
+      "quality": 3.279242992401123
+    },
+    {
+      "value": "voidscape:voidic_crystal_axe",
+      "weight": 564.0,
+      "quality": 2.607034683227539
+    },
+    {
+      "value": "voidscape:voidic_crystal_sword",
+      "weight": 622.0,
+      "quality": 2.5231056213378906
+    },
+    {
+      "value": "voidscape:voidic_crystal_xbow",
+      "weight": 294.0,
+      "quality": 3.2384111881256104
+    },
+    {
+      "value": "windswept:wooden_chocolate_bucket",
+      "weight": 10000.0,
+      "quality": 1.0
+    },
+    {
+      "value": "windswept:wooden_honey_bucket",
+      "weight": 10000.0,
+      "quality": 1.0
+    },
+    {
+      "value": "windswept:wooden_water_bucket",
+      "weight": 10000.0,
+      "quality": 1.0
+    },
+    {
+      "value": "wstweaks:immolation_blade",
+      "weight": 423.0,
+      "quality": 2.869706392288208
+    }
+  ],
+  "OFFHAND": [
+    {
+      "value": "minecraft:bow",
+      "weight": 420.0,
+      "quality": 2.876183032989502
+    },
+    {
+      "value": "minecraft:ender_pearl",
+      "weight": 231.0,
+      "quality": 3.508850336074829
+    },
+    {
+      "value": "minecraft:flint_and_steel",
+      "weight": 311.0,
+      "quality": 3.177940845489502
+    },
+    {
+      "value": {
+        "id": "minecraft:lingering_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 236.0,
+      "quality": 3.483757257461548
+    },
+    {
+      "value": "minecraft:shield",
+      "weight": 349.0,
+      "quality": 3.0576188564300537
+    },
+    {
+      "value": "minecraft:snowball",
+      "weight": 399.0,
+      "quality": 2.925445795059204
+    },
+    {
+      "value": {
+        "id": "minecraft:splash_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 236.0,
+      "quality": 3.483757257461548
+    },
+    {
+      "value": "minecraft:tnt",
+      "weight": 83.0,
+      "quality": 4.932424068450928
+    },
+    {
+      "value": "minecraft:wind_charge",
+      "weight": 206.0,
+      "quality": 3.6435389518737793
+    },
+    {
+      "value": "aether:phoenix_bow",
+      "weight": 420.0,
+      "quality": 2.876183032989502
+    },
+    {
+      "value": "alexscaves:resistor_shield",
+      "weight": 300.0,
+      "quality": 3.2181735038757324
+    },
+    {
+      "value": "arphex:ethereal_staff",
+      "weight": 448.0,
+      "quality": 2.815286159515381
+    },
+    {
+      "value": "block_factorys_bosses:dragon_guard_shield",
+      "weight": 85.0,
+      "quality": 4.886534214019775
+    },
+    {
+      "value": "block_factorys_bosses:enhanced_shield",
+      "weight": 338.0,
+      "quality": 3.09237003326416
+    },
+    {
+      "value": "block_factorys_bosses:ice_gauntlet",
+      "weight": 255.0,
+      "quality": 3.3952176570892334
+    },
+    {
+      "value": "cataclysm:azure_sea_shield",
+      "weight": 332.0,
+      "quality": 3.1096534729003906
+    },
+    {
+      "value": "cataclysm:black_steel_targe",
+      "weight": 310.0,
+      "quality": 3.1823036670684814
+    },
+    {
+      "value": "celestisynth:rainfall_serenity",
+      "weight": 346.0,
+      "quality": 3.0672664642333984
+    },
+    {
+      "value": "deep_aether:storm_bow",
+      "weight": 420.0,
+      "quality": 2.876183032989502
+    },
+    {
+      "value": "endermanoverhaul:corrupted_shield",
+      "weight": 320.0,
+      "quality": 3.1475040912628174
+    },
+    {
+      "value": "enderscape:end_stone_rubble_shield",
+      "weight": 349.0,
+      "quality": 3.0576188564300537
+    },
+    {
+      "value": "enderscape:kurodite_rubble_shield",
+      "weight": 349.0,
+      "quality": 3.0576188564300537
+    },
+    {
+      "value": "enderscape:mirestone_rubble_shield",
+      "weight": 349.0,
+      "quality": 3.0576188564300537
+    },
+    {
+      "value": "enderscape:veradite_rubble_shield",
+      "weight": 349.0,
+      "quality": 3.0576188564300537
+    },
+    {
+      "value": "infernalexp:glowsilk_bow",
+      "weight": 420.0,
+      "quality": 2.876183032989502
+    },
+    {
+      "value": "legendary_monsters:buckler_of_annihilation",
+      "weight": 312.0,
+      "quality": 3.1744275093078613
+    },
+    {
+      "value": "legendary_monsters:chorus_cannon",
+      "weight": 434.0,
+      "quality": 2.844953775405884
+    },
+    {
+      "value": "legendary_monsters:dinosaur_bone_shield",
+      "weight": 248.0,
+      "quality": 3.4266953468322754
+    },
+    {
+      "value": "legendary_monsters:frostbitten_shield",
+      "weight": 348.0,
+      "quality": 3.062220573425293
+    },
+    {
+      "value": "legendary_monsters:sand_cannon",
+      "weight": 434.0,
+      "quality": 2.844953775405884
+    },
+    {
+      "value": "legendary_monsters:shulker_shield",
+      "weight": 338.0,
+      "quality": 3.09237003326416
+    },
+    {
+      "value": "legendary_monsters:spiky_shield",
+      "weight": 348.0,
+      "quality": 3.062220573425293
+    },
+    {
+      "value": "minecolonies:pharaoscepter",
+      "weight": 420.0,
+      "quality": 2.876183032989502
+    },
+    {
+      "value": "mowziesmobs:blowgun",
+      "weight": 434.0,
+      "quality": 2.844953775405884
+    },
+    {
+      "value": "netherman:azazel_shield",
+      "weight": 265.0,
+      "quality": 3.3502213954925537
+    },
+    {
+      "value": "olympusmythology:bow_of_artemis",
+      "weight": 280.0,
+      "quality": 3.292461395263672
+    },
+    {
+      "value": "panascraftrpgmod:ultimate_lord_shield",
+      "weight": 301.0,
+      "quality": 3.211723566055298
+    },
+    {
+      "value": "panascraftrpgmod:warden_heart",
+      "weight": 233.0,
+      "quality": 3.4983794689178467
+    },
+    {
+      "value": "piglinproliferation:buckler",
+      "weight": 378.0,
+      "quality": 2.977073907852173
+    },
+    {
+      "value": "simplybows:bee_bow/bee_bow",
+      "weight": 313.0,
+      "quality": 3.172877550125122
+    },
+    {
+      "value": "simplybows:blossom_bow/blossom_bow",
+      "weight": 313.0,
+      "quality": 3.172877550125122
+    },
+    {
+      "value": "simplybows:bubble_bow/bubble_bow",
+      "weight": 313.0,
+      "quality": 3.172877550125122
+    },
+    {
+      "value": "simplybows:earth_bow/earth_bow",
+      "weight": 313.0,
+      "quality": 3.172877550125122
+    },
+    {
+      "value": "simplybows:echo_bow/echo_bow",
+      "weight": 313.0,
+      "quality": 3.172877550125122
+    },
+    {
+      "value": "simplybows:ice_bow/ice_bow",
+      "weight": 313.0,
+      "quality": 3.172877550125122
+    },
+    {
+      "value": "simplybows:vine_bow/vine_bow",
+      "weight": 313.0,
+      "quality": 3.172877550125122
+    },
+    {
+      "value": {
+        "id": "spawn:fly_bottle",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 236.0,
+      "quality": 3.483757257461548
+    },
+    {
+      "value": "spore:infected_bow",
+      "weight": 319.0,
+      "quality": 3.150533437728882
+    },
+    {
+      "value": "spore:shield",
+      "weight": 598.0,
+      "quality": 2.555962324142456
+    },
+    {
+      "value": "the_bumblezone:honey_crystal_shield",
+      "weight": 408.0,
+      "quality": 2.9035422801971436
+    },
+    {
+      "value": "twilightforest:ender_bow",
+      "weight": 420.0,
+      "quality": 2.876183032989502
+    },
+    {
+      "value": "twilightforest:ice_bow",
+      "weight": 420.0,
+      "quality": 2.876183032989502
+    },
+    {
+      "value": "twilightforest:knightmetal_shield",
+      "weight": 300.0,
+      "quality": 3.2158830165863037
+    },
+    {
+      "value": "twilightforest:seeker_bow",
+      "weight": 420.0,
+      "quality": 2.876183032989502
+    },
+    {
+      "value": "twilightforest:triple_bow",
+      "weight": 420.0,
+      "quality": 2.876183032989502
+    },
+    {
+      "value": "voidscape:astral_bow",
+      "weight": 223.0,
+      "quality": 3.5481975078582764
+    },
+    {
+      "value": "voidscape:corrupt_bow",
+      "weight": 254.0,
+      "quality": 3.401172637939453
+    },
+    {
+      "value": "voidscape:ichor_bow",
+      "weight": 232.0,
+      "quality": 3.502990245819092
+    },
+    {
+      "value": "voidscape:titanite_bow",
+      "weight": 242.0,
+      "quality": 3.454256534576416
+    },
+    {
+      "value": "voidscape:voidic_crystal_bow",
+      "weight": 267.0,
+      "quality": 3.342548370361328
+    },
+    {
+      "value": "voidscape:voidic_crystal_shield",
+      "weight": 252.0,
+      "quality": 3.406607151031494
+    }
+  ],
+  "FEET": [
+    {
+      "value": "minecraft:chainmail_boots",
+      "weight": 6440.0,
+      "quality": 1.1579440832138062
+    },
+    {
+      "value": "minecraft:diamond_boots",
+      "weight": 1917.0,
+      "quality": 1.7343040704727173
+    },
+    {
+      "value": "minecraft:golden_boots",
+      "weight": 5284.0,
+      "quality": 1.2368991374969482
+    },
+    {
+      "value": "minecraft:iron_boots",
+      "weight": 6727.0,
+      "quality": 1.1412731409072876
+    },
+    {
+      "value": "minecraft:leather_boots",
+      "weight": 7716.0,
+      "quality": 1.0902595520019531
+    },
+    {
+      "value": "minecraft:netherite_boots",
+      "weight": 1174.0,
+      "quality": 2.0422403812408447
+    },
+    {
+      "value": "aether:gravitite_boots",
+      "weight": 1725.0,
+      "quality": 1.7962952852249146
+    },
+    {
+      "value": "aether:neptune_boots",
+      "weight": 2979.0,
+      "quality": 1.4972811937332153
+    },
+    {
+      "value": "aether:obsidian_boots",
+      "weight": 1279.0,
+      "quality": 1.984384536743164
+    },
+    {
+      "value": "aether:phoenix_boots",
+      "weight": 1725.0,
+      "quality": 1.7962952852249146
+    },
+    {
+      "value": "aether:sentry_boots",
+      "weight": 6054.0,
+      "quality": 1.1820670366287231
+    },
+    {
+      "value": "aether:valkyrie_boots",
+      "weight": 1725.0,
+      "quality": 1.7962952852249146
+    },
+    {
+      "value": "aether:zanite_boots",
+      "weight": 6054.0,
+      "quality": 1.1820670366287231
+    },
+    {
+      "value": "alexscaves:diving_boots",
+      "weight": 3871.0,
+      "quality": 1.3721178770065308
+    },
+    {
+      "value": "alexscaves:gingerbread_boots",
+      "weight": 4344.0,
+      "quality": 1.320298433303833
+    },
+    {
+      "value": "alexscaves:hazmat_boots",
+      "weight": 3000.0,
+      "quality": 1.4937961101531982
+    },
+    {
+      "value": "alexscaves:rainbounce_boots",
+      "weight": 3277.0,
+      "quality": 1.4504601955413818
+    },
+    {
+      "value": "alexsmobs:flying_fish_boots",
+      "weight": 13333.0,
+      "quality": 0.9085602760314941
+    },
+    {
+      "value": "alexsmobs:roadrunner_boots",
+      "weight": 1670.0,
+      "quality": 1.8157148361206055
+    },
+    {
+      "value": "aperture_innovations:long_fall_boots",
+      "weight": 842.0,
+      "quality": 2.2808892726898193
+    },
+    {
+      "value": "aquamirae:abyssal_boots",
+      "weight": 1040.0,
+      "quality": 2.1260323524475098
+    },
+    {
+      "value": "aquamirae:salvager_boots",
+      "weight": 7272.0,
+      "quality": 1.1119900941848755
+    },
+    {
+      "value": "aquamirae:terrible_boots",
+      "weight": 1672.0,
+      "quality": 1.8151015043258667
+    },
+    {
+      "value": "arphex:chitin_armour_boots",
+      "weight": 2127.0,
+      "quality": 1.6752259731292725
+    },
+    {
+      "value": "arphex:chitin_armour_tier_2_boots",
+      "weight": 1922.0,
+      "quality": 1.7327349185943604
+    },
+    {
+      "value": "arphex:chitin_armour_tier_3_boots",
+      "weight": 744.0,
+      "quality": 2.377175807952881
+    },
+    {
+      "value": "arphex:eternal_boots",
+      "weight": 266.0,
+      "quality": 3.3495805263519287
+    },
+    {
+      "value": "arphex:immortal_boots",
+      "weight": 236.0,
+      "quality": 3.4827003479003906
+    },
+    {
+      "value": "arphex:infernal_boots",
+      "weight": 394.0,
+      "quality": 2.9369101524353027
+    },
+    {
+      "value": "arphex:juggernaut_boots",
+      "weight": 294.0,
+      "quality": 3.237455368041992
+    },
+    {
+      "value": "arphex:spacetime_boots",
+      "weight": 294.0,
+      "quality": 3.237455368041992
+    },
+    {
+      "value": "arphex:spectral_boots",
+      "weight": 394.0,
+      "quality": 2.9369101524353027
+    },
+    {
+      "value": "arphex:umbral_boots",
+      "weight": 419.0,
+      "quality": 2.877758741378784
+    },
+    {
+      "value": "arphex:vitality_armour_boots",
+      "weight": 1785.0,
+      "quality": 1.7758917808532715
+    },
+    {
+      "value": "block_factorys_bosses:dragon_bones_boots",
+      "weight": 1727.0,
+      "quality": 1.7954859733581543
+    },
+    {
+      "value": "block_factorys_bosses:knight_boots",
+      "weight": 3769.0,
+      "quality": 1.3842815160751343
+    },
+    {
+      "value": "brains:contamination_walker_boots",
+      "weight": 1525.0,
+      "quality": 1.871687889099121
+    },
+    {
+      "value": "cataclysm:cursium_boots",
+      "weight": 774.0,
+      "quality": 2.3459136486053467
+    },
+    {
+      "value": "cataclysm:ignitium_boots",
+      "weight": 650.0,
+      "quality": 2.4870967864990234
+    },
+    {
+      "value": "celestisynth:lunar_stone_boots",
+      "weight": 460.0,
+      "quality": 2.7901017665863037
+    },
+    {
+      "value": "celestisynth:solar_crystal_boots",
+      "weight": 2811.0,
+      "quality": 1.52643883228302
+    },
+    {
+      "value": "cnc:buckskin_boots",
+      "weight": 1612.0,
+      "quality": 1.837092638015747
+    },
+    {
+      "value": "companions:crystallized_blood_boots",
+      "weight": 872.0,
+      "quality": 2.254268169403076
+    },
+    {
+      "value": "create:cardboard_boots",
+      "weight": 12986.0,
+      "quality": 0.9165765643119812
+    },
+    {
+      "value": "create:copper_diving_boots",
+      "weight": 8987.0,
+      "quality": 1.0362122058868408
+    },
+    {
+      "value": "create:netherite_diving_boots",
+      "weight": 1174.0,
+      "quality": 2.0422403812408447
+    },
+    {
+      "value": "deep_aether:skyjade_boots",
+      "weight": 7180.0,
+      "quality": 1.1167060136795044
+    },
+    {
+      "value": "deep_aether:stormforged_boots",
+      "weight": 2212.0,
+      "quality": 1.6533384323120117
+    },
+    {
+      "value": "deep_aether:stratus_boots",
+      "weight": 1279.0,
+      "quality": 1.984384536743164
+    },
+    {
+      "value": "fightsfrights:monstrous_armor_boots",
+      "weight": 2213.0,
+      "quality": 1.6530147790908813
+    },
+    {
+      "value": "fightsfrights:ominous_armor_boots",
+      "weight": 1569.0,
+      "quality": 1.853712797164917
+    },
+    {
+      "value": "irons_spellbooks:archevoker_boots",
+      "weight": 3185.0,
+      "quality": 1.4642003774642944
+    },
+    {
+      "value": "irons_spellbooks:cryomancer_boots",
+      "weight": 3185.0,
+      "quality": 1.4642003774642944
+    },
+    {
+      "value": "irons_spellbooks:cultist_boots",
+      "weight": 3185.0,
+      "quality": 1.4642003774642944
+    },
+    {
+      "value": "irons_spellbooks:electromancer_boots",
+      "weight": 3185.0,
+      "quality": 1.4642003774642944
+    },
+    {
+      "value": "irons_spellbooks:netherite_mage_boots",
+      "weight": 1236.0,
+      "quality": 2.0073955059051514
+    },
+    {
+      "value": "irons_spellbooks:plagued_boots",
+      "weight": 3185.0,
+      "quality": 1.4642003774642944
+    },
+    {
+      "value": "irons_spellbooks:priest_boots",
+      "weight": 3185.0,
+      "quality": 1.4642003774642944
+    },
+    {
+      "value": "irons_spellbooks:pumpkin_boots",
+      "weight": 3855.0,
+      "quality": 1.3739274740219116
+    },
+    {
+      "value": "irons_spellbooks:pyromancer_boots",
+      "weight": 3185.0,
+      "quality": 1.4642003774642944
+    },
+    {
+      "value": "irons_spellbooks:shadowwalker_boots",
+      "weight": 3185.0,
+      "quality": 1.4642003774642944
+    },
+    {
+      "value": "irons_spellbooks:speed_boots",
+      "weight": 2359.0,
+      "quality": 1.618416666984558
+    },
+    {
+      "value": "irons_spellbooks:wandering_magician_boots",
+      "weight": 4532.0,
+      "quality": 1.3018684387207031
+    },
+    {
+      "value": "irons_spellbooks:wizard_boots",
+      "weight": 3185.0,
+      "quality": 1.4642003774642944
+    },
+    {
+      "value": "l2complements:eternium_boots",
+      "weight": 164.0,
+      "quality": 3.9348020553588867
+    },
+    {
+      "value": "l2complements:poseidite_boots",
+      "weight": 1741.0,
+      "quality": 1.7905954122543335
+    },
+    {
+      "value": "l2complements:sculkium_boots",
+      "weight": 355.0,
+      "quality": 3.0416436195373535
+    },
+    {
+      "value": "l2complements:shulkerate_boots",
+      "weight": 1035.0,
+      "quality": 2.1298463344573975
+    },
+    {
+      "value": "l2complements:totemic_gold_boots",
+      "weight": 3949.0,
+      "quality": 1.3629179000854492
+    },
+    {
+      "value": "legendary_monsters:annihilator_boots",
+      "weight": 535.0,
+      "quality": 2.653496503829956
+    },
+    {
+      "value": "legendary_monsters:atmospheric_boots",
+      "weight": 704.0,
+      "quality": 2.421137571334839
+    },
+    {
+      "value": "legendary_monsters:fiery_boots",
+      "weight": 918.0,
+      "quality": 2.216710329055786
+    },
+    {
+      "value": "legendarysurvivaloverhaul:desert_boots",
+      "weight": 5818.0,
+      "quality": 1.1978302001953125
+    },
+    {
+      "value": "legendarysurvivaloverhaul:snow_boots",
+      "weight": 6216.0,
+      "quality": 1.171709418296814
+    },
+    {
+      "value": "majruszsdifficulty:enderium_boots",
+      "weight": 860.0,
+      "quality": 2.2647738456726074
+    },
+    {
+      "value": "majruszsdifficulty:tattered_boots",
+      "weight": 6944.0,
+      "quality": 1.12923002243042
+    },
+    {
+      "value": "minecolonies:pirate_boots",
+      "weight": 5285.0,
+      "quality": 1.2368345260620117
+    },
+    {
+      "value": "minecolonies:pirate_shoes",
+      "weight": 1942.0,
+      "quality": 1.7265995740890503
+    },
+    {
+      "value": "minecolonies:plate_armor_boots",
+      "weight": 2546.0,
+      "quality": 1.5776492357254028
+    },
+    {
+      "value": "mowziesmobs:geomancer_sandals",
+      "weight": 4615.0,
+      "quality": 1.2939345836639404
+    },
+    {
+      "value": "mutantmonsters:mutant_skeleton_boots",
+      "weight": 6054.0,
+      "quality": 1.1820670366287231
+    },
+    {
+      "value": "netherman:azazel_boots",
+      "weight": 783.0,
+      "quality": 2.3370237350463867
+    },
+    {
+      "value": "panascraftrpgmod:ender_dragon_boots",
+      "weight": 104.0,
+      "quality": 4.577755451202393
+    },
+    {
+      "value": "panascraftrpgmod:the_king_of_the_abyss_armor_boots",
+      "weight": 98.0,
+      "quality": 4.671921730041504
+    },
+    {
+      "value": "panascraftrpgmod:ultimate_lord_boots",
+      "weight": 99.0,
+      "quality": 4.642336845397949
+    },
+    {
+      "value": "panascraftrpgmod:upgraded_armor_boots",
+      "weight": 337.0,
+      "quality": 3.095144510269165
+    },
+    {
+      "value": "panascraftrpgmod:void_armor_boots",
+      "weight": 264.0,
+      "quality": 3.357229709625244
+    },
+    {
+      "value": "panascraftrpgmod:warden_boots",
+      "weight": 98.0,
+      "quality": 4.661314010620117
+    },
+    {
+      "value": "panascraftrpgmod:wither_boots",
+      "weight": 167.0,
+      "quality": 3.9098381996154785
+    },
+    {
+      "value": "spawn:blue_footed_boots",
+      "weight": 3871.0,
+      "quality": 1.3721178770065308
+    },
+    {
+      "value": "spore:inf_boots",
+      "weight": 1742.0,
+      "quality": 1.7903180122375488
+    },
+    {
+      "value": "spore:inf_up_boots",
+      "weight": 1066.0,
+      "quality": 2.1084978580474854
+    },
+    {
+      "value": "spore:living_boots",
+      "weight": 4741.0,
+      "quality": 1.282442569732666
+    },
+    {
+      "value": "spore:plated_boots",
+      "weight": 2491.0,
+      "quality": 1.589164137840271
+    },
+    {
+      "value": "the_bumblezone:carpenter_bee_boots_1",
+      "weight": 2819.0,
+      "quality": 1.5251015424728394
+    },
+    {
+      "value": "the_bumblezone:carpenter_bee_boots_2",
+      "weight": 2819.0,
+      "quality": 1.5251015424728394
+    },
+    {
+      "value": "twilightforest:arctic_boots",
+      "weight": 2127.0,
+      "quality": 1.6752145290374756
+    },
+    {
+      "value": "twilightforest:fiery_boots",
+      "weight": 1914.0,
+      "quality": 1.7351491451263428
+    },
+    {
+      "value": "twilightforest:ironwood_boots",
+      "weight": 4658.0,
+      "quality": 1.2899534702301025
+    },
+    {
+      "value": "twilightforest:knightmetal_boots",
+      "weight": 2712.0,
+      "quality": 1.5447452068328857
+    },
+    {
+      "value": "twilightforest:steeleaf_boots",
+      "weight": 5777.0,
+      "quality": 1.2006710767745972
+    },
+    {
+      "value": "twilightforest:travellers_boots",
+      "weight": 9576.0,
+      "quality": 1.014532208442688
+    },
+    {
+      "value": "twilightforest:yeti_boots",
+      "weight": 1356.0,
+      "quality": 1.946157693862915
+    },
+    {
+      "value": "usefulslime:slime_boots",
+      "weight": 7327.0,
+      "quality": 1.1091983318328857
+    },
+    {
+      "value": "voidscape:astral_boots",
+      "weight": 404.0,
+      "quality": 2.9125289916992188
+    },
+    {
+      "value": "voidscape:corrupt_boots",
+      "weight": 696.0,
+      "quality": 2.430341958999634
+    },
+    {
+      "value": "voidscape:ichor_boots",
+      "weight": 474.0,
+      "quality": 2.7621519565582275
+    },
+    {
+      "value": "voidscape:titanite_boots",
+      "weight": 574.0,
+      "quality": 2.591456651687622
+    },
+    {
+      "value": "voidscape:voidic_crystal_boots",
+      "weight": 887.0,
+      "quality": 2.2419426441192627
+    },
+    {
+      "value": "windswept:snow_boots",
+      "weight": 6451.0,
+      "quality": 1.1572819948196411
+    }
+  ],
+  "LEGS": [
+    {
+      "value": "minecraft:chainmail_leggings",
+      "weight": 3591.0,
+      "quality": 1.4068728685379028
+    },
+    {
+      "value": "minecraft:diamond_leggings",
+      "weight": 1305.0,
+      "quality": 1.9711569547653198
+    },
+    {
+      "value": "minecraft:golden_leggings",
+      "weight": 3867.0,
+      "quality": 1.372482419013977
+    },
+    {
+      "value": "minecraft:iron_leggings",
+      "weight": 3003.0,
+      "quality": 1.4931706190109253
+    },
+    {
+      "value": "minecraft:leather_leggings",
+      "weight": 6234.0,
+      "quality": 1.170569896697998
+    },
+    {
+      "value": "minecraft:netherite_leggings",
+      "weight": 912.0,
+      "quality": 2.221285104751587
+    },
+    {
+      "value": "aether:gravitite_leggings",
+      "weight": 1175.0,
+      "quality": 2.041614294052124
+    },
+    {
+      "value": "aether:neptune_leggings",
+      "weight": 1850.0,
+      "quality": 1.754845142364502
+    },
+    {
+      "value": "aether:obsidian_leggings",
+      "weight": 949.0,
+      "quality": 2.1916933059692383
+    },
+    {
+      "value": "aether:phoenix_leggings",
+      "weight": 1175.0,
+      "quality": 2.041614294052124
+    },
+    {
+      "value": "aether:valkyrie_leggings",
+      "weight": 1175.0,
+      "quality": 2.041614294052124
+    },
+    {
+      "value": "aether:zanite_leggings",
+      "weight": 2703.0,
+      "quality": 1.546542763710022
+    },
+    {
+      "value": "alexscaves:diving_leggings",
+      "weight": 2249.0,
+      "quality": 1.6441490650177002
+    },
+    {
+      "value": "alexscaves:gingerbread_leggings",
+      "weight": 2402.0,
+      "quality": 1.6086431741714478
+    },
+    {
+      "value": "alexscaves:hazmat_leggings",
+      "weight": 1925.0,
+      "quality": 1.7318679094314575
+    },
+    {
+      "value": "alexscaves:primordial_pants",
+      "weight": 3426.0,
+      "quality": 1.4290355443954468
+    },
+    {
+      "value": "alexsmobs:centipede_leggings",
+      "weight": 1128.0,
+      "quality": 2.069598436355591
+    },
+    {
+      "value": "alexsmobs:emu_leggings",
+      "weight": 1368.0,
+      "quality": 1.9406766891479492
+    },
+    {
+      "value": "aquamirae:abyssal_leggings",
+      "weight": 836.0,
+      "quality": 2.2863106727600098
+    },
+    {
+      "value": "aquamirae:salvager_waders",
+      "weight": 1395.0,
+      "quality": 1.9279381036758423
+    },
+    {
+      "value": "aquamirae:terrible_leggings",
+      "weight": 1306.0,
+      "quality": 1.9708205461502075
+    },
+    {
+      "value": "arphex:chitin_armour_leggings",
+      "weight": 1523.0,
+      "quality": 1.8722213506698608
+    },
+    {
+      "value": "arphex:chitin_armour_tier_2_leggings",
+      "weight": 1467.0,
+      "quality": 1.8958189487457275
+    },
+    {
+      "value": "arphex:chitin_armour_tier_3_leggings",
+      "weight": 628.0,
+      "quality": 2.5146024227142334
+    },
+    {
+      "value": "arphex:eternal_leggings",
+      "weight": 222.0,
+      "quality": 3.554560422897339
+    },
+    {
+      "value": "arphex:immortal_leggings",
+      "weight": 180.0,
+      "quality": 3.812413454055786
+    },
+    {
+      "value": "arphex:infernal_leggings",
+      "weight": 314.0,
+      "quality": 3.1674492359161377
+    },
+    {
+      "value": "arphex:juggernaut_leggings",
+      "weight": 247.0,
+      "quality": 3.4306960105895996
+    },
+    {
+      "value": "arphex:spacetime_leggings",
+      "weight": 247.0,
+      "quality": 3.4306960105895996
+    },
+    {
+      "value": "arphex:spectral_leggings",
+      "weight": 314.0,
+      "quality": 3.1674492359161377
+    },
+    {
+      "value": "arphex:umbral_leggings",
+      "weight": 330.0,
+      "quality": 3.116806983947754
+    },
+    {
+      "value": "arphex:vitality_armour_leggings",
+      "weight": 1535.0,
+      "quality": 1.8674319982528687
+    },
+    {
+      "value": "block_factorys_bosses:dragon_bones_leggings",
+      "weight": 1176.0,
+      "quality": 2.040987968444824
+    },
+    {
+      "value": "block_factorys_bosses:knight_leggings",
+      "weight": 2215.0,
+      "quality": 1.6526519060134888
+    },
+    {
+      "value": "brains:contamination_walker_leggings",
+      "weight": 946.0,
+      "quality": 2.194445848464966
+    },
+    {
+      "value": "cataclysm:cursium_leggings",
+      "weight": 590.0,
+      "quality": 2.567288637161255
+    },
+    {
+      "value": "cataclysm:ignitium_leggings",
+      "weight": 499.0,
+      "quality": 2.7155649662017822
+    },
+    {
+      "value": "celestisynth:lunar_stone_leggings",
+      "weight": 417.0,
+      "quality": 2.8835370540618896
+    },
+    {
+      "value": "celestisynth:solar_crystal_leggings",
+      "weight": 1784.0,
+      "quality": 1.776226282119751
+    },
+    {
+      "value": "cnc:buckskin_leggings",
+      "weight": 1269.0,
+      "quality": 1.9895226955413818
+    },
+    {
+      "value": "companions:crystallized_blood_leggings",
+      "weight": 654.0,
+      "quality": 2.4815473556518555
+    },
+    {
+      "value": "companions:holy_robe_leggings",
+      "weight": 603.0,
+      "quality": 2.5490071773529053
+    },
+    {
+      "value": "companions:mage_leggings",
+      "weight": 929.0,
+      "quality": 2.207481622695923
+    },
+    {
+      "value": "create:cardboard_leggings",
+      "weight": 11687.0,
+      "quality": 0.9493377208709717
+    },
+    {
+      "value": "deep_aether:skyjade_leggings",
+      "weight": 2435.0,
+      "quality": 1.6013449430465698
+    },
+    {
+      "value": "deep_aether:stormforged_leggings",
+      "weight": 1567.0,
+      "quality": 1.854763150215149
+    },
+    {
+      "value": "deep_aether:stratus_leggings",
+      "weight": 949.0,
+      "quality": 2.1916935443878174
+    },
+    {
+      "value": "enderscape:drift_leggings",
+      "weight": 1360.0,
+      "quality": 1.944183588027954
+    },
+    {
+      "value": "fightsfrights:monstrous_armor_leggings",
+      "weight": 1725.0,
+      "quality": 1.7960948944091797
+    },
+    {
+      "value": "fightsfrights:ominous_armor_leggings",
+      "weight": 1228.0,
+      "quality": 2.01180362701416
+    },
+    {
+      "value": "irons_spellbooks:archevoker_leggings",
+      "weight": 1708.0,
+      "quality": 1.802141785621643
+    },
+    {
+      "value": "irons_spellbooks:cryomancer_leggings",
+      "weight": 1708.0,
+      "quality": 1.802141785621643
+    },
+    {
+      "value": "irons_spellbooks:cultist_leggings",
+      "weight": 1708.0,
+      "quality": 1.802141785621643
+    },
+    {
+      "value": "irons_spellbooks:electromancer_leggings",
+      "weight": 1708.0,
+      "quality": 1.802141785621643
+    },
+    {
+      "value": "irons_spellbooks:netherite_mage_leggings",
+      "weight": 925.0,
+      "quality": 2.2106127738952637
+    },
+    {
+      "value": "irons_spellbooks:plagued_leggings",
+      "weight": 1708.0,
+      "quality": 1.802141785621643
+    },
+    {
+      "value": "irons_spellbooks:priest_leggings",
+      "weight": 1708.0,
+      "quality": 1.802141785621643
+    },
+    {
+      "value": "irons_spellbooks:pumpkin_leggings",
+      "weight": 1884.0,
+      "quality": 1.7443135976791382
+    },
+    {
+      "value": "irons_spellbooks:pyromancer_leggings",
+      "weight": 1708.0,
+      "quality": 1.802141785621643
+    },
+    {
+      "value": "irons_spellbooks:shadowwalker_leggings",
+      "weight": 1708.0,
+      "quality": 1.802141785621643
+    },
+    {
+      "value": "irons_spellbooks:wandering_magician_leggings",
+      "weight": 2350.0,
+      "quality": 1.620290756225586
+    },
+    {
+      "value": "irons_spellbooks:wizard_leggings",
+      "weight": 1708.0,
+      "quality": 1.802141785621643
+    },
+    {
+      "value": "l2complements:eternium_leggings",
+      "weight": 157.0,
+      "quality": 3.9923813343048096
+    },
+    {
+      "value": "l2complements:poseidite_leggings",
+      "weight": 1182.0,
+      "quality": 2.0372064113616943
+    },
+    {
+      "value": "l2complements:sculkium_leggings",
+      "weight": 297.0,
+      "quality": 3.2270216941833496
+    },
+    {
+      "value": "l2complements:shulkerate_leggings",
+      "weight": 808.0,
+      "quality": 2.313049554824829
+    },
+    {
+      "value": "l2complements:totemic_gold_leggings",
+      "weight": 2183.0,
+      "quality": 1.6605703830718994
+    },
+    {
+      "value": "legendary_monsters:annihilator_leggings",
+      "weight": 447.0,
+      "quality": 2.815626859664917
+    },
+    {
+      "value": "legendarysurvivaloverhaul:desert_leggings",
+      "weight": 4852.0,
+      "quality": 1.272574543952942
+    },
+    {
+      "value": "legendarysurvivaloverhaul:snow_leggings",
+      "weight": 5125.0,
+      "quality": 1.249517798423767
+    },
+    {
+      "value": "majruszsdifficulty:enderium_leggings",
+      "weight": 720.0,
+      "quality": 2.402801036834717
+    },
+    {
+      "value": "majruszsdifficulty:tattered_leggings",
+      "weight": 5611.0,
+      "quality": 1.2124109268188477
+    },
+    {
+      "value": "minecolonies:pirate_leggins",
+      "weight": 2498.0,
+      "quality": 1.5876234769821167
+    },
+    {
+      "value": "minecolonies:pirate_legs",
+      "weight": 1268.0,
+      "quality": 1.9903618097305298
+    },
+    {
+      "value": "minecolonies:plate_armor_legs",
+      "weight": 1510.0,
+      "quality": 1.8777943849563599
+    },
+    {
+      "value": "mowziesmobs:geomancer_belt",
+      "weight": 1939.0,
+      "quality": 1.7274476289749146
+    },
+    {
+      "value": "mutantmonsters:mutant_skeleton_leggings",
+      "weight": 2703.0,
+      "quality": 1.546542763710022
+    },
+    {
+      "value": "netherman:azazel_leggings",
+      "weight": 646.0,
+      "quality": 2.492126941680908
+    },
+    {
+      "value": "panascraftrpgmod:ender_dragon_leggings",
+      "weight": 104.0,
+      "quality": 4.577755451202393
+    },
+    {
+      "value": "panascraftrpgmod:the_king_of_the_abyss_armor_leggings",
+      "weight": 98.0,
+      "quality": 4.671921730041504
+    },
+    {
+      "value": "panascraftrpgmod:ultimate_lord_leggings",
+      "weight": 99.0,
+      "quality": 4.642336845397949
+    },
+    {
+      "value": "panascraftrpgmod:upgraded_armor_leggings",
+      "weight": 234.0,
+      "quality": 3.4922683238983154
+    },
+    {
+      "value": "panascraftrpgmod:void_armor_leggings",
+      "weight": 167.0,
+      "quality": 3.9074463844299316
+    },
+    {
+      "value": "panascraftrpgmod:warden_leggings",
+      "weight": 98.0,
+      "quality": 4.661314010620117
+    },
+    {
+      "value": "panascraftrpgmod:wither_leggings",
+      "weight": 128.0,
+      "quality": 4.269463539123535
+    },
+    {
+      "value": "spore:inf_pants",
+      "weight": 890.0,
+      "quality": 2.239217519760132
+    },
+    {
+      "value": "spore:inf_up_pants",
+      "weight": 624.0,
+      "quality": 2.52046275138855
+    },
+    {
+      "value": "spore:living_pants",
+      "weight": 2534.0,
+      "quality": 1.5801783800125122
+    },
+    {
+      "value": "spore:plated_pants",
+      "weight": 1555.0,
+      "quality": 1.8593887090682983
+    },
+    {
+      "value": "the_bumblezone:honey_bee_leggings_1",
+      "weight": 2316.0,
+      "quality": 1.6283094882965088
+    },
+    {
+      "value": "the_bumblezone:honey_bee_leggings_2",
+      "weight": 2316.0,
+      "quality": 1.6283094882965088
+    },
+    {
+      "value": "twilightforest:arctic_leggings",
+      "weight": 1481.0,
+      "quality": 1.8897470235824585
+    },
+    {
+      "value": "twilightforest:fiery_leggings",
+      "weight": 1163.0,
+      "quality": 2.048187255859375
+    },
+    {
+      "value": "twilightforest:ironwood_leggings",
+      "weight": 2384.0,
+      "quality": 1.6126327514648438
+    },
+    {
+      "value": "twilightforest:knightmetal_leggings",
+      "weight": 1562.0,
+      "quality": 1.8566257953643799
+    },
+    {
+      "value": "twilightforest:naga_leggings",
+      "weight": 1669.0,
+      "quality": 1.8161379098892212
+    },
+    {
+      "value": "twilightforest:steeleaf_leggings",
+      "weight": 2249.0,
+      "quality": 1.6441692113876343
+    },
+    {
+      "value": "twilightforest:travellers_belt",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "twilightforest:travellers_wings",
+      "weight": 5804.0,
+      "quality": 1.1987662315368652
+    },
+    {
+      "value": "twilightforest:yeti_leggings",
+      "weight": 991.0,
+      "quality": 2.1605145931243896
+    },
+    {
+      "value": "usefulslime:slime_leggings",
+      "weight": 3658.0,
+      "quality": 1.3982219696044922
+    },
+    {
+      "value": "voidscape:astral_legs",
+      "weight": 333.0,
+      "quality": 3.1060566902160645
+    },
+    {
+      "value": "voidscape:corrupt_legs",
+      "weight": 564.0,
+      "quality": 2.607236623764038
+    },
+    {
+      "value": "voidscape:ichor_legs",
+      "weight": 388.0,
+      "quality": 2.9516260623931885
+    },
+    {
+      "value": "voidscape:titanite_legs",
+      "weight": 466.0,
+      "quality": 2.7769339084625244
+    },
+    {
+      "value": "voidscape:voidic_crystal_legs",
+      "weight": 715.0,
+      "quality": 2.409135341644287
+    }
+  ],
+  "CHEST": [
+    {
+      "value": "minecraft:chainmail_chestplate",
+      "weight": 2875.0,
+      "quality": 1.5150501728057861
+    },
+    {
+      "value": "minecraft:diamond_chestplate",
+      "weight": 1018.0,
+      "quality": 2.1410553455352783
+    },
+    {
+      "value": "minecraft:elytra",
+      "weight": 7697.0,
+      "quality": 1.0911418199539185
+    },
+    {
+      "value": "minecraft:golden_chestplate",
+      "weight": 2619.0,
+      "quality": 1.5628629922866821
+    },
+    {
+      "value": "minecraft:iron_chestplate",
+      "weight": 2394.0,
+      "quality": 1.6103638410568237
+    },
+    {
+      "value": "minecraft:leather_chestplate",
+      "weight": 5027.0,
+      "quality": 1.2575973272323608
+    },
+    {
+      "value": "minecraft:netherite_chestplate",
+      "weight": 762.0,
+      "quality": 2.358311176300049
+    },
+    {
+      "value": "aether:gravitite_chestplate",
+      "weight": 916.0,
+      "quality": 2.217585563659668
+    },
+    {
+      "value": "aether:neptune_chestplate",
+      "weight": 1576.0,
+      "quality": 1.8513137102127075
+    },
+    {
+      "value": "aether:obsidian_chestplate",
+      "weight": 773.0,
+      "quality": 2.346707344055176
+    },
+    {
+      "value": "aether:phoenix_chestplate",
+      "weight": 916.0,
+      "quality": 2.217585563659668
+    },
+    {
+      "value": "aether:valkyrie_chestplate",
+      "weight": 916.0,
+      "quality": 2.217585563659668
+    },
+    {
+      "value": "aether:zanite_chestplate",
+      "weight": 2155.0,
+      "quality": 1.6679250001907349
+    },
+    {
+      "value": "alexscaves:cloak_of_darkness",
+      "weight": 1765.0,
+      "quality": 1.7824150323867798
+    },
+    {
+      "value": "alexscaves:diving_chestplate",
+      "weight": 1886.0,
+      "quality": 1.7435202598571777
+    },
+    {
+      "value": "alexscaves:gingerbread_chestplate",
+      "weight": 2887.0,
+      "quality": 1.5128872394561768
+    },
+    {
+      "value": "alexscaves:hazmat_chestplate",
+      "weight": 2224.0,
+      "quality": 1.6502915620803833
+    },
+    {
+      "value": "alexscaves:primordial_tunic",
+      "weight": 2887.0,
+      "quality": 1.5128872394561768
+    },
+    {
+      "value": "alexsmobs:crocodile_chestplate",
+      "weight": 954.0,
+      "quality": 2.188420534133911
+    },
+    {
+      "value": "alexsmobs:rocky_chestplate",
+      "weight": 1027.0,
+      "quality": 2.134922504425049
+    },
+    {
+      "value": "alexsmobs:tarantula_hawk_elytra",
+      "weight": 3139.0,
+      "quality": 1.4714106321334839
+    },
+    {
+      "value": "alexsmobs:unsettling_kimono",
+      "weight": 1703.0,
+      "quality": 1.8038640022277832
+    },
+    {
+      "value": "aquamirae:abyssal_brigandine",
+      "weight": 704.0,
+      "quality": 2.42083477973938
+    },
+    {
+      "value": "aquamirae:salvager_suit",
+      "weight": 1193.0,
+      "quality": 2.030813694000244
+    },
+    {
+      "value": "aquamirae:terrible_chestplate",
+      "weight": 1185.0,
+      "quality": 2.035741090774536
+    },
+    {
+      "value": "arphex:chitin_armour_chestplate",
+      "weight": 1348.0,
+      "quality": 1.9502817392349243
+    },
+    {
+      "value": "arphex:chitin_armour_tier_2_chestplate",
+      "weight": 1152.0,
+      "quality": 2.055171251296997
+    },
+    {
+      "value": "arphex:chitin_armour_tier_3_chestplate",
+      "weight": 553.0,
+      "quality": 2.624530076980591
+    },
+    {
+      "value": "arphex:eternal_chestplate",
+      "weight": 188.0,
+      "quality": 3.7562952041625977
+    },
+    {
+      "value": "arphex:immortal_chestplate",
+      "weight": 150.0,
+      "quality": 4.053682804107666
+    },
+    {
+      "value": "arphex:infernal_chestplate",
+      "weight": 269.0,
+      "quality": 3.336564540863037
+    },
+    {
+      "value": "arphex:juggernaut_chestplate",
+      "weight": 209.0,
+      "quality": 3.6303212642669678
+    },
+    {
+      "value": "arphex:spacetime_chestplate",
+      "weight": 209.0,
+      "quality": 3.6303212642669678
+    },
+    {
+      "value": "arphex:spectral_chestplate",
+      "weight": 269.0,
+      "quality": 3.336564540863037
+    },
+    {
+      "value": "arphex:umbral_chestplate",
+      "weight": 280.0,
+      "quality": 3.2910330295562744
+    },
+    {
+      "value": "arphex:vitality_armour_chestplate",
+      "weight": 976.0,
+      "quality": 2.1719322204589844
+    },
+    {
+      "value": "block_factorys_bosses:dragon_bones_chestplate",
+      "weight": 917.0,
+      "quality": 2.217054605484009
+    },
+    {
+      "value": "block_factorys_bosses:knight_chestplate",
+      "weight": 1862.0,
+      "quality": 1.7510877847671509
+    },
+    {
+      "value": "brains:contamination_walker_chestplate",
+      "weight": 732.0,
+      "quality": 2.3897454738616943
+    },
+    {
+      "value": "cataclysm:bloom_stone_pauldrons",
+      "weight": 677.0,
+      "quality": 2.4530608654022217
+    },
+    {
+      "value": "cataclysm:bone_reptile_chestplate",
+      "weight": 515.0,
+      "quality": 2.687192440032959
+    },
+    {
+      "value": "cataclysm:cursium_chestplate",
+      "weight": 499.0,
+      "quality": 2.7144594192504883
+    },
+    {
+      "value": "cataclysm:ignitium_chestplate",
+      "weight": 426.0,
+      "quality": 2.862196445465088
+    },
+    {
+      "value": "cataclysm:ignitium_elytra_chestplate",
+      "weight": 426.0,
+      "quality": 2.862196445465088
+    },
+    {
+      "value": "celestisynth:lunar_stone_chestplate",
+      "weight": 398.0,
+      "quality": 2.92745304107666
+    },
+    {
+      "value": "celestisynth:solar_crystal_chestplate",
+      "weight": 1305.0,
+      "quality": 1.9710230827331543
+    },
+    {
+      "value": "cnc:buckskin_chestplate",
+      "weight": 1155.0,
+      "quality": 2.0532846450805664
+    },
+    {
+      "value": "companions:crystallized_blood_chestplate",
+      "weight": 554.0,
+      "quality": 2.6216795444488525
+    },
+    {
+      "value": "companions:holy_robe_coat",
+      "weight": 518.0,
+      "quality": 2.6823630332946777
+    },
+    {
+      "value": "companions:mage_coat",
+      "weight": 760.0,
+      "quality": 2.360496759414673
+    },
+    {
+      "value": "create:cardboard_chestplate",
+      "weight": 11687.0,
+      "quality": 0.9493377208709717
+    },
+    {
+      "value": "create:copper_backtank",
+      "weight": 1511.0,
+      "quality": 1.8772438764572144
+    },
+    {
+      "value": "create:netherite_backtank",
+      "weight": 625.0,
+      "quality": 2.51910400390625
+    },
+    {
+      "value": "deep_aether:skyjade_chestplate",
+      "weight": 1538.0,
+      "quality": 1.8664367198944092
+    },
+    {
+      "value": "deep_aether:stormforged_chestplate",
+      "weight": 1212.0,
+      "quality": 2.0204014778137207
+    },
+    {
+      "value": "deep_aether:stratus_chestplate",
+      "weight": 773.0,
+      "quality": 2.346707344055176
+    },
+    {
+      "value": "endermanoverhaul:badlands_hood",
+      "weight": 2599.0,
+      "quality": 1.566903829574585
+    },
+    {
+      "value": "endermanoverhaul:savanna_hood",
+      "weight": 2599.0,
+      "quality": 1.566903829574585
+    },
+    {
+      "value": "endermanoverhaul:snowy_hood",
+      "weight": 2599.0,
+      "quality": 1.566903829574585
+    },
+    {
+      "value": "estrogen:moth_elytra",
+      "weight": 6394.0,
+      "quality": 1.1607258319854736
+    },
+    {
+      "value": "fightsfrights:monstrous_armor_chestplate",
+      "weight": 1523.0,
+      "quality": 1.8723726272583008
+    },
+    {
+      "value": "fightsfrights:ominous_armor_chestplate",
+      "weight": 1100.0,
+      "quality": 2.0865039825439453
+    },
+    {
+      "value": "irons_spellbooks:archevoker_chestplate",
+      "weight": 1212.0,
+      "quality": 2.02048921585083
+    },
+    {
+      "value": "irons_spellbooks:cryomancer_chestplate",
+      "weight": 1212.0,
+      "quality": 2.02048921585083
+    },
+    {
+      "value": "irons_spellbooks:cultist_chestplate",
+      "weight": 1212.0,
+      "quality": 2.02048921585083
+    },
+    {
+      "value": "irons_spellbooks:electromancer_chestplate",
+      "weight": 1212.0,
+      "quality": 2.02048921585083
+    },
+    {
+      "value": "irons_spellbooks:infernal_sorcerer_chestplate",
+      "weight": 1069.0,
+      "quality": 2.1065855026245117
+    },
+    {
+      "value": "irons_spellbooks:netherite_mage_chestplate",
+      "weight": 757.0,
+      "quality": 2.3632359504699707
+    },
+    {
+      "value": "irons_spellbooks:paladin_chestplate",
+      "weight": 443.0,
+      "quality": 2.8251309394836426
+    },
+    {
+      "value": "irons_spellbooks:plagued_chestplate",
+      "weight": 1212.0,
+      "quality": 2.02048921585083
+    },
+    {
+      "value": "irons_spellbooks:priest_chestplate",
+      "weight": 1212.0,
+      "quality": 2.02048921585083
+    },
+    {
+      "value": "irons_spellbooks:pumpkin_chestplate",
+      "weight": 1298.0,
+      "quality": 1.974924921989441
+    },
+    {
+      "value": "irons_spellbooks:pyromancer_chestplate",
+      "weight": 1212.0,
+      "quality": 2.02048921585083
+    },
+    {
+      "value": "irons_spellbooks:shadowwalker_chestplate",
+      "weight": 1212.0,
+      "quality": 2.02048921585083
+    },
+    {
+      "value": "irons_spellbooks:wandering_magician_chestplate",
+      "weight": 1924.0,
+      "quality": 1.7319148778915405
+    },
+    {
+      "value": "irons_spellbooks:wizard_chestplate",
+      "weight": 1212.0,
+      "quality": 2.02048921585083
+    },
+    {
+      "value": "l2complements:eternium_chestplate",
+      "weight": 151.0,
+      "quality": 4.041863441467285
+    },
+    {
+      "value": "l2complements:poseidite_chestplate",
+      "weight": 921.0,
+      "quality": 2.2138512134552
+    },
+    {
+      "value": "l2complements:sculkium_chestplate",
+      "weight": 283.0,
+      "quality": 3.2782373428344727
+    },
+    {
+      "value": "l2complements:shulkerate_chestplate",
+      "weight": 677.0,
+      "quality": 2.4535880088806152
+    },
+    {
+      "value": "l2complements:totemic_gold_chestplate",
+      "weight": 1811.0,
+      "quality": 1.7673243284225464
+    },
+    {
+      "value": "legendary_monsters:annihilator_chestplate",
+      "weight": 344.0,
+      "quality": 3.072550058364868
+    },
+    {
+      "value": "legendary_monsters:mossy_chestplate",
+      "weight": 429.0,
+      "quality": 2.854631185531616
+    },
+    {
+      "value": "legendary_monsters:withered_ribcage",
+      "weight": 650.0,
+      "quality": 2.4868011474609375
+    },
+    {
+      "value": "legendarysurvivaloverhaul:desert_chestplate",
+      "weight": 5542.0,
+      "quality": 1.2173855304718018
+    },
+    {
+      "value": "legendarysurvivaloverhaul:snow_chestplate",
+      "weight": 5902.0,
+      "quality": 1.1921241283416748
+    },
+    {
+      "value": "majruszsdifficulty:enderium_chestplate",
+      "weight": 614.0,
+      "quality": 2.533834218978882
+    },
+    {
+      "value": "majruszsdifficulty:tattered_chestplate",
+      "weight": 4524.0,
+      "quality": 1.302549123764038
+    },
+    {
+      "value": "minecolonies:pirate_chest",
+      "weight": 967.0,
+      "quality": 2.178356170654297
+    },
+    {
+      "value": "minecolonies:pirate_top",
+      "weight": 2013.0,
+      "quality": 1.7062528133392334
+    },
+    {
+      "value": "minecolonies:plate_armor_chest",
+      "weight": 1105.0,
+      "quality": 2.0837697982788086
+    },
+    {
+      "value": "mowziesmobs:geomancer_robe",
+      "weight": 1595.0,
+      "quality": 1.8436897993087769
+    },
+    {
+      "value": "mutantmonsters:mutant_skeleton_chestplate",
+      "weight": 2155.0,
+      "quality": 1.6679250001907349
+    },
+    {
+      "value": "netherman:azazel_chestplate",
+      "weight": 559.0,
+      "quality": 2.6145827770233154
+    },
+    {
+      "value": "panascraftrpgmod:ender_dragon_chestplate",
+      "weight": 104.0,
+      "quality": 4.577755451202393
+    },
+    {
+      "value": "panascraftrpgmod:the_king_of_the_abyss_armor_chestplate",
+      "weight": 98.0,
+      "quality": 4.671921730041504
+    },
+    {
+      "value": "panascraftrpgmod:ultimate_lord_chestplate",
+      "weight": 99.0,
+      "quality": 4.642336845397949
+    },
+    {
+      "value": "panascraftrpgmod:upgraded_armor_chestplate",
+      "weight": 217.0,
+      "quality": 3.581181526184082
+    },
+    {
+      "value": "panascraftrpgmod:void_armor_chestplate",
+      "weight": 138.0,
+      "quality": 4.16471004486084
+    },
+    {
+      "value": "panascraftrpgmod:warden_chestplate",
+      "weight": 98.0,
+      "quality": 4.661314010620117
+    },
+    {
+      "value": "panascraftrpgmod:wither_chestplate",
+      "weight": 108.0,
+      "quality": 4.52178955078125
+    },
+    {
+      "value": "spore:inf_chest",
+      "weight": 781.0,
+      "quality": 2.3389787673950195
+    },
+    {
+      "value": "spore:inf_up_chest",
+      "weight": 483.0,
+      "quality": 2.7452430725097656
+    },
+    {
+      "value": "spore:living_chest",
+      "weight": 2041.0,
+      "quality": 1.6982839107513428
+    },
+    {
+      "value": "spore:plated_chest",
+      "weight": 1153.0,
+      "quality": 2.0544378757476807
+    },
+    {
+      "value": "spore:r_elytron",
+      "weight": 2043.0,
+      "quality": 1.6976479291915894
+    },
+    {
+      "value": "the_bumblezone:bumble_bee_chestplate_1",
+      "weight": 2034.0,
+      "quality": 1.7003661394119263
+    },
+    {
+      "value": "the_bumblezone:bumble_bee_chestplate_2",
+      "weight": 2034.0,
+      "quality": 1.7003661394119263
+    },
+    {
+      "value": "the_bumblezone:bumble_bee_chestplate_trans_1",
+      "weight": 2034.0,
+      "quality": 1.7003661394119263
+    },
+    {
+      "value": "the_bumblezone:bumble_bee_chestplate_trans_2",
+      "weight": 2034.0,
+      "quality": 1.7003661394119263
+    },
+    {
+      "value": "twilightforest:arctic_chestplate",
+      "weight": 1136.0,
+      "quality": 2.0647082328796387
+    },
+    {
+      "value": "twilightforest:fiery_chestplate",
+      "weight": 882.0,
+      "quality": 2.2460057735443115
+    },
+    {
+      "value": "twilightforest:ironwood_chestplate",
+      "weight": 1600.0,
+      "quality": 1.8417328596115112
+    },
+    {
+      "value": "twilightforest:knightmetal_chestplate",
+      "weight": 1136.0,
+      "quality": 2.064204692840576
+    },
+    {
+      "value": "twilightforest:naga_chestplate",
+      "weight": 1407.0,
+      "quality": 1.922222375869751
+    },
+    {
+      "value": "twilightforest:phantom_chestplate",
+      "weight": 866.0,
+      "quality": 2.2602410316467285
+    },
+    {
+      "value": "twilightforest:steeleaf_chestplate",
+      "weight": 1461.0,
+      "quality": 1.8982648849487305
+    },
+    {
+      "value": "twilightforest:travellers_gloves",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "twilightforest:travellers_vest",
+      "weight": 4307.0,
+      "quality": 1.324118733406067
+    },
+    {
+      "value": "twilightforest:yeti_chestplate",
+      "weight": 893.0,
+      "quality": 2.2371861934661865
+    },
+    {
+      "value": "usefulslime:slime_chestplate",
+      "weight": 2854.0,
+      "quality": 1.5188089609146118
+    },
+    {
+      "value": "voidscape:astral_chest",
+      "weight": 296.0,
+      "quality": 3.2310264110565186
+    },
+    {
+      "value": "voidscape:corrupt_chest",
+      "weight": 488.0,
+      "quality": 2.7351129055023193
+    },
+    {
+      "value": "voidscape:ichor_chest",
+      "weight": 343.0,
+      "quality": 3.0771496295928955
+    },
+    {
+      "value": "voidscape:titanite_chest",
+      "weight": 408.0,
+      "quality": 2.904153347015381
+    },
+    {
+      "value": "voidscape:voidic_crystal_chest",
+      "weight": 610.0,
+      "quality": 2.539532423019409
+    },
+    {
+      "value": "windswept:feather_cloak",
+      "weight": 5560.0,
+      "quality": 1.2160825729370117
+    }
+  ],
+  "HEAD": [
+    {
+      "value": "minecraft:chainmail_helmet",
+      "weight": 7218.0,
+      "quality": 1.114789605140686
+    },
+    {
+      "value": "minecraft:diamond_helmet",
+      "weight": 2703.0,
+      "quality": 1.5465201139450073
+    },
+    {
+      "value": "minecraft:golden_helmet",
+      "weight": 8262.0,
+      "quality": 1.065706729888916
+    },
+    {
+      "value": "minecraft:iron_helmet",
+      "weight": 7376.0,
+      "quality": 1.106765866279602
+    },
+    {
+      "value": "minecraft:leather_helmet",
+      "weight": 12837.0,
+      "quality": 0.9201049208641052
+    },
+    {
+      "value": "minecraft:netherite_helmet",
+      "weight": 1650.0,
+      "quality": 1.8231133222579956
+    },
+    {
+      "value": "minecraft:turtle_helmet",
+      "weight": 6117.0,
+      "quality": 1.177992820739746
+    },
+    {
+      "value": "aeronautics:aviators_goggles",
+      "weight": 39911.0,
+      "quality": 0.630426824092865
+    },
+    {
+      "value": "aether:gravitite_helmet",
+      "weight": 2433.0,
+      "quality": 1.6017992496490479
+    },
+    {
+      "value": "aether:neptune_helmet",
+      "weight": 4269.0,
+      "quality": 1.328057885169983
+    },
+    {
+      "value": "aether:obsidian_helmet",
+      "weight": 1967.0,
+      "quality": 1.7193682193756104
+    },
+    {
+      "value": "aether:phoenix_helmet",
+      "weight": 2433.0,
+      "quality": 1.6017992496490479
+    },
+    {
+      "value": "aether:valkyrie_helmet",
+      "weight": 2433.0,
+      "quality": 1.6017992496490479
+    },
+    {
+      "value": "aether:zanite_helmet",
+      "weight": 6638.0,
+      "quality": 1.1463263034820557
+    },
+    {
+      "value": "alexscaves:diving_helmet",
+      "weight": 5521.0,
+      "quality": 1.2189522981643677
+    },
+    {
+      "value": "alexscaves:gingerbread_helmet",
+      "weight": 6538.0,
+      "quality": 1.1521461009979248
+    },
+    {
+      "value": "alexscaves:hazmat_mask",
+      "weight": 4574.0,
+      "quality": 1.297861099243164
+    },
+    {
+      "value": "alexscaves:hood_of_darkness",
+      "weight": 3347.0,
+      "quality": 1.4402819871902466
+    },
+    {
+      "value": "alexscaves:primordial_helmet",
+      "weight": 5212.0,
+      "quality": 1.2425248622894287
+    },
+    {
+      "value": "alexsmobs:fedora",
+      "weight": 1621.0,
+      "quality": 1.8337655067443848
+    },
+    {
+      "value": "alexsmobs:frontier_cap",
+      "weight": 1241.0,
+      "quality": 2.004596471786499
+    },
+    {
+      "value": "alexsmobs:froststalker_helmet",
+      "weight": 1525.0,
+      "quality": 1.8715317249298096
+    },
+    {
+      "value": "alexsmobs:moose_headgear",
+      "weight": 1525.0,
+      "quality": 1.8715317249298096
+    },
+    {
+      "value": "alexsmobs:novelty_hat",
+      "weight": 1726.0,
+      "quality": 1.7958128452301025
+    },
+    {
+      "value": "alexsmobs:sombrero",
+      "weight": 1621.0,
+      "quality": 1.8337655067443848
+    },
+    {
+      "value": "alexsmobs:spiked_turtle_shell",
+      "weight": 1007.0,
+      "quality": 2.149416446685791
+    },
+    {
+      "value": "aquamirae:abyssal_heaume",
+      "weight": 1191.0,
+      "quality": 2.0322530269622803
+    },
+    {
+      "value": "aquamirae:abyssal_tiara",
+      "weight": 1191.0,
+      "quality": 2.0322530269622803
+    },
+    {
+      "value": "aquamirae:salvager_helmet",
+      "weight": 915.0,
+      "quality": 2.2187998294830322
+    },
+    {
+      "value": "aquamirae:terrible_helmet",
+      "weight": 1586.0,
+      "quality": 1.8473578691482544
+    },
+    {
+      "value": "arphex:chitin_armour_helmet",
+      "weight": 3301.0,
+      "quality": 1.4469139575958252
+    },
+    {
+      "value": "arphex:chitin_armour_tier_2_helmet",
+      "weight": 3048.0,
+      "quality": 1.4858651161193848
+    },
+    {
+      "value": "arphex:chitin_armour_tier_3_helmet",
+      "weight": 903.0,
+      "quality": 2.2287144660949707
+    },
+    {
+      "value": "arphex:eternal_helmet",
+      "weight": 324.0,
+      "quality": 3.1350009441375732
+    },
+    {
+      "value": "arphex:immortal_helmet",
+      "weight": 287.0,
+      "quality": 3.264141321182251
+    },
+    {
+      "value": "arphex:infernal_helmet",
+      "weight": 514.0,
+      "quality": 2.689066171646118
+    },
+    {
+      "value": "arphex:juggernaut_helmet",
+      "weight": 328.0,
+      "quality": 3.1216795444488525
+    },
+    {
+      "value": "arphex:spacetime_helmet",
+      "weight": 328.0,
+      "quality": 3.1216795444488525
+    },
+    {
+      "value": "arphex:spectral_helmet",
+      "weight": 514.0,
+      "quality": 2.689066171646118
+    },
+    {
+      "value": "arphex:umbral_helmet",
+      "weight": 557.0,
+      "quality": 2.6180617809295654
+    },
+    {
+      "value": "arphex:vitality_armour_helmet",
+      "weight": 1882.0,
+      "quality": 1.744861125946045
+    },
+    {
+      "value": "block_factorys_bosses:knight_helmet",
+      "weight": 4660.0,
+      "quality": 1.2897589206695557
+    },
+    {
+      "value": "brains:contamination_walker_helmet",
+      "weight": 1350.0,
+      "quality": 1.948978304862976
+    },
+    {
+      "value": "cataclysm:aptrgangr_head",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "cataclysm:bone_reptile_helmet",
+      "weight": 1062.0,
+      "quality": 2.1111652851104736
+    },
+    {
+      "value": "cataclysm:cursium_helmet",
+      "weight": 1039.0,
+      "quality": 2.127105951309204
+    },
+    {
+      "value": "cataclysm:draugr_head",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "cataclysm:ignitium_helmet",
+      "weight": 818.0,
+      "quality": 2.303043842315674
+    },
+    {
+      "value": "cataclysm:kobolediator_skull",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "cataclysm:monstrous_helm",
+      "weight": 1345.0,
+      "quality": 1.951310396194458
+    },
+    {
+      "value": "celestisynth:lunar_stone_helmet",
+      "weight": 498.0,
+      "quality": 2.7178738117218018
+    },
+    {
+      "value": "celestisynth:solar_crystal_helmet",
+      "weight": 3801.0,
+      "quality": 1.3803882598876953
+    },
+    {
+      "value": "cnc:buckskin_helmet",
+      "weight": 1575.0,
+      "quality": 1.8516454696655273
+    },
+    {
+      "value": "companions:crystallized_blood_helmet",
+      "weight": 1150.0,
+      "quality": 2.0559792518615723
+    },
+    {
+      "value": "companions:holy_robe_mask",
+      "weight": 949.0,
+      "quality": 2.192185163497925
+    },
+    {
+      "value": "companions:mage_hat",
+      "weight": 1816.0,
+      "quality": 1.765655755996704
+    },
+    {
+      "value": "create:cardboard_helmet",
+      "weight": 14714.0,
+      "quality": 0.8791861534118652
+    },
+    {
+      "value": "create:copper_diving_helmet",
+      "weight": 8719.0,
+      "quality": 1.0467290878295898
+    },
+    {
+      "value": "create:goggles",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "create:netherite_diving_helmet",
+      "weight": 1650.0,
+      "quality": 1.8231133222579956
+    },
+    {
+      "value": "createbigcannons:traffic_cone",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "deep_aether:skyjade_helmet",
+      "weight": 7372.0,
+      "quality": 1.1069363355636597
+    },
+    {
+      "value": "deep_aether:stormforged_helmet",
+      "weight": 2204.0,
+      "quality": 1.655380368232727
+    },
+    {
+      "value": "deep_aether:stratus_helmet",
+      "weight": 1582.0,
+      "quality": 1.848900556564331
+    },
+    {
+      "value": "fightsfrights:monstrous_armor_helmet",
+      "weight": 3464.0,
+      "quality": 1.4238200187683105
+    },
+    {
+      "value": "fightsfrights:ominous_armor_helmet",
+      "weight": 2147.0,
+      "quality": 1.669836163520813
+    },
+    {
+      "value": "fightsfrights:screen_head_helmet",
+      "weight": 3620.0,
+      "quality": 1.4031038284301758
+    },
+    {
+      "value": "irons_artifice:cowboy_hat",
+      "weight": 3834.0,
+      "quality": 1.3764501810073853
+    },
+    {
+      "value": "irons_artifice:tricorne",
+      "weight": 3834.0,
+      "quality": 1.3764501810073853
+    },
+    {
+      "value": "irons_spellbooks:archevoker_helmet",
+      "weight": 3755.0,
+      "quality": 1.3860595226287842
+    },
+    {
+      "value": "irons_spellbooks:cryomancer_helmet",
+      "weight": 3755.0,
+      "quality": 1.3860595226287842
+    },
+    {
+      "value": "irons_spellbooks:cultist_helmet",
+      "weight": 3755.0,
+      "quality": 1.3860595226287842
+    },
+    {
+      "value": "irons_spellbooks:electromancer_helmet",
+      "weight": 3755.0,
+      "quality": 1.3860595226287842
+    },
+    {
+      "value": "irons_spellbooks:gold_crown",
+      "weight": 136.0,
+      "quality": 4.18516206741333
+    },
+    {
+      "value": "irons_spellbooks:netherite_mage_helmet",
+      "weight": 1946.0,
+      "quality": 1.7255476713180542
+    },
+    {
+      "value": "irons_spellbooks:plagued_helmet",
+      "weight": 3755.0,
+      "quality": 1.3860595226287842
+    },
+    {
+      "value": "irons_spellbooks:priest_helmet",
+      "weight": 3755.0,
+      "quality": 1.3860595226287842
+    },
+    {
+      "value": "irons_spellbooks:pumpkin_helmet",
+      "weight": 4278.0,
+      "quality": 1.327103614807129
+    },
+    {
+      "value": "irons_spellbooks:pyromancer_helmet",
+      "weight": 3755.0,
+      "quality": 1.3860595226287842
+    },
+    {
+      "value": "irons_spellbooks:shadowwalker_helmet",
+      "weight": 3755.0,
+      "quality": 1.3860595226287842
+    },
+    {
+      "value": "irons_spellbooks:tarnished_helmet",
+      "weight": 6380.0,
+      "quality": 1.1615843772888184
+    },
+    {
+      "value": "irons_spellbooks:wandering_magician_helmet",
+      "weight": 5564.0,
+      "quality": 1.215798258781433
+    },
+    {
+      "value": "irons_spellbooks:wizard_hat",
+      "weight": 3755.0,
+      "quality": 1.3860595226287842
+    },
+    {
+      "value": "irons_spellbooks:wizard_helmet",
+      "weight": 3755.0,
+      "quality": 1.3860595226287842
+    },
+    {
+      "value": "l2complements:eternium_helmet",
+      "weight": 188.0,
+      "quality": 3.7570178508758545
+    },
+    {
+      "value": "l2complements:poseidite_helmet",
+      "weight": 2439.0,
+      "quality": 1.600368857383728
+    },
+    {
+      "value": "l2complements:sculkium_helmet",
+      "weight": 387.0,
+      "quality": 2.9546947479248047
+    },
+    {
+      "value": "l2complements:shulkerate_helmet",
+      "weight": 1246.0,
+      "quality": 2.0016050338745117
+    },
+    {
+      "value": "l2complements:totemic_gold_helmet",
+      "weight": 5944.0,
+      "quality": 1.1893374919891357
+    },
+    {
+      "value": "legendary_monsters:annihilator_helmet",
+      "weight": 627.0,
+      "quality": 2.516073226928711
+    },
+    {
+      "value": "legendary_monsters:blastproof_helmet",
+      "weight": 979.0,
+      "quality": 2.1692919731140137
+    },
+    {
+      "value": "legendary_monsters:chorus_mask",
+      "weight": 1293.0,
+      "quality": 1.9775243997573853
+    },
+    {
+      "value": "legendary_monsters:shulker_helmet",
+      "weight": 1168.0,
+      "quality": 2.0454838275909424
+    },
+    {
+      "value": "legendarysurvivaloverhaul:desert_helmet",
+      "weight": 10328.0,
+      "quality": 0.9892852306365967
+    },
+    {
+      "value": "legendarysurvivaloverhaul:snow_helmet",
+      "weight": 10568.0,
+      "quality": 0.9817346930503845
+    },
+    {
+      "value": "majruszsdifficulty:enderium_helmet",
+      "weight": 1219.0,
+      "quality": 2.0166401863098145
+    },
+    {
+      "value": "majruszsdifficulty:tattered_helmet",
+      "weight": 11553.0,
+      "quality": 0.9529933333396912
+    },
+    {
+      "value": "minecolonies:build_goggles",
+      "weight": 50000.0,
+      "quality": 0.5848035216331482
+    },
+    {
+      "value": "minecolonies:pirate_cap",
+      "weight": 2741.0,
+      "quality": 1.5393530130386353
+    },
+    {
+      "value": "minecolonies:pirate_hat",
+      "weight": 5132.0,
+      "quality": 1.2490144968032837
+    },
+    {
+      "value": "minecolonies:plate_armor_helmet",
+      "weight": 3665.0,
+      "quality": 1.3973225355148315
+    },
+    {
+      "value": "minecolonies:santa_hat",
+      "weight": 2000.0,
+      "quality": 1.7099759578704834
+    },
+    {
+      "value": "mowziesmobs:geomancer_beads",
+      "weight": 4947.0,
+      "quality": 1.264327049255371
+    },
+    {
+      "value": "mowziesmobs:sol_visage",
+      "weight": 1543.0,
+      "quality": 1.8643908500671387
+    },
+    {
+      "value": "mowziesmobs:umvuthana_mask_bliss",
+      "weight": 12709.0,
+      "quality": 0.92319256067276
+    },
+    {
+      "value": "mowziesmobs:umvuthana_mask_faith",
+      "weight": 12709.0,
+      "quality": 0.92319256067276
+    },
+    {
+      "value": "mowziesmobs:umvuthana_mask_fear",
+      "weight": 12709.0,
+      "quality": 0.92319256067276
+    },
+    {
+      "value": "mowziesmobs:umvuthana_mask_fury",
+      "weight": 12709.0,
+      "quality": 0.92319256067276
+    },
+    {
+      "value": "mowziesmobs:umvuthana_mask_misery",
+      "weight": 12709.0,
+      "quality": 0.92319256067276
+    },
+    {
+      "value": "mowziesmobs:umvuthana_mask_rage",
+      "weight": 12709.0,
+      "quality": 0.92319256067276
+    },
+    {
+      "value": "mowziesmobs:wrought_helmet",
+      "weight": 1257.0,
+      "quality": 1.9962040185928345
+    },
+    {
+      "value": "mutantmonsters:mutant_skeleton_skull",
+      "weight": 7302.0,
+      "quality": 1.1104798316955566
+    },
+    {
+      "value": "netherman:azazel_helmet",
+      "weight": 1192.0,
+      "quality": 2.0314078330993652
+    },
+    {
+      "value": "netherman:azazel_trophy",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "netherman:azazel_trophy_stage2",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "netherman:azazel_trophy_stage3",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "overweight_farming:straw_hat",
+      "weight": 14275.0,
+      "quality": 0.8881174921989441
+    },
+    {
+      "value": "panascraftrpgmod:ender_dragon_helmet",
+      "weight": 109.0,
+      "quality": 4.5046820640563965
+    },
+    {
+      "value": "panascraftrpgmod:the_king_of_the_abyss_armor_helmet",
+      "weight": 105.0,
+      "quality": 4.563596725463867
+    },
+    {
+      "value": "panascraftrpgmod:ultimate_lord_helmet",
+      "weight": 106.0,
+      "quality": 4.549468040466309
+    },
+    {
+      "value": "panascraftrpgmod:upgraded_armor_helmet",
+      "weight": 335.0,
+      "quality": 3.100196123123169
+    },
+    {
+      "value": "panascraftrpgmod:void_armor_helmet",
+      "weight": 267.0,
+      "quality": 3.3422646522521973
+    },
+    {
+      "value": "panascraftrpgmod:warden_helmet",
+      "weight": 105.0,
+      "quality": 4.564652442932129
+    },
+    {
+      "value": "panascraftrpgmod:wither_helmet",
+      "weight": 220.0,
+      "quality": 3.568798303604126
+    },
+    {
+      "value": "spawn:dangling_date_leaves",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "spawn:dodo_translator",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "spelunkery:bunny_ears",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "spelunkery:true_crown",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "spore:gas_mask",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "spore:inf_helmet",
+      "weight": 1998.0,
+      "quality": 1.7104498147964478
+    },
+    {
+      "value": "spore:inf_up_helmet",
+      "weight": 1444.0,
+      "quality": 1.9057077169418335
+    },
+    {
+      "value": "spore:living_helmet",
+      "weight": 5397.0,
+      "quality": 1.2281886339187622
+    },
+    {
+      "value": "spore:plated_helmet",
+      "weight": 2698.0,
+      "quality": 1.5475291013717651
+    },
+    {
+      "value": "the_bumblezone:flower_headwear",
+      "weight": 12837.0,
+      "quality": 0.9201049208641052
+    },
+    {
+      "value": "the_bumblezone:stingless_bee_helmet_1",
+      "weight": 4206.0,
+      "quality": 1.334576964378357
+    },
+    {
+      "value": "the_bumblezone:stingless_bee_helmet_2",
+      "weight": 4206.0,
+      "quality": 1.334576964378357
+    },
+    {
+      "value": "twilightforest:arctic_helmet",
+      "weight": 3389.0,
+      "quality": 1.434174656867981
+    },
+    {
+      "value": "twilightforest:creeper_skull_candle",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "twilightforest:fiery_helmet",
+      "weight": 2444.0,
+      "quality": 1.5994083881378174
+    },
+    {
+      "value": "twilightforest:ironwood_helmet",
+      "weight": 5756.0,
+      "quality": 1.2021076679229736
+    },
+    {
+      "value": "twilightforest:knightmetal_helmet",
+      "weight": 3433.0,
+      "quality": 1.4281543493270874
+    },
+    {
+      "value": "twilightforest:mystic_crown",
+      "weight": 1772.0,
+      "quality": 1.7801729440689087
+    },
+    {
+      "value": "twilightforest:phantom_helmet",
+      "weight": 2258.0,
+      "quality": 1.641964316368103
+    },
+    {
+      "value": "twilightforest:piglin_skull_candle",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "twilightforest:player_skull_candle",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "twilightforest:skeleton_skull_candle",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "twilightforest:steeleaf_helmet",
+      "weight": 5751.0,
+      "quality": 1.2024648189544678
+    },
+    {
+      "value": "twilightforest:travellers_goggles",
+      "weight": 7722.0,
+      "quality": 1.0899631977081299
+    },
+    {
+      "value": "twilightforest:wither_skeleton_skull_candle",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "twilightforest:yeti_helmet",
+      "weight": 1908.0,
+      "quality": 1.7367751598358154
+    },
+    {
+      "value": "twilightforest:zombie_skull_candle",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "usefulslime:slime_helmet",
+      "weight": 7628.0,
+      "quality": 1.0944324731826782
+    },
+    {
+      "value": "voidscape:astral_helmet",
+      "weight": 558.0,
+      "quality": 2.616006851196289
+    },
+    {
+      "value": "voidscape:corrupt_helmet",
+      "weight": 1006.0,
+      "quality": 2.1500332355499268
+    },
+    {
+      "value": "voidscape:ichor_helmet",
+      "weight": 663.0,
+      "quality": 2.470471143722534
+    },
+    {
+      "value": "voidscape:titanite_helmet",
+      "weight": 807.0,
+      "quality": 2.3132987022399902
+    },
+    {
+      "value": "voidscape:voidic_crystal_helmet",
+      "weight": 1311.0,
+      "quality": 1.9682021141052246
+    },
+    {
+      "value": "windswept:antler_helmet",
+      "weight": 3703.0,
+      "quality": 1.3925474882125854
+    },
+    {
+      "value": "windswept:lavender_crown",
+      "weight": 13794.0,
+      "quality": 0.89833003282547
+    },
+    {
+      "value": "windswept:wooden_bucket",
+      "weight": 27078.0,
+      "quality": 0.717447817325592
+    }
+  ]
+}

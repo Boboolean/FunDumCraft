@@ -1,0 +1,21 @@
+filename = 'respawningstructures-1.21.1-4.4.jar'
+name = 'Respawning Structures'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'respawningstructures-1.21.1-4.4.jar'
+
+[download]
+hash = '0a9de154de5ae3831527935475b5dc5b46db8d1c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8528892
+project-id = 969937
+
+[[x-prismlauncher-dependencies]]
+addonId = '326652'
+type = 'REQUIRED'

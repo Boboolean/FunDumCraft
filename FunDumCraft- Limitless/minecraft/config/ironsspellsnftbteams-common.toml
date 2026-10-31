@@ -1,0 +1,2 @@
+#Whether Iron's Spells summons refuse to target players who share an FTB Team with their owner
+enableTeamSummonProtection = true

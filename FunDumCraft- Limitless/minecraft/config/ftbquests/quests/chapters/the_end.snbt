@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "6E3026F3F44F341D"
+	id: "79A3FA3574BE733F"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "0B738F6D22840B36"
+		tasks: [{
+			dimension: "minecraft:the_end"
+			id: "4F9CA36C2E6A27C8"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

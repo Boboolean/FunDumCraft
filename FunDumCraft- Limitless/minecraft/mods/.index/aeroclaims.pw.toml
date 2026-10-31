@@ -1,0 +1,18 @@
+filename = 'aeroclaims-0.9.5.jar'
+name = 'Create Aeronautics: Claims'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.9.5'
+
+[download]
+hash = 'f4bffa672b51df643156a85b93442e046defb3f6d1b8ae3b38d652e7265b567ce4e312f58d3d421bfff39ef952c3073a86e903dc0c60eb806a3b544853faa358'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CwZ8q37q/versions/GBQG9g6R/aeroclaims-0.9.5.jar'
+
+[update.modrinth]
+mod-id = 'CwZ8q37q'
+version = 'GBQG9g6R'

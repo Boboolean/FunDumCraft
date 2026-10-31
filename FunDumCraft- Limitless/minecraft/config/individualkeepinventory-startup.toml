@@ -1,0 +1,2 @@
+#Adds a command which all players can use to enable or disable IndvividualKeepInventory (only for themselves)
+enableToggleCommand = false

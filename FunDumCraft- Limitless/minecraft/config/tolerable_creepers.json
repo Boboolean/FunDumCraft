@@ -1,0 +1,8 @@
+{
+  "preventCreeperBlockDamage": true,
+  "creepieExplosionRadius": 2,
+  "sporeCountDayBase": 3,
+  "sporeCountDayRandom": 4,
+  "sporeCountNightBase": 3,
+  "sporeCountNightRandom": 4
+}

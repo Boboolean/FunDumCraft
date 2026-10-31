@@ -1,0 +1,4 @@
+#Delay (in milliseconds) before respawn | Set to '0' for instant respawn | Default 2000
+# Default: 2000
+# Range: > 0
+RespawnDelay = 2000

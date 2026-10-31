@@ -1,0 +1,18 @@
+filename = 'creeperaiupdatedneoforge-1.21.1-1.0.jar'
+name = 'Creeper AI Updated - NeoForge'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.0'
+
+[download]
+hash = '3548f1e4f8df66016ae3853c7d6e7481d68f32c4f28668e2da48a3df4c56cb97294f22cc8fe98cb6b35733dd8c6f37ceba4a7e7f7e4d9c06d5a7be80de8f6bdc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NCIZVQbS/versions/vnKlIu95/creeperaiupdatedneoforge-1.21.1-1.0.jar'
+
+[update.modrinth]
+mod-id = 'NCIZVQbS'
+version = 'vnKlIu95'

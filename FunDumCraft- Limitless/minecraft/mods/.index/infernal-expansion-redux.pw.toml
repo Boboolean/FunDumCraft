@@ -1,0 +1,33 @@
+filename = 'infernalexp-neoforge-1.21.1-0.3.19.jar'
+name = 'Infernal Expansion Redux'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.3.19-1.21.1-neoforge'
+
+[download]
+hash = 'b5c2b4e79de2650d46a33388f596bfc996f836f3f96304b0be1479c8b2465c2992e531de0714ef52c55f365475a7909c22127c136927438df7dde19ea0627f5b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wiPmcmNp/versions/qqR1sJJx/infernalexp-neoforge-1.21.1-0.3.19.jar'
+
+[update.modrinth]
+mod-id = 'wiPmcmNp'
+version = 'qqR1sJJx'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XaDC71GB'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'yBW8D80W'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'W7xRcWxh'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'OPTIONAL'

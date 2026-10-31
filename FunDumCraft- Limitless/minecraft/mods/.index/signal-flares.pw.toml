@@ -1,0 +1,18 @@
+filename = 'signal_flares-2.0.1-neoforge-1.21.1.jar'
+name = 'Signal Flares'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'signal_flares-2.0.1-neoforge-1.21.1.jar'
+
+[download]
+hash = '816e3807df49e8e43d5f16eb4fb76a2fd7af70ee'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8698222
+project-id = 1166889

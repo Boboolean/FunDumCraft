@@ -1,0 +1,18 @@
+filename = 'blockui-1.0.212-1.21.1-snapshot.jar'
+name = 'BlockUI'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'blockui-1.0.212-1.21.1-snapshot.jar'
+
+[download]
+hash = '985b739fb0e01ad0bc559c5cd41be45de5cfe2bf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9137005
+project-id = 522992

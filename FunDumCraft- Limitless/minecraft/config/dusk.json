@@ -1,0 +1,76 @@
+{
+  "sleepTime": {
+    // Sets a time-window in which sleeping is disabled. Normal vanilla sleep time start at 12500. By 
+    // Default this mod delays it to 14000 which allows some mobs to spawn. To understand minecraft time values check: https://minecraft.
+    // wiki/w/Daylight_cycle#Daytime
+    "enabled": true,
+    "sleepDisableStartTime": 10000,
+    "sleepDisableEndTime": 14000
+  },
+
+  "disableSleep": {
+    // Disables sleeping globally, 
+    // Default: false
+    "disableSleep": false
+  },
+
+  "nightSpawnMod": {
+    // Percentage of how many more monster can appear at night, 
+    // Default: 30
+    "nightSpawnMod": 30
+  },
+
+  "nightSpawnMaxBlockLight": {
+    // Set the maximum light level at which mobs can spawn during night, affects only dimensions with a night cycle,
+    // Default: 3 Vanilla: 0
+    "nightSpawnMaxBlockLight": 1
+  },
+
+  "nightAwarenessRangeMultiplier": {
+    // Set the detection range multiplier for hostiles at night, 
+    // Default: 1.2 Vanilla: 1.0
+    "nightAwarenessRangeMultiplier": 1.2
+  },
+
+  "nightBlessings": {
+    // Enables mobs to receive a potion blessing at the start of combat during the night.
+    "enabled": true,
+    "blessingChancePercent": 20,
+    "potions": [
+      {
+        "potionID": "minecraft:regeneration",
+        "level": 1,
+        "secondsDuration": 30,
+        "weight": 5
+      },
+
+      {
+        "potionID": "minecraft:resistance",
+        "level": 1,
+        "secondsDuration": 30,
+        "weight": 5
+      },
+
+      {
+        "potionID": "minecraft:absorption",
+        "level": 1,
+        "secondsDuration": 30,
+        "weight": 5
+      },
+
+      {
+        "potionID": "minecraft:glowing",
+        "level": 1,
+        "secondsDuration": 30,
+        "weight": 5
+      }
+    ]
+  },
+
+  "baseMonsterCap": {
+    // Base monster cap per player the nightSpawnMod modifier increases this until midnight after which it decreases again until morning.
+    // Increase this to see more monsters in the world or to match other mods changing the base, 
+    // Default(Vanilla): 70
+    "baseMonsterCap": 70
+  }
+}

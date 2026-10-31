@@ -1,0 +1,974 @@
+[
+  {
+    "enchantment": "scguns:accelerator",
+    "weight": 5
+  },
+  {
+    "enchantment": "airhop:air_hop",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:amphibious",
+    "weight": 5
+  },
+  {
+    "enchantment": "malum:animated",
+    "weight": 2
+  },
+  {
+    "enchantment": "nova_structures:antidote",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:aqua_affinity",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:arrow_inducting",
+    "weight": 2
+  },
+  {
+    "enchantment": "malum:ascension",
+    "weight": 1
+  },
+  {
+    "enchantment": "alexscaves:astral_transferring",
+    "weight": 2
+  },
+  {
+    "enchantment": "farmersdelight:backstabbing",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:bane_of_arthropods",
+    "weight": 5
+  },
+  {
+    "enchantment": "piglinproliferation:bang",
+    "weight": 10
+  },
+  {
+    "enchantment": "scguns:banzai",
+    "weight": 10
+  },
+  {
+    "enchantment": "pastel:big_catch",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:blast_protection",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:blazing_protection",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexsmobs:board_return",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexscaves:bonking",
+    "weight": 1
+  },
+  {
+    "enchantment": "nova_structures:boss_behaviour",
+    "weight": 200
+  },
+  {
+    "enchantment": "terramity:bottomless_magazine",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexscaves:bouncing_bolt",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:bouncy_ball",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:breach",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:bubbling",
+    "weight": 5
+  },
+  {
+    "enchantment": "malum:capacitor",
+    "weight": 1
+  },
+  {
+    "enchantment": "create:capacity",
+    "weight": 10
+  },
+  {
+    "enchantment": "redomesticate:chain_lightning",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:channeling",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:charisma",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexscaves:charting_call",
+    "weight": 10
+  },
+  {
+    "enchantment": "twilightforest:chill_aura",
+    "weight": 1
+  },
+  {
+    "enchantment": "alexscaves:chomping_spirit",
+    "weight": 2
+  },
+  {
+    "enchantment": "antarchy:chronosphere",
+    "weight": 1
+  },
+  {
+    "enchantment": "csr:clay_soldier_slingshot",
+    "weight": 2
+  },
+  {
+    "enchantment": "pastel:clovers_favor",
+    "weight": 2
+  },
+  {
+    "enchantment": "scguns:collateral",
+    "weight": 2
+  },
+  {
+    "enchantment": "the_bumblezone:comb_cutter",
+    "weight": 1
+  },
+  {
+    "enchantment": "scguns:corroded",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexscaves:crystallization",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:dark_nock",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:dazing_sweep",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:deflection",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:defusal",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:density",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:depth_strider",
+    "weight": 2
+  },
+  {
+    "enchantment": "twilightforest:destruction",
+    "weight": 1
+  },
+  {
+    "enchantment": "alexscaves:detonating_death",
+    "weight": 2
+  },
+  {
+    "enchantment": "infernalexp:disarming",
+    "weight": 2
+  },
+  {
+    "enchantment": "pastel:disarming",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:disc_jockey",
+    "weight": 5
+  },
+  {
+    "enchantment": "dungeons_arise:discharge",
+    "weight": 1
+  },
+  {
+    "enchantment": "alexscaves:double_stab",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:efficiency",
+    "weight": 10
+  },
+  {
+    "enchantment": "scguns:elemental_pop",
+    "weight": 1
+  },
+  {
+    "enchantment": "alexscaves:energy_efficiency",
+    "weight": 10
+  },
+  {
+    "enchantment": "dungeons_arise:ensnaring",
+    "weight": 1
+  },
+  {
+    "enchantment": "alexscaves:enveloping_bubble",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:explosive_flavor",
+    "weight": 1
+  },
+  {
+    "enchantment": "pastel:exuberance",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexscaves:far_flung",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:feather_falling",
+    "weight": 5
+  },
+  {
+    "enchantment": "antarchy:feather_rising",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:ferrous_haste",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:field_extension",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:fire_aspect",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:fire_protection",
+    "weight": 5
+  },
+  {
+    "enchantment": "twilightforest:fire_react",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:fireproof",
+    "weight": 5
+  },
+  {
+    "enchantment": "pastel:first_strike",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:flame",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:flinging",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:fortune",
+    "weight": 2
+  },
+  {
+    "enchantment": "pastel:foundry",
+    "weight": 2
+  },
+  {
+    "enchantment": "occultism:fracture_soul",
+    "weight": 1
+  },
+  {
+    "enchantment": "opposing_force:freeze",
+    "weight": 2
+  },
+  {
+    "enchantment": "opposing_force:frost_aspect",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:frost_fang",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:frost_walker",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:gamma_ray",
+    "weight": 2
+  },
+  {
+    "enchantment": "terramity:gentle_explosives",
+    "weight": 10
+  },
+  {
+    "enchantment": "nova_structures:ghasted",
+    "weight": 5
+  },
+  {
+    "enchantment": "deep_aether:gloves_reach",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:gluttonous",
+    "weight": 5
+  },
+  {
+    "enchantment": "nova_structures:gravity",
+    "weight": 5
+  },
+  {
+    "enchantment": "malum:haunted",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:healing_aura",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:health_boost",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:health_siphon",
+    "weight": 5
+  },
+  {
+    "enchantment": "scguns:heavy_shot",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:heavy_slam",
+    "weight": 10
+  },
+  {
+    "enchantment": "alexscaves:herd_phalanx",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:herding",
+    "weight": 5
+  },
+  {
+    "enchantment": "the_bumblezone:hive_lifeline",
+    "weight": 1
+  },
+  {
+    "enchantment": "scguns:hot_barrel",
+    "weight": 1
+  },
+  {
+    "enchantment": "alexscaves:humungous_hex",
+    "weight": 5
+  },
+  {
+    "enchantment": "nova_structures:illagers_bane",
+    "weight": 1
+  },
+  {
+    "enchantment": "infernalexp:illuminating",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:immunity_frame",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:impaling",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:impending_stab",
+    "weight": 10
+  },
+  {
+    "enchantment": "pastel:improved_critical",
+    "weight": 2
+  },
+  {
+    "enchantment": "pastel:indestructible",
+    "weight": 2
+  },
+  {
+    "enchantment": "pastel:inertia",
+    "weight": 1
+  },
+  {
+    "enchantment": "pastel:inexorable",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:infinity",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:intimidation",
+    "weight": 5
+  },
+  {
+    "enchantment": "pastel:inventory_insertion",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:knockback",
+    "weight": 5
+  },
+  {
+    "enchantment": "infernalexp:lashing",
+    "weight": 5
+  },
+  {
+    "enchantment": "signal_flares:last_signal",
+    "weight": 10
+  },
+  {
+    "enchantment": "alexscaves:lasting_morale",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexsmobs:lavawax",
+    "weight": 5
+  },
+  {
+    "enchantment": "terramity:leadfoot",
+    "weight": 5
+  },
+  {
+    "enchantment": "infernalexp:leaping",
+    "weight": 2
+  },
+  {
+    "enchantment": "scguns:lightweight",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:linked_inventory",
+    "weight": 5
+  },
+  {
+    "enchantment": "dungeons_arise:lolths_curse",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:looting",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:loyalty",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:luck_of_the_sea",
+    "weight": 2
+  },
+  {
+    "enchantment": "terramity:lucky_blanks",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:lunge",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:lure",
+    "weight": 2
+  },
+  {
+    "enchantment": "opposing_force:magic_protection",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:magnetic",
+    "weight": 5
+  },
+  {
+    "enchantment": "usefulspyglass:marking",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:mending",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:muffled",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexscaves:multiple_mint",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:multishot",
+    "weight": 2
+  },
+  {
+    "enchantment": "nova_structures:multishot",
+    "weight": 2
+  },
+  {
+    "enchantment": "terramity:narrowed_pellets",
+    "weight": 10
+  },
+  {
+    "enchantment": "the_bumblezone:neurotoxins",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:ore_scenting",
+    "weight": 5
+  },
+  {
+    "enchantment": "nova_structures:outreach",
+    "weight": 10
+  },
+  {
+    "enchantment": "terramity:overclocked",
+    "weight": 1
+  },
+  {
+    "enchantment": "betterarcheology:penetrating_strike",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:peppermint_punting",
+    "weight": 2
+  },
+  {
+    "enchantment": "pastel:pest_control",
+    "weight": 1
+  },
+  {
+    "enchantment": "nova_structures:photosynthesis",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:piercing",
+    "weight": 10
+  },
+  {
+    "enchantment": "nova_structures:piercing",
+    "weight": 10
+  },
+  {
+    "enchantment": "alexscaves:plummeting_flight",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:poison_resistance",
+    "weight": 5
+  },
+  {
+    "enchantment": "create:potato_recovery",
+    "weight": 10
+  },
+  {
+    "enchantment": "the_bumblezone:potent_poison",
+    "weight": 4
+  },
+  {
+    "enchantment": "minecraft:power",
+    "weight": 10
+  },
+  {
+    "enchantment": "nova_structures:power",
+    "weight": 10
+  },
+  {
+    "enchantment": "alexscaves:precise_volley",
+    "weight": 2
+  },
+  {
+    "enchantment": "usefulspyglass:precision",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:projectile_protection",
+    "weight": 5
+  },
+  {
+    "enchantment": "kobolds:prospector",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:protection",
+    "weight": 10
+  },
+  {
+    "enchantment": "redomesticate:psychic_wall",
+    "weight": 5
+  },
+  {
+    "enchantment": "celestisynth:pulsation",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:punch",
+    "weight": 2
+  },
+  {
+    "enchantment": "scguns:puncturing",
+    "weight": 5
+  },
+  {
+    "enchantment": "dungeons_arise:purification",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:quick_charge",
+    "weight": 5
+  },
+  {
+    "enchantment": "scguns:quick_hands",
+    "weight": 5
+  },
+  {
+    "enchantment": "terramity:quicker_cooling",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecolonies:raider_damage_enchant",
+    "weight": 1
+  },
+  {
+    "enchantment": "alexscaves:rapid_possession",
+    "weight": 10
+  },
+  {
+    "enchantment": "terramity:rapid_reload",
+    "weight": 2
+  },
+  {
+    "enchantment": "pastel:razing",
+    "weight": 5
+  },
+  {
+    "enchantment": "malum:rebound",
+    "weight": 1
+  },
+  {
+    "enchantment": "scguns:reclaimed",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:rejuvenation",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexscaves:relentless_darkness",
+    "weight": 1
+  },
+  {
+    "enchantment": "twilightforest:renewal",
+    "weight": 1
+  },
+  {
+    "enchantment": "malum:replenishing",
+    "weight": 1
+  },
+  {
+    "enchantment": "pastel:resonance",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:respiration",
+    "weight": 2
+  },
+  {
+    "enchantment": "dungeonsdelight:ricochet",
+    "weight": 3
+  },
+  {
+    "enchantment": "minecraft:riptide",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:sated_blade",
+    "weight": 10
+  },
+  {
+    "enchantment": "astralsorcery:scorching_heat",
+    "weight": 1
+  },
+  {
+    "enchantment": "alexscaves:sea_swing",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:seapairing",
+    "weight": 1
+  },
+  {
+    "enchantment": "alexscaves:second_wave",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:seekcandy",
+    "weight": 2
+  },
+  {
+    "enchantment": "terramity:semi_auto",
+    "weight": 1
+  },
+  {
+    "enchantment": "pastel:serendipity_reel",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexsmobs:serpentfriend",
+    "weight": 2
+  },
+  {
+    "enchantment": "dungeonsdelight:serrated_strike",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexscaves:shaded_respite",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:shadow_hands",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexscaves:sharp_cane",
+    "weight": 10
+  },
+  {
+    "enchantment": "terramity:sharper_rounds",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:sharpness",
+    "weight": 10
+  },
+  {
+    "enchantment": "scguns:shell_catcher",
+    "weight": 5
+  },
+  {
+    "enchantment": "nova_structures:shulker_boss",
+    "weight": 100
+  },
+  {
+    "enchantment": "nova_structures:shulker_miniboss",
+    "weight": 100
+  },
+  {
+    "enchantment": "alexscaves:sightless",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:silk_touch",
+    "weight": 1
+  },
+  {
+    "enchantment": "terramity:slug_conversion",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:smite",
+    "weight": 5
+  },
+  {
+    "enchantment": "pastel:sniping",
+    "weight": 1
+  },
+  {
+    "enchantment": "alexscaves:soak_seeking",
+    "weight": 10
+  },
+  {
+    "enchantment": "betterarcheology:soaring_winds",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:solar",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:soul_speed",
+    "weight": 1
+  },
+  {
+    "enchantment": "soulbound:soulbound",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:speedster",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexscaves:spell_lasting",
+    "weight": 10
+  },
+  {
+    "enchantment": "malum:spirit_plunder",
+    "weight": 1
+  },
+  {
+    "enchantment": "usefulspyglass:spotter",
+    "weight": 10
+  },
+  {
+    "enchantment": "supplementaries:stasis",
+    "weight": 2
+  },
+  {
+    "enchantment": "pastel:steadfast",
+    "weight": 10
+  },
+  {
+    "enchantment": "alexsmobs:straddle_jump",
+    "weight": 10
+  },
+  {
+    "enchantment": "alexscaves:straight_hook",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:sweeping_edge",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:swift_sneak",
+    "weight": 1
+  },
+  {
+    "enchantment": "alexscaves:swiftwood",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:targeted_ricochet",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:taxing_bellow",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:tethered_teleport",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:thorns",
+    "weight": 1
+  },
+  {
+    "enchantment": "pastel:tight_grip",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:total_recall",
+    "weight": 5
+  },
+  {
+    "enchantment": "nova_structures:traveler",
+    "weight": 10
+  },
+  {
+    "enchantment": "pastel:treasure_hunter",
+    "weight": 2
+  },
+  {
+    "enchantment": "scguns:trigger_finger",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexscaves:triple_splash",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:triple_split",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:tsunami",
+    "weight": 1
+  },
+  {
+    "enchantment": "betterarcheology:tunneling",
+    "weight": 2
+  },
+  {
+    "enchantment": "piglinproliferation:turning",
+    "weight": 10
+  },
+  {
+    "enchantment": "alexscaves:twilight_perfection",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:unbreaking",
+    "weight": 5
+  },
+  {
+    "enchantment": "unusualfishmod:unusual_catch",
+    "weight": 2
+  },
+  {
+    "enchantment": "estrogen:uwufy_curse",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:vampire",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:void_cloud",
+    "weight": 5
+  },
+  {
+    "enchantment": "dungeons_arise:voltaic_shot",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:warping_bite",
+    "weight": 5
+  },
+  {
+    "enchantment": "scguns:waterproof",
+    "weight": 5
+  },
+  {
+    "enchantment": "nova_structures:wax_wings",
+    "weight": 5
+  },
+  {
+    "enchantment": "malum:weavers_haste",
+    "weight": 1
+  },
+  {
+    "enchantment": "malum:weavers_propagation",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:wind_burst",
+    "weight": 2
+  },
+  {
+    "enchantment": "nova_structures:wither_coated",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexscaves:x_ray",
+    "weight": 10
+  }
+]

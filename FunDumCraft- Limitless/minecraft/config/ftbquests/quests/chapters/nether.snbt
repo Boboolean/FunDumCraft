@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "6E3026F3F44F341D"
+	id: "2EFE51D6AC3BA252"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["429CF71813A990F0"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:warden_spawn_egg"
+			}
+			id: "4CF974962D8CF90C"
+			tasks: [{
+				icon: {
+					id: "minecraft:reinforced_deepslate"
+				}
+				id: "26DC17DF15CB20E3"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "429CF71813A990F0"
+			invisible: true
+			tasks: [{
+				icon: {
+					id: "minecraft:obsidian"
+				}
+				id: "1B241914B5B8BFA4"
+				observation_type: "block"
+				observe_type: 0
+				optional_task: true
+				timer: 0L
+				to_observe: "minecraft:obsidian"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "0E82504EAE9C8E14"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "04215A47511323FB"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+}

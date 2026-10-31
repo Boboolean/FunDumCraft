@@ -1,0 +1,16 @@
+[hud]
+	#FLASH: the weight bar replaces the XP bar for a moment when the weight changes and while stalled.
+	#ALWAYS: the weight bar permanently replaces the XP bar.
+	#OFF: never show the weight bar.
+	#Allowed Values: FLASH, ALWAYS, OFF
+	weightBar = "FLASH"
+
+[tooltip]
+	#Show the weight number and icon next to the item name in item tooltips.
+	itemWeight = true
+
+[inventory]
+	#Show the scroll bar next to the extended inventory rows. Toggled in game with the button on the weight bar.
+	scrollBarVisible = false
+	#Show 9 inventory rows on the player inventory screen, covering the crafting and armor area. Toggled in game with the expand key.
+	inventoryExpanded = false

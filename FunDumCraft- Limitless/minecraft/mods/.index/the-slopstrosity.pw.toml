@@ -1,0 +1,18 @@
+filename = 'slopstrocity-1.0.0.jar'
+name = 'THE SLOPSTROSITY'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'dba5ff3b3d0ceb7c01611f985e4fea1a97a91cffa407a78d33fac6dafc5fe7eabed77c517e4d837a8fd645805149e51ebfaf8bcb21f1ef80b1f6fac42e5bb47b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2LzatVny/versions/9SwCdIkS/slopstrocity-1.0.0.jar'
+
+[update.modrinth]
+mod-id = '2LzatVny'
+version = '9SwCdIkS'

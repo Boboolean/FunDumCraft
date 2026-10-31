@@ -1,0 +1,18 @@
+filename = 'epicdeathscreen-neoforge-1.21.1-1.1.0-beta.2.jar'
+name = 'Epic Death Screen'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0'
+
+[download]
+hash = 'f4ab13b4247e417cd21ce8047f32f659b77f22efa69c0e4f1c4452ad6faeb8550f8abfa4ab8f720531368d50e99d4e72c61e6984dcfc7fd224b2fd8cac698f61'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NBq5BYpp/versions/L3hQRVlG/epicdeathscreen-neoforge-1.21.1-1.1.0-beta.2.jar'
+
+[update.modrinth]
+mod-id = 'NBq5BYpp'
+version = 'L3hQRVlG'

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexs_caves"
+	group: "35ABF45B9DB16699"
+	id: "0CD75ED867E7DB06"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

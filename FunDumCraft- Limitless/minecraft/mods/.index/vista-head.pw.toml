@@ -1,0 +1,18 @@
+filename = 'vista-head-1.0.1.jar'
+name = 'Vista: Head'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'vista-head-1.0.1.jar'
+
+[download]
+hash = '40c8032ff30108bd4889d67ad2bc917a7374a2d0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8929133
+project-id = 1704103

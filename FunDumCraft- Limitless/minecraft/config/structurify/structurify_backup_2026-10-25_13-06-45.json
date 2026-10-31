@@ -1,0 +1,25 @@
+{
+  "config_version": "2.0.43",
+  "config_datetime": "2026-10-25_13-05-56",
+  "general": {
+    "prevent_structure_overlap": true,
+    "overlap_padding": 1,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 1.5
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "dungeons_arise:small_blimp",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "blacklisted_biomes": [
+        "minecraft:river"
+      ]
+    }
+  ],
+  "structure_sets": [],
+  "structure_template_pools": []
+}

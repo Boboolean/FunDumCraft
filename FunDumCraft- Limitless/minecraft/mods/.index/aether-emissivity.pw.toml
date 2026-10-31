@@ -1,0 +1,22 @@
+filename = 'aether_emissivity-1.21.1-1.0.2-neoforge.jar'
+name = 'Aether Addon: Emissivity'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.0.2-neoforge'
+
+[download]
+hash = 'c92dab8c4b0db10240037329a16d858fd9317140ea1fe932f2320e83223912131b32341aace0178d6bbd9e187c3795b6b286d39ff2dc48efc9d05a069430ac50'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/sKHHynnb/versions/WrVhiqkc/aether_emissivity-1.21.1-1.0.2-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'sKHHynnb'
+version = 'WrVhiqkc'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'YhmgMVyu'
+type = 'REQUIRED'
+version = 'IOyjRzWX'

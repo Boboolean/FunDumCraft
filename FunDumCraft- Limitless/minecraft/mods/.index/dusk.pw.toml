@@ -1,0 +1,21 @@
+filename = 'dusk-1.21.1-4.2.jar'
+name = 'Dusk'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'dusk-1.21.1-4.2.jar'
+
+[download]
+hash = '036188ad23271d56fb5d35983c51499fd6dd9959'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8398847
+project-id = 468908
+
+[[x-prismlauncher-dependencies]]
+addonId = '326652'
+type = 'REQUIRED'

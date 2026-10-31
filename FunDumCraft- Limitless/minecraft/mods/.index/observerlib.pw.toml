@@ -1,0 +1,18 @@
+filename = 'observerlib-1.10.3.jar'
+name = 'ObserverLib'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'ObserverLib-1.21.1-1.10.3.jar'
+
+[download]
+hash = 'f8b357513c22b62f0cdbe0259305620541a45fa2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8726128
+project-id = 316833

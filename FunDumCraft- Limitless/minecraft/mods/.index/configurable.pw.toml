@@ -1,0 +1,18 @@
+filename = 'configurable-3.5.3+1.21.1-neoforge.jar'
+name = 'Configurable'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.5.3'
+
+[download]
+hash = '21f9799eb7692c56ef450bfb89b22c94e6817c3f0446c1001d63a2fd099fa14a741d09d430e696a894f15bf624fc6af9215dfcd477c8561bc27f03742499b756'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lGffrQ3O/versions/lycKbfGw/configurable-3.5.3%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'lGffrQ3O'
+version = 'lycKbfGw'

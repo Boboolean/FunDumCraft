@@ -1,0 +1,18 @@
+filename = 'Dungeon And Village Ad Astra 1.21.1  1.1.1.jar'
+name = 'Dungeons And Villages: Ad Astra'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.1.1'
+
+[download]
+hash = '2460df9c5943710753e4725bb4530c297aeaafe579c9d5dd15eda6383989094af650ae8c6a2a382cb06c2ac00a8f70e4527b6be1d922adaaa04c6eeb010549ab'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/u9zCDhSS/versions/EsOArRBM/Dungeon And Village Ad Astra 1.21.1  1.1.1.jar'
+
+[update.modrinth]
+mod-id = 'u9zCDhSS'
+version = 'EsOArRBM'

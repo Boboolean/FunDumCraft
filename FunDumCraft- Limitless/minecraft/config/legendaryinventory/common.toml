@@ -1,0 +1,110 @@
+#Per item weights live in legendaryinventory/weights.json.
+#Items missing from that file use the fallback values below, based on max stack size.
+#Edit weights.json then run /inventory reload to apply without restarting.
+[weight]
+	#Items that stack to 64 or more
+	# Default: 1
+	# Range: 0 ~ 100000
+	fallbackStackable = 1
+	#Items that stack to between 2 and 63
+	# Default: 4
+	# Range: 0 ~ 100000
+	fallbackSemiStackable = 4
+	#Items that do not stack
+	# Default: 24
+	# Range: 0 ~ 100000
+	fallbackUnstackable = 24
+	#Count the items stored inside backpacks, shulker boxes and other container items toward the carried weight.
+	#Contents are read from the item's item handler capability, or from the container / bundle contents data components.
+	containerContentsCount = false
+	#Extra NBT paths to look for stored items in, dot separated, for container mods that use another layout.
+	#Example: inventory.Items
+	containerContentsPaths = []
+
+[capacity]
+	#Carry capacity in pods before any penalty
+	# Default: 2000
+	# Range: 1 ~ 1000000
+	base = 2000
+	#true: capacity cannot be raised above the max value below.
+	#false: no limit.
+	maxEnabled = true
+	#Maximum carry capacity in pods, including bonuses from tablets
+	# Default: 10000
+	# Range: 1 ~ 1000000
+	max = 10000
+
+[tablets]
+	#Enable the weight tablets: dungeon loot that permanently raises carry capacity.
+	#false: tablets do nothing when used, do not appear in loot or the creative tab.
+	enabled = true
+	#Pods granted by Weight Tablet I
+	# Default: 20
+	# Range: 1 ~ 1000000
+	tier1 = 20
+	#Pods granted by Weight Tablet II
+	# Default: 50
+	# Range: 1 ~ 1000000
+	tier2 = 50
+	#Pods granted by Weight Tablet III
+	# Default: 100
+	# Range: 1 ~ 1000000
+	tier3 = 100
+
+#Ratios of carried weight over capacity. 1.0 means 100%. Keep them in ascending order.
+[penalty]
+	#Above this ratio the player starts slowing down
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	slowStart = 1.0
+	#Above this ratio the bar turns to the heavy color and jumps get shorter
+	# Default: 1.2
+	# Range: 0.0 ~ 100.0
+	heavy = 1.2
+	#Above this ratio sprinting is disabled
+	# Default: 1.5
+	# Range: 0.0 ~ 100.0
+	sprintBlock = 1.5
+	#Above this ratio the player cannot move or jump
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	stall = 2.0
+
+[pickup]
+	#true: stop picking up items once carried weight reaches 100% of capacity.
+	#false: only stop once the stall ratio is reached.
+	blockWhenFull = false
+
+[mounts]
+	#Load ratio (carried / capacity) from which the player can no longer mount.
+	#1.5 means 150% of capacity.
+	# Default: 1.5
+	# Range: 0.01 ~ 100.0
+	blockRatio = 1.5
+	#true: the mount block also applies to vehicles such as boats and minecarts.
+	#false: only living mounts are blocked, vehicles can always be entered.
+	blockVehicles = true
+	#Living mounts carrying an overloaded player move with the same speed penalty the player would have on foot.
+	animalPenalty = true
+
+[sort]
+	#Enable the sort button and the sort keybind in inventories and containers.
+	enabled = true
+
+[rows]
+	#Let players scroll through every extended row at any time, even while most of them are empty.
+	#When false, only the rows in use plus a few spare rows can be reached.
+	alwaysScrollable = false
+
+[hints]
+	#The first time a player fills a 4th inventory row, show an action bar hint
+	#and briefly scroll the inventory when it is next opened.
+	firstRowCue = true
+
+[compat]
+	#Waystones: block teleporting through any waystone, warp stone or scroll while immobilised by weight.
+	waystonesBlockWhenStalled = true
+
+[debug]
+	#Log one line per container opened, saying whether it received scroll rows and why not
+	logMenuAugment = false

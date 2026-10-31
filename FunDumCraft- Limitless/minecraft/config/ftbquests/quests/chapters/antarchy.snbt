@@ -1,0 +1,42 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "antarchy"
+	group: "6E3026F3F44F341D"
+	id: "71B612B011496E0E"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "24654DB1A41684A4"
+			tasks: [{
+				dimension: "antarchy:cavaryn"
+				id: "32AAF3DD126C5330"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "247F39D17C9C25D7"
+			tasks: [{
+				dimension: "antarchy:elythia"
+				id: "26AFACEC8DB236BB"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "22B38370CBE18823"
+			tasks: [{
+				dimension: "antarchy:thoraxis"
+				id: "744C88F504B7CE01"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+}

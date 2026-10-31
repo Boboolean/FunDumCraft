@@ -1,0 +1,18 @@
+filename = 'anthology-1.0.0+1.21.1-neoforge.jar'
+name = 'Anthology: Time & Space API'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0+1.21.1-neoforge'
+
+[download]
+hash = '15d05eb462c5c8fd6cd473bc51a703b165799faf07154dd2eb0b19cebe33cfcf1c8cd1e0ff00b6ad5acf923bdacb57e9d4f1f0f91c901ee64283bdec2c071a1b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/L7cI8p0P/versions/WwajQatW/anthology-1.0.0%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'L7cI8p0P'
+version = 'WwajQatW'

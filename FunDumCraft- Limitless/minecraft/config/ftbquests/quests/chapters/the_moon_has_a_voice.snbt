@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_moon_has_a_voice"
+	group: "35ABF45B9DB16699"
+	id: "4119EB51F68255FA"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "7C8AD7E179156734"
+		tasks: [{
+			id: "0A99C7A2411C5FD9"
+			observation_type: "block"
+			observe_type: 0
+			timer: 0L
+			to_observe: "nomansland:moonlight_basin"
+			type: "observation"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

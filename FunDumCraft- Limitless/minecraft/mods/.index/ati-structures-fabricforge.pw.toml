@@ -1,0 +1,45 @@
+filename = 'ATi Structures V1.4.7.jar'
+name = 'ATi Structures'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.7'
+
+[download]
+hash = '9e1801a645f12a5b4868dce86f94665ba7ea9777843e5a0ea55c51a79a30f671073702dab7d862a668ab254e43ac870456c12a664ac8815acff534521a20f606'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bii8qPSt/versions/mBQ2zW52/ATi Structures V1.4.7.jar'
+
+[update.modrinth]
+mod-id = 'bii8qPSt'
+version = 'mBQ2zW52'

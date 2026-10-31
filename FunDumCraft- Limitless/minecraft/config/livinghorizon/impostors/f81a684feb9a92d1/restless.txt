@@ -1,0 +1,15 @@
+minecraft:villager 6 ffffffffffffffff
+minecraft:villager 31 ffffffffffffffff
+alexsmobs:centipede_tail 30 ffffffffffffffff
+guardvillagers:guard 25 4
+guardvillagers:guard 34 1
+guardvillagers:guard 6 ffffffffffffffff
+quark:stoneling 29 ffffffffffffffff
+longwings:moth 33 1
+irons_spellbooks:summoned_skeleton 25 4
+minecraft:horse 30 10
+minecraft:iron_golem 25 4
+spawn:hamster 37 1f
+spawn:hamster 34 1
+alexsmobs:centipede_body 30 ffffffffffffffff
+irons_spellbooks:summoned_zombie 25 4

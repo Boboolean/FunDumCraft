@@ -1,0 +1,18 @@
+filename = 'LetMeFeedYou-neoforge-1.21.1-1.1.jar'
+name = 'Let Me Feed You!'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21-1.1'
+
+[download]
+hash = 'c84015cbcc01acecdf7d99a48ce3e772f97ca1067c63fd862e59a0ae72b0b2f3da3e33b9239bd30054453c39cad6f31057685f46e7e3fb46ff6975504cbf24f2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WkBD5Cw5/versions/XfEg8dtc/LetMeFeedYou-neoforge-1.21.1-1.1.jar'
+
+[update.modrinth]
+mod-id = 'WkBD5Cw5'
+version = 'XfEg8dtc'

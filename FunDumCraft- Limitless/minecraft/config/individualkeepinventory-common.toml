@@ -1,0 +1,10 @@
+#Henkelmax's Gravestones: 
+#
+#Disable placing gravestones and/or granting obituaries for players with individualkeepinventory enabled
+disableGravestones = false
+#Widder's KeepInvTag: 
+#
+#Automatically enable IndividualKeepInventory for players with the "KeepInv" command tag when they join, for if you were using the KeepInvTag mod beforehand.
+keepInvTagCompat = false
+#Players whose usernames are in this list will automatically have IndividualKeepInventory enabled for them on join (players already in the game must rejoin for this to take effect).
+playerList = []

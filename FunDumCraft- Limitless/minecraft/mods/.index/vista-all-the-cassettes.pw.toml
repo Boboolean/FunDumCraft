@@ -1,0 +1,18 @@
+filename = 'vistaallthetapes - 1.2.0 - neoforge - 1.21.1.jar'
+name = 'Vista - All The Cassettes'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.0+neoforge.mc1.21.1'
+
+[download]
+hash = '8e82d3dcdcf536b96551b72d2ad2dfb4e5193bbf25c8505b3ba969283c1f49ba314954596833e0be58939caa417fdd7285ae433e7fb716eed0433e90a0be634c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LmEe7LrV/versions/Gyjt65TV/vistaallthetapes - 1.2.0 - neoforge - 1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'LmEe7LrV'
+version = 'Gyjt65TV'

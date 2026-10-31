@@ -1,0 +1,21 @@
+filename = 'abridged-2.0.2-neoforge-21.1.jar'
+name = 'Abridged'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.2-neoforge-21.1'
+
+[download]
+hash = '5bf522ff49f52871ab340dad27c404da91e0aa83fc03e3efb06f8f587f7c74cf8f91a4c57d987275b6cd303420fa363f7ebd11d656911b49554a1bf114455336'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tb5O1ssC/versions/5Tdb8ziQ/abridged-2.0.2-neoforge-21.1.jar'
+
+[update.modrinth]
+mod-id = 'tb5O1ssC'
+version = '5Tdb8ziQ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XaDC71GB'
+type = 'REQUIRED'

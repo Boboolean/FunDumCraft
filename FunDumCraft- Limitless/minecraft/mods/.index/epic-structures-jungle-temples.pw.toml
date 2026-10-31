@@ -1,0 +1,47 @@
+filename = 'Epic Jungle Temples v1.0.2.jar'
+name = 'Epic Structures: Jungle Temples'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2'
+
+[download]
+hash = '003460d1d61f2587dd786cd9381e731ec4618cc2bcfab3905c5e6fd8df56357f65d0216fa3d411bec91e1c8742e15222fae00f2cfe714b29638c4b8420d3dea4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Zs1qzXyd/versions/aN4PmOt6/Epic Jungle Temples v1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'Zs1qzXyd'
+version = 'aN4PmOt6'

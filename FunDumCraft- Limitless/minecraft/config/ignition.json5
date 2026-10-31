@@ -1,0 +1,12 @@
+{
+	debugDraw: true,
+	armShoulderReaction: true,
+	armHandForce: 160,
+	armHandDamping: 40,
+	armHandTorque: 180,
+	armHandTorqueDamping: 45,
+	armSegForce: 8,
+	armSegDamping: 10,
+	armSegTorque: 14,
+	armSegTorqueDamping: 12
+}

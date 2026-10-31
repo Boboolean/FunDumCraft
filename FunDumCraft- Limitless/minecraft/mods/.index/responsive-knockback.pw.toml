@@ -1,0 +1,32 @@
+filename = 'responsiveknockback-1.1-neoforge-mc1.20.5-1.21.x.jar'
+name = 'Responsive Knockback'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1'
+
+[download]
+hash = '99fc9776d17eaf91af7af96b5fcdedaaa5abea18b6eee44b49b0be65c113c1646d0d7e7b56731f4751c2c0752f060a2c8fe731c6c8f0da4c95d2a6a26f27a544'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FMQ7tQOa/versions/ptz4V6RX/responsiveknockback-1.1-neoforge-mc1.20.5-1.21.x.jar'
+
+[update.modrinth]
+mod-id = 'FMQ7tQOa'
+version = 'ptz4V6RX'

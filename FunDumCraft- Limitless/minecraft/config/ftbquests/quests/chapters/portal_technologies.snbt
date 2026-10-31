@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "portal_technologies"
+	group: "5251A70A9F1233C5"
+	id: "019CF18471E46CE4"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "1F39DC5F64E98D2C"
+		tasks: [{
+			id: "4144A155E162BC87"
+			item: { components: { "aperture_innovations:portal_gun_variant": "aperture_innovations:chell" }, count: 1, id: "aperture_innovations:portal_gun" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

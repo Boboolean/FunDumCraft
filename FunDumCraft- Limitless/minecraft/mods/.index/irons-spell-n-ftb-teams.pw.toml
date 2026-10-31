@@ -1,0 +1,22 @@
+filename = 'ironsspellsnftbteams-1.0.0.jar'
+name = 'Irons Spell N FTB Teams'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.0-a'
+
+[download]
+hash = '81d8636646d05d5fca4bb6d1611f242fdddcf5542955b990c42a213b9f585242df871ad42a727b3ed278d7d6a628018e5d485472b07e2f731ab2e726b8853537'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/V4OaNOOH/versions/z0Se3Q1C/ironsspellsnftbteams-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'V4OaNOOH'
+version = 'z0Se3Q1C'
+
+[[x-prismlauncher-dependencies]]
+addonId = 's4OWxYQQ'
+type = 'REQUIRED'
+version = 'RtvqnbKi'

@@ -1,0 +1,172 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "celestisynth"
+	group: "3826F1A869F5AD61"
+	id: "67581BB6E5D4C89C"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "06EE6059313A8817"
+			tasks: [{
+				id: "20FEC4BE5A45BE02"
+				item: { count: 1, id: "celestisynth:solaris" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0EF4F2BACD74C90B"
+			tasks: [{
+				id: "3B9E20A431215532"
+				item: { count: 1, id: "celestisynth:crescentia" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "5ADA782910A21C6E"
+			tasks: [{
+				id: "71AB635A8EA45306"
+				item: { count: 1, id: "celestisynth:breezebreaker" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "0E36341C6C269E5D"
+			tasks: [{
+				id: "145EAAC77E4160CE"
+				item: { count: 1, id: "celestisynth:poltergeist" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "6777A39BC0C10266"
+			tasks: [{
+				id: "4FB767751DD29EFD"
+				item: { count: 1, id: "celestisynth:aquaflora" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "248960A4B0B7A84C"
+			tasks: [{
+				id: "2C3D2CD3D5EE2FDF"
+				item: { count: 1, id: "celestisynth:rainfall_serenity" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "678E595D01673364"
+			tasks: [{
+				id: "3501E48658682838"
+				item: { count: 1, id: "celestisynth:frostbound" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "4D0FD2895546C2C6"
+			tasks: [{
+				id: "6B7A783183975689"
+				item: { count: 1, id: "celestisynth:keres" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "534FF55E00D3AA79"
+			tasks: [{
+				id: "63A83B682477456F"
+				item: { count: 1, id: "celestisynth:solar_crystal_helmet" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "7BEF3CA2740A663E"
+			tasks: [{
+				id: "686CD61B698B8EEA"
+				item: { count: 1, id: "celestisynth:solar_crystal_chestplate" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "581844DDE9E5931A"
+			tasks: [{
+				id: "6D434D4875AF17E4"
+				item: { count: 1, id: "celestisynth:solar_crystal_leggings" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "7B817D3DAB6C064F"
+			tasks: [{
+				id: "7D02DFC3CE7EEE16"
+				item: { count: 1, id: "celestisynth:solar_crystal_boots" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "1A702BA52AF8955E"
+			tasks: [{
+				id: "57FC7E485EEC3493"
+				item: { count: 1, id: "celestisynth:lunar_stone_helmet" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "0AAECFF2E3C1FEAA"
+			tasks: [{
+				id: "04B4010449E76D25"
+				item: { count: 1, id: "celestisynth:lunar_stone_chestplate" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "6D93742D4315D205"
+			tasks: [{
+				id: "2296BFDCFE218403"
+				item: { count: 1, id: "celestisynth:lunar_stone_leggings" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "1D24A10182FABCE2"
+			tasks: [{
+				id: "693E3574FCB1F002"
+				item: { count: 1, id: "celestisynth:lunar_stone_boots" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+	]
+}

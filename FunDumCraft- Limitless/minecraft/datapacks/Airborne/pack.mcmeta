@@ -1,0 +1,26 @@
+{
+  "pack": {
+    "description": "Customizations for the Airborne modpack.",
+    "pack_format": 48
+  },
+"filter": {
+    "block": [
+      {
+        "namespace": "create_enchantment_industry",
+        "path": "recipe/smithing/blaze_enchanter.*"
+      },
+      {
+        "namespace": "modestmagic",
+        "path": "recipe/summoning/snow_golem.*"
+      },
+      {
+        "namespace": "frame_changer",
+        "path": "tags/block/portal_frames.*"
+      },
+      {
+        "namespace": "stellaris",
+        "path": "planets/jupiter.*"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+filename = 'max-health-fix-1.0.jar'
+name = 'Max Health Fix'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = '890233a4bc71a07735bcf5bb6efd9247f7d6a4ee22cdd1ec044935d6afc14ba32a7ba6537f353c55f5b4b4c26dc86b679077423477527f5df2d4c50e34a38cda'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1V8GQzdO/versions/JbJBrydD/max-health-fix-1.0.jar'
+
+[update.modrinth]
+mod-id = '1V8GQzdO'
+version = 'JbJBrydD'

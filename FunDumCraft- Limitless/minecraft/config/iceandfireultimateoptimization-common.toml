@@ -1,0 +1,68 @@
+#Ice and Fire - Ultimate Optimization
+[optimizations]
+	#Master switch. false restores stock Ice And Fire behaviour completely,
+	#as if this mod were not installed at all.
+	enabled = true
+	#An assembled Dragon Forge input block runs a 100x100x100 entity scan and a
+	#world raycast on EVERY tick. This is how many ticks to wait between scans.
+	#20 = once a second, which is far more often than a dragon can meaningfully
+	#react. Set to 1 for Ice And Fire's stock every-tick behaviour.
+	# Default: 20
+	# Range: 1 ~ 200
+	dragonforgeLureIntervalTicks = 20
+	#DragonForgeBlockEntity.tick calls assembled() four times per tick, and each
+	#call walks the whole multiblock - roughly 26 block reads - so about 104 block
+	#reads per tick per forge. Nothing can change the structure between those four
+	#calls, so this caches the first answer for the rest of the tick.
+	#This is deduplication, not throttling: the value is never older than the tick
+	#that reads it, so turning this off only costs performance and changes nothing.
+	dragonforgeAssembledCache = true
+	#OFF BY DEFAULT because this one changes the game.
+	#A scorching dragon calls destroyAreaBreath up to ~100 times per tick, and each
+	#call streams a 27/125/343 block box, rolls a random per block, and queries an
+	#AABB for LivingEntity to damage. That is the breath weapon doing its job - it is
+	#what carves the tunnel - so it is left alone unless you ask for a ceiling. When
+	#on, only the first few boxes per dragon per tick are destroyed; the aim, particles
+	#and sound are untouched, so the dragon just carves less per tick. Useful when
+	#several adult dragons are scorching at once.
+	limitDragonBreathDestruction = false
+	#How many destroyAreaBreath boxes a single dragon may carve per tick when
+	#limitDragonBreathDestruction is on. Ice And Fire's ceiling is about 100; the
+	#stock behaviour is unlimited. 4-10 keeps a tunnel forming at a believable rate.
+	#Has no effect while limitDragonBreathDestruction is off.
+	# Default: 6
+	# Range: 1 ~ 100
+	dragonBreathDestructionPerTick = 6
+	#A flying dragon calls DragonUtils.getBlockInView / getWaterBlockInView every
+	#tick to choose where it heads next. Each of those is a ten-iteration search that
+	#allocates a BlockPos and a Vec3 per iteration, samples the heightmap and
+	#raycasts. This is how many ticks to reuse one answer for. A dragon moves well
+	#under a block per tick, so 2-8 is invisible; 1 disables the reuse. Raising it
+	#also reduces how often the method's internal random draws happen, so the world's
+	#random sequence downstream shifts.
+	# Default: 4
+	# Range: 1 ~ 200
+	dragonViewScanIntervalTicks = 4
+	#Several Ice And Fire goals run a search from canUse, which GoalSelector polls
+	#every single tick, and cache nothing:
+	#  DragonAIMateGoal.getNearbyMate        - entity query over an AABB inflated by 180
+	#  HippogryphAIMateGoal.getNearbyMate    - entity query over an AABB inflated by 8
+	#  DeathWormAIFindSandTargetGoal         - triple loop, up to 51x51x51 = 132,651 blocks
+	#  SirenAIFindWaterTargetGoal            - triple loop, 11x11x11 = 1,331 blocks
+	#  CockatriceEntity.getFriendsCount      - entity query per tick while staring
+	#This is how many ticks one answer is reused for. The searches pick a mate, a patch
+	#of sand or a patch of water; none of them changes meaningfully inside a fraction
+	#of a second. Set to 1 to disable the reuse.
+	# Default: 8
+	# Range: 1 ~ 200
+	aiSearchIntervalTicks = 8
+	#MultipartPartEntity.collideWithNearbyEntities runs every server tick per part
+	#and allocates an AABB, an entity query and a stream pipeline with two lambdas to
+	#push entities out of the part. DragonPartEntity overrides it to nothing, so only
+	#the sea serpent's two parts and the death worm's one pay it. The method runs once
+	#per tick per part, so this is how many ticks to wait between pushes. 1 = every
+	#tick (stock), 4 means an entity may overlap a segment a little longer before
+	#being nudged out.
+	# Default: 4
+	# Range: 1 ~ 200
+	multipartPushIntervalTicks = 4

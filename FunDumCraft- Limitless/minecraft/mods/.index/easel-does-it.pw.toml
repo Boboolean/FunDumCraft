@@ -1,0 +1,21 @@
+filename = 'easel_does_it-1.21.1-2.0.3.jar'
+name = 'Easel Does It!'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.3'
+
+[download]
+hash = '58daf17cc435e6b9384e3bd9f7562beb6b9fcbf3a6b5e7150bb679fd4ad26ed7569752f6094792dd117e1a88d62770932b5a957b783522fd18a7966aa992b409'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SaKy2xRK/versions/zZeTmYnM/easel_does_it-1.21.1-2.0.3.jar'
+
+[update.modrinth]
+mod-id = 'SaKy2xRK'
+version = 'zZeTmYnM'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'VsM5EDoI'
+type = 'REQUIRED'

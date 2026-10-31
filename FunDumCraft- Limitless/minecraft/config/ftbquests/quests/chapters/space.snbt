@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space"
+	group: "6E3026F3F44F341D"
+	id: "5E9CCE37A8C80569"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4F01D68DB0E8F0D2"
+			tasks: [{
+				dimension: "stellaris:mars"
+				id: "6419569F5EA44ED0"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "168A4B0D5BEAA85B"
+			tasks: [{
+				dimension: "stellaris:mercury"
+				id: "143C42BFF1F6BFF5"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "776D636B439B4EC7"
+			tasks: [{
+				dimension: "stellaris:moon"
+				id: "167AF23BE5E95B2D"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "72BF08EB639FBF5A"
+			tasks: [{
+				dimension: "stellaris:venus"
+				id: "1A7451DD149E8F2F"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+}

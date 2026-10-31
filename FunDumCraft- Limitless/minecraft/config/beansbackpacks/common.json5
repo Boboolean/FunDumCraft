@@ -1,0 +1,5 @@
+{
+  "tool_belt_additions": [],         // !!DOES NOTING!! SOON TO BE REMOVED!
+  "keep_back_on_death": "KeepInventory", // On death, will the player keep/drop their backpack : Always : Never : KeepInventory (Default)
+  "utility_blacklist": []            // disables items from being placed in a backpack utility slot
+}

@@ -1,0 +1,21 @@
+filename = 'pale_monarch-1.1.0-neoforge-1.21.1.jar'
+name = 'Pale Monarch'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0'
+
+[download]
+hash = '43be70be7a483823757a55f14f56058e9ad9bc9e5d78bc879f38adf902fb1556aba952fb2cc28271e9f680c0cd3e26aa3a3130ebb1ab28ed4941b329db2bfcb4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/o81lJtEG/versions/kPbRJt96/pale_monarch-1.1.0-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'o81lJtEG'
+version = 'kPbRJt96'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'

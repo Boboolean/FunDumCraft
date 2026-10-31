@@ -1,0 +1,25 @@
+filename = 'ironssablecompat-1.0.4.jar'
+name = "Iron's Spells x Aeronautics Compat"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Irons-sable-compat v1.0.4'
+
+[download]
+hash = '8cfe21160b4ee0ddd70659620181bf0313f8470b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8284717
+project-id = 1544353
+
+[[x-prismlauncher-dependencies]]
+addonId = '855414'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '676721'
+type = 'REQUIRED'

@@ -1,0 +1,451 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_arms_n_artiface"
+	group: "3826F1A869F5AD61"
+	id: "5CECEE4EFA7407B7"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["34304E37C2FB9E37"]
+			id: "4C3A1E9EE677AAE3"
+			tasks: [{
+				id: "27D581F43EC0AD39"
+				item: { components: { "geckolib:stack_animatable_id": 4L, "irons_artifice:magazine": 0 }, count: 1, id: "irons_artifice:flintlock" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34304E37C2FB9E37"]
+			id: "77F136398DD85A28"
+			tasks: [{
+				id: "06DA8D8D3D042DF0"
+				item: { components: { "geckolib:stack_animatable_id": 3L, "irons_artifice:magazine": 0 }, count: 1, id: "irons_artifice:musket" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34304E37C2FB9E37"]
+			id: "18D467C209183ECE"
+			tasks: [{
+				id: "751F407D2AF1FA2F"
+				item: { components: { "geckolib:stack_animatable_id": 5L, "irons_artifice:magazine": 0 }, count: 1, id: "irons_artifice:blunderbuss" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69C86670833A815E"]
+			id: "794E812CBA4626F6"
+			tasks: [{
+				id: "4F1F84F56A29FBDD"
+				item: { components: { "geckolib:stack_animatable_id": 6L, "irons_artifice:magazine": 0 }, count: 1, id: "irons_artifice:blackpowder_revolver" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69C86670833A815E"]
+			id: "1DA52C01019E9C87"
+			tasks: [{
+				id: "06A2EE89CA47906B"
+				item: { components: { "geckolib:stack_animatable_id": 7L, "irons_artifice:magazine": 0 }, count: 1, id: "irons_artifice:six_shooter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0318BFDB85EF42A5"]
+			id: "38E96D2FE1E836F5"
+			tasks: [{
+				id: "74F2F4D67162AD67"
+				item: { components: { "geckolib:stack_animatable_id": 8L, "irons_artifice:magazine": 0 }, count: 1, id: "irons_artifice:arquebus" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0318BFDB85EF42A5"]
+			id: "4EDA49B4D7991ABD"
+			tasks: [{
+				id: "6C8DB4B83375BF38"
+				item: { components: { "geckolib:stack_animatable_id": 9L, "irons_artifice:magazine": 0 }, count: 1, id: "irons_artifice:clockwork_rifle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "48CE702A7C0C2A43"
+			tasks: [{
+				id: "665BEB04EEA6E3F0"
+				item: { count: 1, id: "irons_artifice:cowboy_hat" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "677B5D84A925536A"
+			tasks: [{
+				id: "52C68B262F6F96FD"
+				item: { count: 1, id: "irons_artifice:tricorne" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "64739E994B0E20A4"
+			tasks: [{
+				id: "25C2B53A257C408E"
+				item: { count: 1, id: "irons_artifice:incendiary_tip_modifier" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			id: "3CB513B0B6977A8A"
+			tasks: [{
+				id: "1DB0C38A386B3C22"
+				item: { count: 1, id: "irons_artifice:voltaic_core_modifier" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "0CFD0F5D0ADD38F2"
+			tasks: [{
+				id: "7B64F8258103F22E"
+				item: { count: 1, id: "irons_artifice:frozen_jacket_modifier" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "338C068A518A1A9F"
+			tasks: [{
+				id: "142A78B6AAC55600"
+				item: { count: 1, id: "irons_artifice:spiral_tip_modifier" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "5F1A83D87688D476"
+			tasks: [{
+				id: "3A76BB03B4E0E556"
+				item: { count: 1, id: "irons_artifice:blackpowder_charge_modifier" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			id: "2D9CECF63278E12E"
+			tasks: [{
+				id: "7CD451BEA56F7A43"
+				item: { count: 1, id: "irons_artifice:chain_shot_modifier" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			id: "3DFC6587CDAEE160"
+			tasks: [{
+				id: "26A052E45240A455"
+				item: { count: 1, id: "irons_artifice:hook_shot_modifier" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			id: "5CBBE7134AC784C0"
+			tasks: [{
+				id: "2F87048500E3775B"
+				item: { count: 1, id: "irons_artifice:venom_capsule_modifier" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "768CE72F9EFD77EB"
+			tasks: [{
+				id: "54B464C0D0980C94"
+				item: { count: 1, id: "irons_artifice:scattershot_modifier" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "52C645FE74DD81E2"
+			tasks: [{
+				id: "761C062A94E4E139"
+				item: { count: 1, id: "irons_artifice:breaching_shell_modifier" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			id: "6D6813368A2696EA"
+			tasks: [{
+				id: "7FBBEAB163A3E10A"
+				item: { count: 1, id: "irons_artifice:wind_chamber_modifier" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "7AAB4834801B895B"
+			tasks: [{
+				id: "63F5A5A8A787F38F"
+				item: { count: 1, id: "irons_artifice:overcharged_powder_modifier" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "24555CA303F0185C"
+			tasks: [{
+				id: "5E36BC4A5B45F3C0"
+				item: { count: 1, id: "irons_artifice:antigravity_powder_modifier" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "6C06A887E5ACD01E"
+			tasks: [{
+				id: "65AAEAC0DD9737F4"
+				item: { count: 1, id: "irons_artifice:seeking_powder_modifier" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "01814EDBB77AAA5D"
+			tasks: [{
+				id: "55601313AC1A03A2"
+				item: { count: 1, id: "irons_artifice:singularity_charge_modifier" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "7FDDF8805166E999"
+			tasks: [{
+				id: "7DE83000C6941F26"
+				item: { count: 1, id: "irons_artifice:enchanted_bullet_modifier" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "3F94A58A39578DCB"
+			tasks: [{
+				id: "66B5550CD9C8F4FF"
+				item: { count: 1, id: "irons_artifice:trick_bullet_modifier" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "234D879068660F9D"
+			tasks: [{
+				id: "4144503E736F890E"
+				item: { count: 1, id: "irons_artifice:steel_core_modifier" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "6E31B9811069F742"
+			tasks: [{
+				id: "4A9BAF22865A9A0D"
+				item: { count: 1, id: "irons_artifice:lead_core_modifier" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "0A7A0255AF7503A0"
+			tasks: [{
+				id: "650FA4222646633B"
+				item: { count: 1, id: "irons_artifice:bloodletting_tip_modifier" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			id: "35E5802591AEB0C8"
+			tasks: [{
+				id: "70D18042CE37F49E"
+				item: { count: 1, id: "irons_artifice:hair_trigger_modifier" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "77F10F53CEB4E456"
+			tasks: [{
+				id: "75F5AF9E113FD966"
+				item: { count: 1, id: "irons_artifice:gas_vent_modifier" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "281E66BDAA36CEC2"
+			tasks: [{
+				id: "567F6ECCE4AF6F84"
+				item: { count: 1, id: "irons_artifice:gun_oil_modifier" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			id: "6318CED99E510D59"
+			tasks: [{
+				id: "24FB6091D694638F"
+				item: { count: 1, id: "irons_artifice:soulfire_coin_modifier" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "589AC5240D5DFCBB"
+			tasks: [{
+				id: "5925DBAEDBACE7C5"
+				item: { count: 1, id: "irons_artifice:buffer_spring_modifier" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			id: "29310AAFA6B61D7E"
+			tasks: [{
+				id: "3F274965608EDC66"
+				item: { count: 1, id: "irons_artifice:scope_attachment_modifier" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			id: "6DFFE0194D1C04CE"
+			tasks: [{
+				id: "6D423527F551BE9F"
+				item: { count: 1, id: "irons_artifice:bayonet_attachment_modifier" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			id: "10A3AA10B8147B97"
+			tasks: [{
+				id: "78344BFC66079BFB"
+				item: { count: 1, id: "irons_artifice:mechanical_accelerator_modifier" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			id: "66AEDD64E51BCBD5"
+			tasks: [{
+				id: "4A41EE02B1170CE7"
+				item: { count: 1, id: "irons_artifice:bullet_box" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "43BEB7BEA008E164"
+			tasks: [{
+				id: "3189F7B122AC480A"
+				item: { count: 1, id: "irons_artifice:suppressor_attachment_modifier" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			id: "1F9D7079680A2EE9"
+			tasks: [{
+				id: "779203175F5A7A93"
+				item: { count: 1, id: "irons_artifice:mechanical_repeater_modifier" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			id: "34304E37C2FB9E37"
+			tasks: [{
+				id: "0F8EF0A8C7F54F18"
+				item: { count: 1, id: "irons_artifice:simple_mechanical_components" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34304E37C2FB9E37"]
+			id: "69C86670833A815E"
+			tasks: [{
+				id: "6B09B0C945DE8631"
+				item: { count: 1, id: "irons_artifice:mechanical_components" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69C86670833A815E"]
+			id: "0318BFDB85EF42A5"
+			tasks: [{
+				id: "77AB9A1B669EFCD4"
+				item: { count: 1, id: "irons_artifice:clockwork_components" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+	]
+}

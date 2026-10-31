@@ -1,0 +1,18 @@
+filename = 'ldlib2-neoforge-1.21.1-2.2.26-all.jar'
+name = 'LDLib'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mc1.21.1-2.2.26-neoforge'
+
+[download]
+hash = 'a9657fb6fe37cced9dffffb8fb3134f2b5453378d25e3fdd9628536ce59c93dbb6e655852b19d39e44a08eefabf60875b857d7fd3b17d2fc7cebf325755d7f7b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/B1CBVXHX/versions/xs75PTK0/ldlib2-neoforge-1.21.1-2.2.26-all.jar'
+
+[update.modrinth]
+mod-id = 'B1CBVXHX'
+version = 'xs75PTK0'

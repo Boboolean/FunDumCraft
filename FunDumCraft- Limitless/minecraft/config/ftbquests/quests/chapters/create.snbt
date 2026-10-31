@@ -1,0 +1,156 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "5251A70A9F1233C5"
+	id: "362D55D0F14101D1"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0AF693C034804E61"
+			tasks: [{
+				id: "7259FD5A4D20E298"
+				item: { count: 1, id: "simulated:red_portable_engine" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "04712B7347767B11"
+			tasks: [{
+				id: "7BAE856493805622"
+				item: { count: 1, id: "create:mechanical_drill" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "410F41A3CCB1F9E2"
+			tasks: [{
+				id: "2C3C71BCA6E66250"
+				item: { count: 1, id: "estrogen:estrogen_pill" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "3177F9C211D3DE2E"
+			tasks: [
+				{
+					id: "32832BB341ED74EF"
+					item: { count: 1, id: "aeroworks:joystick" }
+					type: "item"
+				}
+				{
+					id: "5BD71904AFE73565"
+					item: { count: 1, id: "aeroworks:control_desk" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "567409D2A3DCBDD8"
+			tasks: [{
+				id: "4B804A9E7F5C3AA4"
+				item: { count: 1, id: "create_radar:radar_bearing" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "5B7BF2778C168638"
+			tasks: [{
+				id: "0209F7F6945C95D8"
+				item: { count: 1, id: "createbigcannons:cannon_mount" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "18024FE105D3E38A"
+			tasks: [{
+				id: "5B9B872579F22F37"
+				item: { count: 1, id: "sable_schematic_api:camera" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "5080C29FF3EF0E9B"
+			tasks: [{
+				id: "1430D09777BDFB71"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "68A12834B5A96235"
+			tasks: [
+				{
+					id: "43771C6C6DC33BDD"
+					item: { count: 1, id: "simulatedhoses:hose_winch" }
+					type: "item"
+				}
+				{
+					id: "587B004EBAA457ED"
+					item: { count: 1, id: "simulatedhoses:hose_connector" }
+					type: "item"
+				}
+				{
+					id: "1CB1B664339EC3BC"
+					item: { count: 1, id: "simulatedhoses:fluid_quick_connect" }
+					type: "item"
+				}
+				{
+					id: "432940441E9FFF79"
+					item: { count: 1, id: "simulatedhoses:hose_coupler" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "20BC534382640D46"
+			tasks: [{
+				id: "215576492D757C7C"
+				item: { count: 1, id: "create_mobile_packages:portable_stock_ticker" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "0E4707921C4EB42D"
+			tasks: [{
+				id: "4D3D18BA0F612E80"
+				item: { count: 1, id: "shield_generators:shield_generator" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "73B89032C56F62A5"
+			tasks: [{
+				id: "2A9A2B1C901C3F15"
+				item: { count: 1, id: "trading_floor:trading_depot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+	]
+}

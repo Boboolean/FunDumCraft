@@ -1,0 +1,21 @@
+filename = 'naraka-neoforge-1.21.1-1.1.2-1.jar'
+name = 'Naraka'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'neoforge-1.21.1-1.1.2-1'
+
+[download]
+hash = '24fa4b9529035a2719b573075741c452e93e09450f7243d80bb2e87bd1d46bbd015e99179ccbeb9eb8efc33fb898312db43b4e30f41a182d3d46f2162d7401a1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2InS5Swi/versions/PsQV7uFn/naraka-neoforge-1.21.1-1.1.2-1.jar'
+
+[update.modrinth]
+mod-id = '2InS5Swi'
+version = 'PsQV7uFn'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'OPTIONAL'
